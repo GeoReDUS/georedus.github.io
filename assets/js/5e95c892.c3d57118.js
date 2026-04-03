@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_redus_geo_docs=self.webpackChunk_redus_geo_docs||[]).push([[9647],{3531:(e,s,r)=>{r.r(s),r.d(s,{default:()=>t});r(4041);var u=r(4357),c=r(8582),d=r(7473),a=r(8150),o=r(135),n=r(1085);function t(e){return(0,n.jsx)(c.e3,{className:(0,u.A)(d.G.wrapper.docsPages),children:(0,n.jsx)(o.A,{children:(0,a.v)(e.route.routes)})})}}}]);
