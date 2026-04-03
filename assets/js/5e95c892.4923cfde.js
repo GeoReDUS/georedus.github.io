@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunk_redus_geo_docs=globalThis.webpackChunk_redus_geo_docs||[]).push([[9647],{7121:(e,s,r)=>{r.r(s),r.d(s,{default:()=>h});r(6540);var u=r(4164),a=r(7559),c=r(5500),o=r(2831),d=r(5611),l=r(4848);function h(e){return(0,l.jsx)(c.e3,{className:(0,u.A)(a.G.wrapper.docsPages),children:(0,l.jsx)(d.A,{children:(0,o.v)(e.route.routes)})})}}}]);
