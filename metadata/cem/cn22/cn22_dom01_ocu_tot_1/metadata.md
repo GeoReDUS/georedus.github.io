@@ -7,8 +7,8 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de domicílios: Domicílios particulares ocupados e domicílios coletivos com morador (principal)](#cn22_dom01_ocu_tot_1)**<br/> | Número de domicílios | $\mathrm{V00001} + \mathrm{V00002} + \mathrm{V00003}$ |
-| **[Total de moradores: Domicílios particulares ocupados e domicílios coletivos com morador, Quantidade de moradores](#cn22_dom01_ocu_tot_mor_1)**<br/> | Número de moradores | $\mathrm{V00005} + \mathrm{V00006} + \mathrm{V00007}$ |
+| **[Total de domicílios: Domicílios particulares ocupados e domicílios coletivos com morador (principal)](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L179)** | Número de domicílios | $\mathrm{V00001} + \mathrm{V00002} + \mathrm{V00003}$ |
+| **[Total de moradores: Domicílios particulares ocupados e domicílios coletivos com morador, Quantidade de moradores](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L181)** | Número de moradores | $\mathrm{V00005} + \mathrm{V00006} + \mathrm{V00007}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -25,9 +25,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal) {#cn22_dom01_ocu_tot_1}
+### Total de domicílios (principal)
 
 **ID da variável:** `cn22_dom01_ocu_tot_1`\
+**Script de processamento:** [cn22_dom.qmd#L179](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L179)\
 **Unidade de medida:** Número de domicílios
 
 **Cálculo:** $\mathrm{V00001} + \mathrm{V00002} + \mathrm{V00003}$
@@ -37,11 +38,11 @@ O indicador mostra o número absoluto de domicílios ocupados em cada setor cens
 **Exemplo**:
 > No município de Rondonópolis (MT), no setor censitário 510760205000330, há 222 domicílios ocupados.
 
-**Script de processamento:** [cn22_dom.qmd#L179](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L179)
 
-### Total de moradores {#cn22_dom01_ocu_tot_mor_1}
+### Total de moradores
 
 **ID da variável:** `cn22_dom01_ocu_tot_mor_1`\
+**Script de processamento:** [cn22_dom.qmd#L181](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L181)\
 **Unidade de medida:** Número de moradores
 
 **Cálculo:** $\mathrm{V00005} + \mathrm{V00006} + \mathrm{V00007}$
@@ -51,7 +52,6 @@ O indicador mostra o número absoluto de moradores em domicílios ocupados em ca
 **Exemplo**:
 > No município de Teresina (PI), no setor censitário 221100105070273, há 698 residentes em domicílios ocupados.
 
-**Script de processamento:** [cn22_dom.qmd#L181](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L181)
 
 ---
 

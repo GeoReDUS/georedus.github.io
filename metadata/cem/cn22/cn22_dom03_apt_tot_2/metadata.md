@@ -7,10 +7,10 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é apartamento (principal)](#cn22_dom03_apt_tot_2)**<br/> | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00049}}{\mathrm{V00001}}$ |
-| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é apartamento, Pessoas de sexo feminino no domicílio](#cn22_dom03_apt_sex_f_2)**<br/> | Porcentagem em relação ao total de mulheres residentes | $\dfrac{\mathrm{V00507}}{\mathrm{V00014}}$ |
-| **[Homens: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é apartamento, Pessoas de sexo masculino no domicílio](#cn22_dom03_apt_sex_m_2)**<br/> | Porcentagem em relação ao total de homens residentes | $\dfrac{\mathrm{V00504}}{\mathrm{V00011}}$ |
-| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é apartamento, Quantidade de moradores](#cn22_dom03_apt_tot_mor_2)**<br/> | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00086}}{\mathrm{V00005}}$ |
+| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é apartamento (principal)](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L222)** | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00049}}{\mathrm{V00001}}$ |
+| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é apartamento, Pessoas de sexo feminino no domicílio](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L225)** | Porcentagem em relação ao total de mulheres residentes | $\dfrac{\mathrm{V00507}}{\mathrm{V00014}}$ |
+| **[Homens: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é apartamento, Pessoas de sexo masculino no domicílio](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L224)** | Porcentagem em relação ao total de homens residentes | $\dfrac{\mathrm{V00504}}{\mathrm{V00011}}$ |
+| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é apartamento, Quantidade de moradores](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L223)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00086}}{\mathrm{V00005}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -29,9 +29,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal) {#cn22_dom03_apt_tot_2}
+### Total de domicílios (principal)
 
 **ID da variável:** `cn22_dom03_apt_tot_2`\
+**Script de processamento:** [cn22_dom.qmd#L222](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L222)\
 **Unidade de medida:** Porcentagem em relação ao total de domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00049}}{\mathrm{V00001}}$
@@ -41,11 +42,11 @@ O indicador mostra a porcentagem de domicílios tipo apartamento em relação ao
 **Exemplo**:
 > No município de Natal (RN), no setor censitário 240810205080070, 87% dos domicílios particulares permanentes ocupados são do tipo apartamento.
 
-**Script de processamento:** [cn22_dom.qmd#L222](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L222)
 
-### Mulheres {#cn22_dom03_apt_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_dom03_apt_sex_f_2`\
+**Script de processamento:** [cn22_dom.qmd#L225](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L225)\
 **Unidade de medida:** Porcentagem em relação ao total de mulheres residentes
 
 **Cálculo:** $\dfrac{\mathrm{V00507}}{\mathrm{V00014}}$
@@ -55,11 +56,11 @@ O indicador mostra a porcentagem de moradores do sexo feminino residentes em dom
 **Exemplo**:
 > No município de Pelotas (RS), no setor censitário 431440705130103, 78% dos moradores do sexo feminino residentes em domicílios particulares permanentes ocupados residem em apartamentos.
 
-**Script de processamento:** [cn22_dom.qmd#L225](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L225)
 
-### Homens {#cn22_dom03_apt_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_dom03_apt_sex_m_2`\
+**Script de processamento:** [cn22_dom.qmd#L224](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L224)\
 **Unidade de medida:** Porcentagem em relação ao total de homens residentes
 
 **Cálculo:** $\dfrac{\mathrm{V00504}}{\mathrm{V00011}}$
@@ -69,11 +70,11 @@ O indicador mostra a porcentagem de moradores do sexo masculino residentes em do
 **Exemplo**:
 > No município de Osasco (SP), no setor censitário 353440105001159, 88% dos moradores do sexo masculino residentes em domicílios particulares permanentes ocupados residem em apartamentos.
 
-**Script de processamento:** [cn22_dom.qmd#L224](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L224)
 
-### Total de moradores {#cn22_dom03_apt_tot_mor_2}
+### Total de moradores
 
 **ID da variável:** `cn22_dom03_apt_tot_mor_2`\
+**Script de processamento:** [cn22_dom.qmd#L223](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L223)\
 **Unidade de medida:** Porcentagem em relação ao total de moradores
 
 **Cálculo:** $\dfrac{\mathrm{V00086}}{\mathrm{V00005}}$
@@ -83,7 +84,6 @@ O indicador mostra a porcentagem de moradores residentes em domicílios tipo apa
 **Exemplo**:
 > No município de Santarém (PA), no setor censitário 150680705000651, 24% dos moradores residentes em domicílios particulares permanentes ocupados residem em apartamentos.
 
-**Script de processamento:** [cn22_dom.qmd#L223](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L223)
 
 ---
 

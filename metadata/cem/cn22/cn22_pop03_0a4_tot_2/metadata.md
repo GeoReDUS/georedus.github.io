@@ -7,9 +7,9 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de residentes: 0 a 4 anos (principal)](#cn22_pop03_0a4_tot_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01031}}{\mathrm{V0001}}$ |
-| **[Mulheres: Sexo feminino, 0 a 4 anos](#cn22_pop03_0a4_sex_f_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01020}}{\mathrm{V0001}}$ |
-| **[Homens: Sexo masculino, 0 a 4 anos](#cn22_pop03_0a4_sex_m_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01009}}{\mathrm{V0001}}$ |
+| **[Total de residentes: 0 a 4 anos (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01031}}{\mathrm{V0001}}$ |
+| **[Mulheres: Sexo feminino, 0 a 4 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01020}}{\mathrm{V0001}}$ |
+| **[Homens: Sexo masculino, 0 a 4 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01009}}{\mathrm{V0001}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -24,9 +24,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de residentes (principal) {#cn22_pop03_0a4_tot_2}
+### Total de residentes (principal)
 
 **ID da variável:** `cn22_pop03_0a4_tot_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01031}}{\mathrm{V0001}}$
@@ -36,11 +37,11 @@ O indicador mostra a porcentagem de pessoas residentes com idade de 0 a 4 anos e
 **Exemplo**:
 > No município de Caucaia (CE), no setor censitário 230370905000530, 09% das pessoas residentes tem idade de 0 a 4 anos, em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Mulheres {#cn22_pop03_0a4_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_pop03_0a4_sex_f_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01020}}{\mathrm{V0001}}$
@@ -50,11 +51,11 @@ O indicador mostra a porcentagem de pessoas do sexo feminino com idade de 0 a 4 
 **Exemplo**:
 > No município de Juiz de Fora (MG), no setor censitário 313670205090068, 02% das pessoas residentes são do sexo feminino com idade de 0 a 4 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Homens {#cn22_pop03_0a4_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_pop03_0a4_sex_m_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01009}}{\mathrm{V0001}}$
@@ -64,7 +65,6 @@ O indicador mostra a porcentagem de pessoas do sexo masculino com idade de 0 a 4
 **Exemplo**:
 > No município de Barcarena (PA), no setor censitário 150130310000116, 06% das pessoas residentes são do sexo masculino com idade de 0 a 4 anos.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
 ---
 

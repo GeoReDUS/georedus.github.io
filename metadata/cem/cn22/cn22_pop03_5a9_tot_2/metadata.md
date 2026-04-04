@@ -7,9 +7,9 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de residentes: 5 a 9 anos (principal)](#cn22_pop03_5a9_tot_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01032}}{\mathrm{V0001}}$ |
-| **[Mulheres: Sexo feminino, 5 a 9 anos](#cn22_pop03_5a9_sex_f_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01021}}{\mathrm{V0001}}$ |
-| **[Homens: Sexo masculino, 5 a 9 anos](#cn22_pop03_5a9_sex_m_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01010}}{\mathrm{V0001}}$ |
+| **[Total de residentes: 5 a 9 anos (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01032}}{\mathrm{V0001}}$ |
+| **[Mulheres: Sexo feminino, 5 a 9 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01021}}{\mathrm{V0001}}$ |
+| **[Homens: Sexo masculino, 5 a 9 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01010}}{\mathrm{V0001}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -24,9 +24,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de residentes (principal) {#cn22_pop03_5a9_tot_2}
+### Total de residentes (principal)
 
 **ID da variável:** `cn22_pop03_5a9_tot_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01032}}{\mathrm{V0001}}$
@@ -36,11 +37,11 @@ O indicador mostra a porcentagem de pessoas residentes com idade de 5 a 9 anos e
 **Exemplo**:
 > No município de Cametá (PA), no setor censitário 150210325000054, 13% das pessoas residentes tem idade de 5 a 9 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Mulheres {#cn22_pop03_5a9_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_pop03_5a9_sex_f_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01021}}{\mathrm{V0001}}$
@@ -50,11 +51,11 @@ O indicador mostra a porcentagem de pessoas do sexo feminino com idade de 5 a 9 
 **Exemplo**:
 > No município de Chapecó (SC), no setor censitário 420420205000113, 04% das pessoas residentes são do sexo feminino com idade de 5 a 9 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Homens {#cn22_pop03_5a9_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_pop03_5a9_sex_m_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01010}}{\mathrm{V0001}}$
@@ -64,7 +65,6 @@ O indicador mostra a porcentagem de pessoas do sexo masculino com idade de 5 a 9
 **Exemplo**:
 > No município de Serra (ES), no setor censitário 320500205000004, 05% das pessoas residentes são do sexo masculino com idade de 5 a 9 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
 ---
 

@@ -6,16 +6,17 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de domicílios: Teste (principal)](#cn22_inf01_silu_tot_dom_2)**<br/> | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V05013}}{\mathrm{V05000}}$ |
-| **[Total de moradores: Teste](#cn22_inf01_silu_tot_mor_2)**<br/> | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V05213}}{\mathrm{V05200}}$ |
+| **[Total de domicílios: Teste (principal)](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L209)** | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V05013}}{\mathrm{V05000}}$ |
+| **[Total de moradores: Teste](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L212)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V05213}}{\mathrm{V05200}}$ |
 
 ---
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal) {#cn22_inf01_silu_tot_dom_2}
+### Total de domicílios (principal)
 
 **ID da variável:** `cn22_inf01_silu_tot_dom_2`\
+**Script de processamento:** [cn22_inf.qmd#L209](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L209)\
 **Unidade de medida:** Porcentagem em relação ao total de domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V05013}}{\mathrm{V05000}}$
@@ -25,11 +26,11 @@ O indicador mostra a porcentagem de domicílios particulares permanentes ocupado
 **Exemplo**:
 > No município de Coari (AM), no setor censitário 130120905000103, 11% dos domicílios particulares permanentes ocupados não possuem iluminação pública no entorno.
 
-**Script de processamento:** [cn22_inf.qmd#L209](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L209)
 
-### Total de moradores {#cn22_inf01_silu_tot_mor_2}
+### Total de moradores
 
 **ID da variável:** `cn22_inf01_silu_tot_mor_2`\
+**Script de processamento:** [cn22_inf.qmd#L212](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L212)\
 **Unidade de medida:** Porcentagem em relação ao total de moradores
 
 **Cálculo:** $\dfrac{\mathrm{V05213}}{\mathrm{V05200}}$
@@ -39,7 +40,6 @@ O indicador mostra a porcentagem de moradores residentes em domicílios particul
 **Exemplo**:
 > No município de Belford Roxo (RJ), no setor censitário 330045605030196, 90% dos moradores residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem iluminação pública no entorno.
 
-**Script de processamento:** [cn22_inf.qmd#L212](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L212)
 
 ---
 

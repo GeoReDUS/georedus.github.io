@@ -7,13 +7,13 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de residentes: 15 a 19 anos (principal)](#cn22_pop03_15a19_tot_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01034}}{\mathrm{V0001}}$ |
-| **[Pessoas amarelas: 60 anos ou mais, Cor ou raça é amarela](#cn22_pop03_15a19_cor_ama_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V00659}}{\mathrm{V0001}}$ |
-| **[Pessoas brancas: 60 anos ou mais, Cor ou raça é branca](#cn22_pop03_15a19_cor_bra_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V00657}}{\mathrm{V0001}}$ |
-| **[Pessoas indígenas: 60 anos ou mais, Cor ou raça é indígena](#cn22_pop03_15a19_cor_ind_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V00661}}{\mathrm{V0001}}$ |
-| **[Pessoas negras: 60 anos ou mais, Cor ou raça é preta ou parda](#cn22_pop03_15a19_cor_neg_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V00658}+\mathrm{V00660}}{\mathrm{V0001}}$ |
-| **[Mulheres: Sexo feminino, 15 a 19 anos](#cn22_pop03_15a19_sex_f_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01023}}{\mathrm{V0001}}$ |
-| **[Homens: Sexo masculino, 15 a 19 anos](#cn22_pop03_15a19_sex_m_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01012}}{\mathrm{V0001}}$ |
+| **[Total de residentes: 15 a 19 anos (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01034}}{\mathrm{V0001}}$ |
+| **[Pessoas amarelas: 60 anos ou mais, Cor ou raça é amarela](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V00659}}{\mathrm{V0001}}$ |
+| **[Pessoas brancas: 60 anos ou mais, Cor ou raça é branca](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V00657}}{\mathrm{V0001}}$ |
+| **[Pessoas indígenas: 60 anos ou mais, Cor ou raça é indígena](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V00661}}{\mathrm{V0001}}$ |
+| **[Pessoas negras: 60 anos ou mais, Cor ou raça é preta ou parda](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V00658}+\mathrm{V00660}}{\mathrm{V0001}}$ |
+| **[Mulheres: Sexo feminino, 15 a 19 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01023}}{\mathrm{V0001}}$ |
+| **[Homens: Sexo masculino, 15 a 19 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01012}}{\mathrm{V0001}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -33,9 +33,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de residentes (principal) {#cn22_pop03_15a19_tot_2}
+### Total de residentes (principal)
 
 **ID da variável:** `cn22_pop03_15a19_tot_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01034}}{\mathrm{V0001}}$
@@ -45,11 +46,11 @@ O indicador mostra a porcentagem de pessoas residentes com idade de 15 a 19 anos
 **Exemplo**:
 > No município de Itajaí (SC), no setor censitário 420820305000072, 07% das pessoas residentes tem idade de 15 a 19 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Pessoas amarelas {#cn22_pop03_15a19_cor_ama_2}
+### Pessoas amarelas
 
 **ID da variável:** `cn22_pop03_15a19_cor_ama_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V00659}}{\mathrm{V0001}}$
@@ -59,11 +60,11 @@ O indicador mostra a porcentagem de pessoas de cor ou raça amarela com idade de
 **Exemplo**:
 > No município de Formosa do Rio Preto (BA), no setor censitário 291110505000078, 04% das pessoas residentes são de cor ou raça amarela com idade de 15 a 19 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Pessoas brancas {#cn22_pop03_15a19_cor_bra_2}
+### Pessoas brancas
 
 **ID da variável:** `cn22_pop03_15a19_cor_bra_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V00657}}{\mathrm{V0001}}$
@@ -73,11 +74,11 @@ O indicador mostra a porcentagem de pessoas de cor ou raça branca com idade de 
 **Exemplo**:
 > No município de Santa Izabel do Pará (PA), no setor censitário 150650005000047, 17% das pessoas residentes são de cor ou raça branca com idade de 15 a 19 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Pessoas indígenas {#cn22_pop03_15a19_cor_ind_2}
+### Pessoas indígenas
 
 **ID da variável:** `cn22_pop03_15a19_cor_ind_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V00661}}{\mathrm{V0001}}$
@@ -87,11 +88,11 @@ O indicador mostra a porcentagem de pessoas de cor ou raça indígena com idade 
 **Exemplo**:
 > No município de Carnaubeira da Penha (PE), no setor censitário 260392605000103, 30% das pessoas residentes são de cor ou raça indígena com idade de 15 a 19 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Pessoas negras {#cn22_pop03_15a19_cor_neg_2}
+### Pessoas negras
 
 **ID da variável:** `cn22_pop03_15a19_cor_neg_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V00658}+\mathrm{V00660}}{\mathrm{V0001}}$
@@ -101,11 +102,11 @@ O indicador mostra a porcentagem de pessoas de cor ou raça negra (preta e parda
 **Exemplo**:
 > No município de João Pessoa (PA), no setor censitário 250750705001980, 07% das pessoas residentes são de cor ou raça negra com idade de 15 a 19 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Mulheres {#cn22_pop03_15a19_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_pop03_15a19_sex_f_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01023}}{\mathrm{V0001}}$
@@ -115,11 +116,11 @@ O indicador mostra a porcentagem de pessoas do sexo feminino com idade de 15 a 1
 **Exemplo**:
 > No município de Camaçari (BA), no setor censitário 290570105000004, 04% das pessoas residentes são do sexo feminino com idade de 15 a 19 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Homens {#cn22_pop03_15a19_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_pop03_15a19_sex_m_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01012}}{\mathrm{V0001}}$
@@ -129,7 +130,6 @@ O indicador mostra a porcentagem de pessoas do sexo masculino com idade de 15 a 
 **Exemplo**:
 > No município de Formosa (GO), no setor censitário 520800405000080, 06% das pessoas residentes são do sexo masculino com idade de 15 a 19 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
 ---
 

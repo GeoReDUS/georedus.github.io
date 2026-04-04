@@ -7,13 +7,13 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de residentes: 20 a 59 anos (principal)](#cn22_pop03_20a59_tot_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V01035} + \mathrm{V01036} + \mathrm{V01037} \\ + \mathrm{V01038} + \mathrm{V01039}\end{aligned}}{\mathrm{V0001}}$ |
-| **[Pessoas amarelas: 60 anos ou mais, Cor ou raça é amarela](#cn22_pop03_20a59_cor_ama_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V00664} + \mathrm{V00669} + \mathrm{V00674} \\ + \mathrm{V00679} + \mathrm{V00684} + \mathrm{V00689} \\ + \mathrm{V00694} + \mathrm{V00699}\end{aligned}}{\mathrm{V0001}}$ |
-| **[Pessoas brancas: 60 anos ou mais, Cor ou raça é branca](#cn22_pop03_20a59_cor_bra_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V00662} + \mathrm{V00667} + \mathrm{V00672} \\ + \mathrm{V00677} + \mathrm{V00682} + \mathrm{V00687} \\ + \mathrm{V00692} + \mathrm{V00697}\end{aligned}}{\mathrm{V0001}}$ |
-| **[Pessoas indígenas: 60 anos ou mais, Cor ou raça é indígena](#cn22_pop03_20a59_cor_ind_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V00666} + \mathrm{V00671} + \mathrm{V00676} \\ + \mathrm{V00681} + \mathrm{V00686} + \mathrm{V00691} \\ + \mathrm{V00696} + \mathrm{V00701}\end{aligned}}{\mathrm{V0001}}$ |
-| **[Pessoas negras: 60 anos ou mais, Cor ou raça é preta ou parda](#cn22_pop03_20a59_cor_neg_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V00663} + \mathrm{V00665} + \mathrm{V00668} \\ + \mathrm{V00670} + \mathrm{V00673} + \mathrm{V00675} \\ + \mathrm{V00678} + \mathrm{V00680} + \mathrm{V00683} \\ + \mathrm{V00685} + \mathrm{V00688} + \mathrm{V00690} \\ + \mathrm{V00693} + \mathrm{V00695} + \mathrm{V00698} \\ + \mathrm{V00700}\end{aligned}}{\mathrm{V0001}}$ |
-| **[Mulheres: Sexo feminino, 20 a 59 anos](#cn22_pop03_20a59_sex_f_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V01024} + \mathrm{V01025} + \mathrm{V01026} \\ + \mathrm{V01027} + \mathrm{V01028}\end{aligned}}{\mathrm{V0001}}$ |
-| **[Homens: Sexo masculino, 20 a 59 anos](#cn22_pop03_20a59_sex_m_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V01013} + \mathrm{V01014} + \mathrm{V01015} \\ + \mathrm{V01016} + \mathrm{V01017}\end{aligned}}{\mathrm{V0001}}$ |
+| **[Total de residentes: 20 a 59 anos (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V01035} + \mathrm{V01036} + \mathrm{V01037} \\ + \mathrm{V01038} + \mathrm{V01039}\end{aligned}}{\mathrm{V0001}}$ |
+| **[Pessoas amarelas: 60 anos ou mais, Cor ou raça é amarela](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V00664} + \mathrm{V00669} + \mathrm{V00674} \\ + \mathrm{V00679} + \mathrm{V00684} + \mathrm{V00689} \\ + \mathrm{V00694} + \mathrm{V00699}\end{aligned}}{\mathrm{V0001}}$ |
+| **[Pessoas brancas: 60 anos ou mais, Cor ou raça é branca](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V00662} + \mathrm{V00667} + \mathrm{V00672} \\ + \mathrm{V00677} + \mathrm{V00682} + \mathrm{V00687} \\ + \mathrm{V00692} + \mathrm{V00697}\end{aligned}}{\mathrm{V0001}}$ |
+| **[Pessoas indígenas: 60 anos ou mais, Cor ou raça é indígena](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V00666} + \mathrm{V00671} + \mathrm{V00676} \\ + \mathrm{V00681} + \mathrm{V00686} + \mathrm{V00691} \\ + \mathrm{V00696} + \mathrm{V00701}\end{aligned}}{\mathrm{V0001}}$ |
+| **[Pessoas negras: 60 anos ou mais, Cor ou raça é preta ou parda](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V00663} + \mathrm{V00665} + \mathrm{V00668} \\ + \mathrm{V00670} + \mathrm{V00673} + \mathrm{V00675} \\ + \mathrm{V00678} + \mathrm{V00680} + \mathrm{V00683} \\ + \mathrm{V00685} + \mathrm{V00688} + \mathrm{V00690} \\ + \mathrm{V00693} + \mathrm{V00695} + \mathrm{V00698} \\ + \mathrm{V00700}\end{aligned}}{\mathrm{V0001}}$ |
+| **[Mulheres: Sexo feminino, 20 a 59 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V01024} + \mathrm{V01025} + \mathrm{V01026} \\ + \mathrm{V01027} + \mathrm{V01028}\end{aligned}}{\mathrm{V0001}}$ |
+| **[Homens: Sexo masculino, 20 a 59 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V01013} + \mathrm{V01014} + \mathrm{V01015} \\ + \mathrm{V01016} + \mathrm{V01017}\end{aligned}}{\mathrm{V0001}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -80,9 +80,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de residentes (principal) {#cn22_pop03_20a59_tot_2}
+### Total de residentes (principal)
 
 **ID da variável:** `cn22_pop03_20a59_tot_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\begin{aligned}\mathrm{V01035} + \mathrm{V01036} + \mathrm{V01037} \\ + \mathrm{V01038} + \mathrm{V01039}\end{aligned}}{\mathrm{V0001}}$
@@ -92,11 +93,11 @@ O indicador mostra a porcentagem de pessoas residentes com idade de 20 a 59 anos
 **Exemplo**:
 > No município de Três Lagoas (MS), no setor censitário 500830505000235, 63% das pessoas residentes tem idade de 20 a 59 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Pessoas amarelas {#cn22_pop03_20a59_cor_ama_2}
+### Pessoas amarelas
 
 **ID da variável:** `cn22_pop03_20a59_cor_ama_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\begin{aligned}\mathrm{V00664} + \mathrm{V00669} + \mathrm{V00674} \\ + \mathrm{V00679} + \mathrm{V00684} + \mathrm{V00689} \\ + \mathrm{V00694} + \mathrm{V00699}\end{aligned}}{\mathrm{V0001}}$
@@ -106,11 +107,11 @@ O indicador mostra a porcentagem de pessoas de cor ou raça amarela com idade de
 **Exemplo**:
 > No município de Aracaju (SE), no setor censitário 280030805000002, 16% das pessoas residentes são de cor ou raça amarela com idade de 20 a 59 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Pessoas brancas {#cn22_pop03_20a59_cor_bra_2}
+### Pessoas brancas
 
 **ID da variável:** `cn22_pop03_20a59_cor_bra_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\begin{aligned}\mathrm{V00662} + \mathrm{V00667} + \mathrm{V00672} \\ + \mathrm{V00677} + \mathrm{V00682} + \mathrm{V00687} \\ + \mathrm{V00692} + \mathrm{V00697}\end{aligned}}{\mathrm{V0001}}$
@@ -120,11 +121,11 @@ O indicador mostra a porcentagem de pessoas de cor ou raça branca com idade de 
 **Exemplo**:
 > No município de Rio de Janeiro (RJ), no setor censitário 330455705110151, 32% das pessoas residentes são de cor ou raça branca com idade de 20 a 59 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Pessoas indígenas {#cn22_pop03_20a59_cor_ind_2}
+### Pessoas indígenas
 
 **ID da variável:** `cn22_pop03_20a59_cor_ind_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\begin{aligned}\mathrm{V00666} + \mathrm{V00671} + \mathrm{V00676} \\ + \mathrm{V00681} + \mathrm{V00686} + \mathrm{V00691} \\ + \mathrm{V00696} + \mathrm{V00701}\end{aligned}}{\mathrm{V0001}}$
@@ -134,11 +135,11 @@ O indicador mostra a porcentagem de pessoas de cor ou raça indígena com idade 
 **Exemplo**:
 > No município de Caucaia (CE), no setor censitário 230370905000485, 64% das pessoas residentes são de cor ou raça indígena com idade de 20 a 59 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Pessoas negras {#cn22_pop03_20a59_cor_neg_2}
+### Pessoas negras
 
 **ID da variável:** `cn22_pop03_20a59_cor_neg_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\begin{aligned}\mathrm{V00663} + \mathrm{V00665} + \mathrm{V00668} \\ + \mathrm{V00670} + \mathrm{V00673} + \mathrm{V00675} \\ + \mathrm{V00678} + \mathrm{V00680} + \mathrm{V00683} \\ + \mathrm{V00685} + \mathrm{V00688} + \mathrm{V00690} \\ + \mathrm{V00693} + \mathrm{V00695} + \mathrm{V00698} \\ + \mathrm{V00700}\end{aligned}}{\mathrm{V0001}}$
@@ -148,11 +149,11 @@ O indicador mostra a porcentagem de pessoas de cor ou raça negra (preta e parda
 **Exemplo**:
 > No município de Feira de Santana (BA), no setor censitário 291080005060185, 56% das pessoas residentes são de cor ou raça negra com idade de 20 a 59 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Mulheres {#cn22_pop03_20a59_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_pop03_20a59_sex_f_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\begin{aligned}\mathrm{V01024} + \mathrm{V01025} + \mathrm{V01026} \\ + \mathrm{V01027} + \mathrm{V01028}\end{aligned}}{\mathrm{V0001}}$
@@ -162,11 +163,11 @@ O indicador mostra a porcentagem de pessoas do sexo feminino com idade de 20 a 5
 **Exemplo**:
 > No município de Itaituba (PA), no setor censitário 150360605000247, 31% das pessoas residentes são do sexo feminino com idade de 20 a 59 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Homens {#cn22_pop03_20a59_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_pop03_20a59_sex_m_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\begin{aligned}\mathrm{V01013} + \mathrm{V01014} + \mathrm{V01015} \\ + \mathrm{V01016} + \mathrm{V01017}\end{aligned}}{\mathrm{V0001}}$
@@ -176,7 +177,6 @@ O indicador mostra a porcentagem de pessoas do sexo masculino com idade de 20 a 
 **Exemplo**:
 > No município de Olinda (PE), no setor censitário 260960005000723, 36% das pessoas residentes são do sexo masculino com idade de 20 a 59 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
 ---
 

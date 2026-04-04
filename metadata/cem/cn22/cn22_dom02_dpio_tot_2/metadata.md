@@ -7,7 +7,7 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de domicílios: Domicílios Particulares Improvisados Ocupados (principal)](#cn22_dom02_dpio_tot_2)**<br/> | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00002}}{\mathrm{V00001} + \mathrm{V00002} + \mathrm{V00003}}$ |
+| **[Total de domicílios: Domicílios Particulares Improvisados Ocupados (principal)](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L213)** | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00002}}{\mathrm{V00001} + \mathrm{V00002} + \mathrm{V00003}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -21,9 +21,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal) {#cn22_dom02_dpio_tot_2}
+### Total de domicílios (principal)
 
 **ID da variável:** `cn22_dom02_dpio_tot_2`\
+**Script de processamento:** [cn22_dom.qmd#L213](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L213)\
 **Unidade de medida:** Porcentagem em relação ao total de domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00002}}{\mathrm{V00001} + \mathrm{V00002} + \mathrm{V00003}}$
@@ -33,7 +34,6 @@ O indicador mostra a porcentagem de domicílios particulares improvisados ocupad
 **Exemplo**:
 > No município de João Pessoa (PB), no setor censitário 250750705000140, 15% dos domicílios ocupados são particulares improvisados.
 
-**Script de processamento:** [cn22_dom.qmd#L213](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L213)
 
 ---
 

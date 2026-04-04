@@ -7,10 +7,10 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados (principal)](#cn22_dom02_dppo_tot_2)**<br/> | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00001}}{\mathrm{V00001} + \mathrm{V00002} + \mathrm{V00003}}$ |
-| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Pessoas de sexo feminino no domicílio](#cn22_dom02_dppo_sex_f_2)**<br/> | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00014}}{\mathrm{V00005}}$ |
-| **[Homens: Domicílios Particulares Permanentes Ocupados, Pessoas de sexo masculino no domicílio](#cn22_dom02_dppo_sex_m_2)**<br/> | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00011}}{\mathrm{V00005}}$ |
-| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Quantidade de moradores](#cn22_dom02_dppo_tot_mor_2)**<br/> | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00005}}{\mathrm{V00005} + \mathrm{V00006} + \mathrm{V00007}}$ |
+| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados (principal)](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L209)** | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00001}}{\mathrm{V00001} + \mathrm{V00002} + \mathrm{V00003}}$ |
+| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Pessoas de sexo feminino no domicílio](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L211)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00014}}{\mathrm{V00005}}$ |
+| **[Homens: Domicílios Particulares Permanentes Ocupados, Pessoas de sexo masculino no domicílio](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L212)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00011}}{\mathrm{V00005}}$ |
+| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Quantidade de moradores](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L210)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00005}}{\mathrm{V00005} + \mathrm{V00006} + \mathrm{V00007}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -29,9 +29,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal) {#cn22_dom02_dppo_tot_2}
+### Total de domicílios (principal)
 
 **ID da variável:** `cn22_dom02_dppo_tot_2`\
+**Script de processamento:** [cn22_dom.qmd#L209](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L209)\
 **Unidade de medida:** Porcentagem em relação ao total de domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00001}}{\mathrm{V00001} + \mathrm{V00002} + \mathrm{V00003}}$
@@ -41,11 +42,11 @@ O indicador mostra a porcentagem de domicílios particulares permanentes ocupado
 **Exemplo**:
 > No município de Boa Vista (RR), no setor censitário 140010005000504, 96% dos domicílios ocupados são particulares permanentes.
 
-**Script de processamento:** [cn22_dom.qmd#L209](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L209)
 
-### Mulheres {#cn22_dom02_dppo_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_dom02_dppo_sex_f_2`\
+**Script de processamento:** [cn22_dom.qmd#L211](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L211)\
 **Unidade de medida:** Porcentagem em relação ao total de moradores
 
 **Cálculo:** $\dfrac{\mathrm{V00014}}{\mathrm{V00005}}$
@@ -55,11 +56,11 @@ O indicador mostra a porcentagem de moradores do sexo feminino em domicílios pa
 **Exemplo**:
 > No município de Dourados (MS), no setor censitário 500370205000506, 57% dos moradores de domicílios particulares permanentes ocupados são do sexo feminino.
 
-**Script de processamento:** [cn22_dom.qmd#L211](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L211)
 
-### Homens {#cn22_dom02_dppo_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_dom02_dppo_sex_m_2`\
+**Script de processamento:** [cn22_dom.qmd#L212](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L212)\
 **Unidade de medida:** Porcentagem em relação ao total de moradores
 
 **Cálculo:** $\dfrac{\mathrm{V00011}}{\mathrm{V00005}}$
@@ -69,11 +70,11 @@ O indicador mostra a porcentagem de moradores do sexo masculino em domicílios p
 **Exemplo**:
 > No município de Blumenau (SC), no setor censitário 420240405000439, 49% dos moradores de domicílios particulares permanentes ocupados são do sexo masculino.
 
-**Script de processamento:** [cn22_dom.qmd#L212](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L212)
 
-### Total de moradores {#cn22_dom02_dppo_tot_mor_2}
+### Total de moradores
 
 **ID da variável:** `cn22_dom02_dppo_tot_mor_2`\
+**Script de processamento:** [cn22_dom.qmd#L210](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L210)\
 **Unidade de medida:** Porcentagem em relação ao total de moradores
 
 **Cálculo:** $\dfrac{\mathrm{V00005}}{\mathrm{V00005} + \mathrm{V00006} + \mathrm{V00007}}$
@@ -83,7 +84,6 @@ O indicador mostra a porcentagem de moradores em domicílios particulares perman
 **Exemplo**:
 > No município de Duque de Caxias (RJ), no setor censitário 330170205000007, 95% dos moradores de domicílios ocupados residem em domicílios particulares permanentes.
 
-**Script de processamento:** [cn22_dom.qmd#L210](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L210)
 
 ---
 

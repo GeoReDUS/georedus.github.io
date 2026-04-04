@@ -7,10 +7,10 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa E Tipo de espécie é casa de vila ou em condomínio (principal)](#cn22_dom03_cas_tot_2)**<br/> | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00047} + \mathrm{V00048}}{\mathrm{V00001}}$ |
-| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Pessoas de sexo feminino no domicílio E Tipo de espécie é casa de vila ou em condomínio, Pessoas de sexo feminino no domicílio](#cn22_dom03_cas_sex_f_2)**<br/> | Porcentagem em relação ao total de mulheres residentes | $\dfrac{\mathrm{V00505} + \mathrm{V00506}}{\mathrm{V00014}}$ |
-| **[Homens: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Pessoas de sexo masculino no domicílio E Tipo de espécie é casa de vila ou em condomínio, Pessoas de sexo masculino no domicílio](#cn22_dom03_cas_sex_m_2)**<br/> | Porcentagem em relação ao total de homens residentes | $\dfrac{\mathrm{V00502} + \mathrm{V00503}}{\mathrm{V00011}}$ |
-| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Quantidade de moradores E Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa de vila ou em condomínio, Quantidade de moradores](#cn22_dom03_cas_tot_mor_2)**<br/> | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00084} + \mathrm{V00085}}{\mathrm{V00005}}$ |
+| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa E Tipo de espécie é casa de vila ou em condomínio (principal)](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L217)** | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00047} + \mathrm{V00048}}{\mathrm{V00001}}$ |
+| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Pessoas de sexo feminino no domicílio E Tipo de espécie é casa de vila ou em condomínio, Pessoas de sexo feminino no domicílio](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L220)** | Porcentagem em relação ao total de mulheres residentes | $\dfrac{\mathrm{V00505} + \mathrm{V00506}}{\mathrm{V00014}}$ |
+| **[Homens: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Pessoas de sexo masculino no domicílio E Tipo de espécie é casa de vila ou em condomínio, Pessoas de sexo masculino no domicílio](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L219)** | Porcentagem em relação ao total de homens residentes | $\dfrac{\mathrm{V00502} + \mathrm{V00503}}{\mathrm{V00011}}$ |
+| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Quantidade de moradores E Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa de vila ou em condomínio, Quantidade de moradores](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L218)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00084} + \mathrm{V00085}}{\mathrm{V00005}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -33,9 +33,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal) {#cn22_dom03_cas_tot_2}
+### Total de domicílios (principal)
 
 **ID da variável:** `cn22_dom03_cas_tot_2`\
+**Script de processamento:** [cn22_dom.qmd#L217](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L217)\
 **Unidade de medida:** Porcentagem em relação ao total de domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00047} + \mathrm{V00048}}{\mathrm{V00001}}$
@@ -45,11 +46,11 @@ O indicador mostra a porcentagem de domicílios tipo casa em relação ao total 
 **Exemplo**:
 > No município de Rio Branco (AC), no setor censitário 120040105000287, 60% dos domicílios particulares permanentes ocupados são do tipo casa.
 
-**Script de processamento:** [cn22_dom.qmd#L217](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L217)
 
-### Mulheres {#cn22_dom03_cas_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_dom03_cas_sex_f_2`\
+**Script de processamento:** [cn22_dom.qmd#L220](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L220)\
 **Unidade de medida:** Porcentagem em relação ao total de mulheres residentes
 
 **Cálculo:** $\dfrac{\mathrm{V00505} + \mathrm{V00506}}{\mathrm{V00014}}$
@@ -59,11 +60,11 @@ O indicador mostra a porcentagem de moradores do sexo feminino residentes em dom
 **Exemplo**:
 > No município de Sinop (MT), no setor censitário 510790905000331, 77% dos moradores do sexo feminino residentes em domicílios particulares permanentes ocupados residem em casas.
 
-**Script de processamento:** [cn22_dom.qmd#L220](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L220)
 
-### Homens {#cn22_dom03_cas_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_dom03_cas_sex_m_2`\
+**Script de processamento:** [cn22_dom.qmd#L219](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L219)\
 **Unidade de medida:** Porcentagem em relação ao total de homens residentes
 
 **Cálculo:** $\dfrac{\mathrm{V00502} + \mathrm{V00503}}{\mathrm{V00011}}$
@@ -73,11 +74,11 @@ O indicador mostra a porcentagem de moradores do sexo masculino residentes em do
 **Exemplo**:
 > No município de Ponta Grossa (PR), no setor censitário 411990505000180, 46% dos moradores do sexo masculino residentes em domicílios particulares permanentes ocupados residem em casas.
 
-**Script de processamento:** [cn22_dom.qmd#L219](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L219)
 
-### Total de moradores {#cn22_dom03_cas_tot_mor_2}
+### Total de moradores
 
 **ID da variável:** `cn22_dom03_cas_tot_mor_2`\
+**Script de processamento:** [cn22_dom.qmd#L218](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L218)\
 **Unidade de medida:** Porcentagem em relação ao total de moradores
 
 **Cálculo:** $\dfrac{\mathrm{V00084} + \mathrm{V00085}}{\mathrm{V00005}}$
@@ -87,7 +88,6 @@ O indicador mostra a porcentagem de moradores residentes em domicílios tipo cas
 **Exemplo**:
 > No município de Nova Iguaçu (RJ), no setor censitário 330350005100277, 57% dos moradores residentes em domicílios particulares permanentes ocupados residem em casas.
 
-**Script de processamento:** [cn22_dom.qmd#L218](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L218)
 
 ---
 

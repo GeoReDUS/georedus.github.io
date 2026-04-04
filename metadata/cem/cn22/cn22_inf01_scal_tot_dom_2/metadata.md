@@ -6,16 +6,17 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de domicílios: Teste (principal)](#cn22_inf01_scal_tot_dom_2)**<br/> | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V05022}}{\mathrm{V05000}}$ |
-| **[Total de moradores: Teste](#cn22_inf01_scal_tot_mor_2)**<br/> | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V05222}}{\mathrm{V05200}}$ |
+| **[Total de domicílios: Teste (principal)](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L201)** | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V05022}}{\mathrm{V05000}}$ |
+| **[Total de moradores: Teste](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L204)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V05222}}{\mathrm{V05200}}$ |
 
 ---
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal) {#cn22_inf01_scal_tot_dom_2}
+### Total de domicílios (principal)
 
 **ID da variável:** `cn22_inf01_scal_tot_dom_2`\
+**Script de processamento:** [cn22_inf.qmd#L201](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L201)\
 **Unidade de medida:** Porcentagem em relação ao total de domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V05022}}{\mathrm{V05000}}$
@@ -25,11 +26,11 @@ O indicador mostra a porcentagem de domicílios particulares permanentes ocupado
 **Exemplo**:
 > No município de Planaltina (GO), no setor censitário 521760905000167, 53% dos domicílios particulares permanentes ocupados não possuem calçada no entorno.
 
-**Script de processamento:** [cn22_inf.qmd#L201](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L201)
 
-### Total de moradores {#cn22_inf01_scal_tot_mor_2}
+### Total de moradores
 
 **ID da variável:** `cn22_inf01_scal_tot_mor_2`\
+**Script de processamento:** [cn22_inf.qmd#L204](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L204)\
 **Unidade de medida:** Porcentagem em relação ao total de moradores
 
 **Cálculo:** $\dfrac{\mathrm{V05222}}{\mathrm{V05200}}$
@@ -39,7 +40,6 @@ O indicador mostra a porcentagem de moradores residentes em domicílios particul
 **Exemplo**:
 > No município de Garanhuns (PE), no setor censitário 260600205000042, 22% dos moradores residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem calçada no entorno.
 
-**Script de processamento:** [cn22_inf.qmd#L204](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L204)
 
 ---
 

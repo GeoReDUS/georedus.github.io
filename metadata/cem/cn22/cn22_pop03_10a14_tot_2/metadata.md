@@ -7,9 +7,9 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de residentes: 10 a 14 anos (principal)](#cn22_pop03_10a14_tot_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01033}}{\mathrm{V0001}}$ |
-| **[Mulheres: Sexo feminino, 10 a 14 anos](#cn22_pop03_10a14_sex_f_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01022}}{\mathrm{V0001}}$ |
-| **[Homens: Sexo masculino, 10 a 14 anos](#cn22_pop03_10a14_sex_m_2)**<br/> | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01011}}{\mathrm{V0001}}$ |
+| **[Total de residentes: 10 a 14 anos (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01033}}{\mathrm{V0001}}$ |
+| **[Mulheres: Sexo feminino, 10 a 14 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01022}}{\mathrm{V0001}}$ |
+| **[Homens: Sexo masculino, 10 a 14 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01011}}{\mathrm{V0001}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -24,9 +24,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de residentes (principal) {#cn22_pop03_10a14_tot_2}
+### Total de residentes (principal)
 
 **ID da variável:** `cn22_pop03_10a14_tot_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01033}}{\mathrm{V0001}}$
@@ -36,11 +37,11 @@ O indicador mostra a porcentagem de pessoas residentes com idade de 10 a 14 anos
 **Exemplo**:
 > No município de Contagem (MG), no setor censitário 311860105230200, 08% das pessoas residentes tem idade de 10 a 14 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Mulheres {#cn22_pop03_10a14_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_pop03_10a14_sex_f_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01022}}{\mathrm{V0001}}$
@@ -50,11 +51,11 @@ O indicador mostra a porcentagem de pessoas do sexo feminino com idade de 10 a 1
 **Exemplo**:
 > No município de Catalão (GO), no setor censitário 520510905000139, 01% das pessoas residentes são do sexo feminino com idade de 10 a 14 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
-### Homens {#cn22_pop03_10a14_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_pop03_10a14_sex_m_2`\
+**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes
 
 **Cálculo:** $\dfrac{\mathrm{V01011}}{\mathrm{V0001}}$
@@ -64,7 +65,6 @@ O indicador mostra a porcentagem de pessoas do sexo masculino com idade de 10 a 
 **Exemplo**:
 > No município de Santa Maria (RS), no setor censitário 431690705070037, 06% das pessoas residentes são do sexo masculino com idade de 10 a 14 anos em 2022.
 
-**Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)
 
 ---
 

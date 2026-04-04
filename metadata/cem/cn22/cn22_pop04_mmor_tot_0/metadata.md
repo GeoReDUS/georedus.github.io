@@ -7,7 +7,7 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de moradores: Média de moradores em domicílios particulares permanentes ocupados (principal)](#cn22_pop04_mmor_tot_0)**<br/> | Média de moradores por domicílio | $\mathrm{V0005}$ |
+| **[Total de moradores: Média de moradores em domicílios particulares permanentes ocupados (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L140)** | Média de moradores por domicílio | $\mathrm{V0005}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -19,9 +19,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de moradores (principal) {#cn22_pop04_mmor_tot_0}
+### Total de moradores (principal)
 
 **ID da variável:** `cn22_pop04_mmor_tot_0`\
+**Script de processamento:** [cn22_pop04.qmd#L140](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L140)\
 **Unidade de medida:** Média de moradores por domicílio
 
 **Cálculo:** $\mathrm{V0005}$
@@ -31,7 +32,6 @@ O indicador mostra a média de moradores residentes em Domicílios Particulares 
 **Exemplo**:
 > No município de Gravataí (RS), no setor censitário 430920905000244, foram registrados 785 moradores residindo em domicílios particulares e 292 domicílios particulares ocupados. Ao relacionar o total de moradores ao número de domicílios particulares ocupados, obtém-se uma média de 2,7 moradores por domicílio.
 
-**Script de processamento:** [cn22_pop04.qmd#L140](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L140)
 
 ---
 

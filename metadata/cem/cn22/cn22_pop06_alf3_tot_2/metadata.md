@@ -7,13 +7,13 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de pessoas alfabetizadas: 20 a 59 anos (principal)](#cn22_pop06_alf3_tot_2)**<br/> | Porcentagem em relação ao total de pessoas residentes com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00749}+\mathrm{V00750}+\mathrm{V00751}+\\ \mathrm{V00752}+\mathrm{V00753}+\mathrm{V00754}+\\ \mathrm{V00755}+\mathrm{V00756}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01035}+\mathrm{V01036}+\mathrm{V01037}+\\ \mathrm{V01038}+\mathrm{V01039}\end{matrix}}$ |
-| **[Pessoas amarelas: 20 a 59, Cor ou raça é amarela](#cn22_pop06_alf3_cor_ama_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00768}+\mathrm{V00773}+\mathrm{V00778}+\\ \mathrm{V00783}+\mathrm{V00788}+\mathrm{V00793}+\\ \mathrm{V00798}+\mathrm{V00803}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00664}+\mathrm{V00669}+\mathrm{V00674}+\\ \mathrm{V00679}+\mathrm{V00684}+\mathrm{V00689}+\\ \mathrm{V00694}+\mathrm{V00699}\end{matrix}}$ |
-| **[Pessoas brancas: 20 a 59, Cor ou raça é branca](#cn22_pop06_alf3_cor_bra_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00766}+\mathrm{V00771}+\mathrm{V00776}+\\ \mathrm{V00781}+\mathrm{V00786}+\mathrm{V00791}+\\ \mathrm{V00796}+\mathrm{V00801}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00662}+\mathrm{V00667}+\mathrm{V00672}+\\ \mathrm{V00677}+\mathrm{V00682}+\mathrm{V00687}+\\ \mathrm{V00692}+\mathrm{V00697}\end{matrix}}$ |
-| **[Pessoas indígenas: 20 a 59, Cor ou raça é indígena](#cn22_pop06_alf3_cor_ind_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00770}+\mathrm{V00775}+\mathrm{V00780}+\\ \mathrm{V00785}+\mathrm{V00790}+\mathrm{V00795}+\\ \mathrm{V00800}+\mathrm{V00805}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00666}+\mathrm{V00671}+\mathrm{V00676}+\\ \mathrm{V00681}+\mathrm{V00686}+\mathrm{V00691}+\\ \mathrm{V00696}+\mathrm{V00701}\end{matrix}}$ |
-| **[Pessoas negras: 20 a 59, Cor ou raça é preta ou parda](#cn22_pop06_alf3_cor_neg_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00767}+\mathrm{V00769}+\mathrm{V00772}+\\ \mathrm{V00774}+\mathrm{V00777}+\mathrm{V00779}+\\ \mathrm{V00782}+\mathrm{V00784}+\mathrm{V00787}+\\ \mathrm{V00789}+\mathrm{V00792}+\mathrm{V00794}+\\ \mathrm{V00797}+\mathrm{V00799}+ \mathrm{V00802}+\\ \mathrm{V00804}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00663}+\mathrm{V00665}+\mathrm{V00668}+\\ \mathrm{V00670}+\mathrm{V00673}+\mathrm{V00675}+\\ \mathrm{V00678}+\mathrm{V00680}+\mathrm{V00683}+\\ \mathrm{V00685}+\mathrm{V00688}+\mathrm{V00690}+\\ \mathrm{V00693}+\mathrm{V00695}+ \mathrm{V00698}+\\ \mathrm{V00700}\end{matrix}}$ |
-| **[Mulheres: Sexo feminino, 20 a 59 anos](#cn22_pop06_alf3_sex_f_2)**<br/> | Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00840}+\mathrm{V00841}+\mathrm{V00842}+\\ \mathrm{V00843}+\mathrm{V00844}+\mathrm{V00845}+\\ \mathrm{V00846}+\mathrm{V00847}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01024}+\mathrm{V01025}+\mathrm{V01026}+\\ \mathrm{V01027}+\mathrm{V01028}\end{matrix}}$ |
-| **[Homens: Sexo masculino, 20 a 59 anos](#cn22_pop06_alf3_sex_m_2)**<br/> | Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00827}+\mathrm{V00828}+\mathrm{V00829}+\\ \mathrm{V00830}+\mathrm{V00831}+\mathrm{V00832}+\\ \mathrm{V00833}+\mathrm{V00834}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01013}+\mathrm{V01014}+\mathrm{V01015}+\\ \mathrm{V01016}+\mathrm{V01017}\end{matrix}}$ |
+| **[Total de pessoas alfabetizadas: 20 a 59 anos (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L259)** | Porcentagem em relação ao total de pessoas residentes com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00749}+\mathrm{V00750}+\mathrm{V00751}+\\ \mathrm{V00752}+\mathrm{V00753}+\mathrm{V00754}+\\ \mathrm{V00755}+\mathrm{V00756}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01035}+\mathrm{V01036}+\mathrm{V01037}+\\ \mathrm{V01038}+\mathrm{V01039}\end{matrix}}$ |
+| **[Pessoas amarelas: 20 a 59, Cor ou raça é amarela](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L279)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00768}+\mathrm{V00773}+\mathrm{V00778}+\\ \mathrm{V00783}+\mathrm{V00788}+\mathrm{V00793}+\\ \mathrm{V00798}+\mathrm{V00803}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00664}+\mathrm{V00669}+\mathrm{V00674}+\\ \mathrm{V00679}+\mathrm{V00684}+\mathrm{V00689}+\\ \mathrm{V00694}+\mathrm{V00699}\end{matrix}}$ |
+| **[Pessoas brancas: 20 a 59, Cor ou raça é branca](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L277)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00766}+\mathrm{V00771}+\mathrm{V00776}+\\ \mathrm{V00781}+\mathrm{V00786}+\mathrm{V00791}+\\ \mathrm{V00796}+\mathrm{V00801}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00662}+\mathrm{V00667}+\mathrm{V00672}+\\ \mathrm{V00677}+\mathrm{V00682}+\mathrm{V00687}+\\ \mathrm{V00692}+\mathrm{V00697}\end{matrix}}$ |
+| **[Pessoas indígenas: 20 a 59, Cor ou raça é indígena](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L280)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00770}+\mathrm{V00775}+\mathrm{V00780}+\\ \mathrm{V00785}+\mathrm{V00790}+\mathrm{V00795}+\\ \mathrm{V00800}+\mathrm{V00805}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00666}+\mathrm{V00671}+\mathrm{V00676}+\\ \mathrm{V00681}+\mathrm{V00686}+\mathrm{V00691}+\\ \mathrm{V00696}+\mathrm{V00701}\end{matrix}}$ |
+| **[Pessoas negras: 20 a 59, Cor ou raça é preta ou parda](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L278)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00767}+\mathrm{V00769}+\mathrm{V00772}+\\ \mathrm{V00774}+\mathrm{V00777}+\mathrm{V00779}+\\ \mathrm{V00782}+\mathrm{V00784}+\mathrm{V00787}+\\ \mathrm{V00789}+\mathrm{V00792}+\mathrm{V00794}+\\ \mathrm{V00797}+\mathrm{V00799}+ \mathrm{V00802}+\\ \mathrm{V00804}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00663}+\mathrm{V00665}+\mathrm{V00668}+\\ \mathrm{V00670}+\mathrm{V00673}+\mathrm{V00675}+\\ \mathrm{V00678}+\mathrm{V00680}+\mathrm{V00683}+\\ \mathrm{V00685}+\mathrm{V00688}+\mathrm{V00690}+\\ \mathrm{V00693}+\mathrm{V00695}+ \mathrm{V00698}+\\ \mathrm{V00700}\end{matrix}}$ |
+| **[Mulheres: Sexo feminino, 20 a 59 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L268)** | Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00840}+\mathrm{V00841}+\mathrm{V00842}+\\ \mathrm{V00843}+\mathrm{V00844}+\mathrm{V00845}+\\ \mathrm{V00846}+\mathrm{V00847}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01024}+\mathrm{V01025}+\mathrm{V01026}+\\ \mathrm{V01027}+\mathrm{V01028}\end{matrix}}$ |
+| **[Homens: Sexo masculino, 20 a 59 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L264)** | Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00827}+\mathrm{V00828}+\mathrm{V00829}+\\ \mathrm{V00830}+\mathrm{V00831}+\mathrm{V00832}+\\ \mathrm{V00833}+\mathrm{V00834}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01013}+\mathrm{V01014}+\mathrm{V01015}+\\ \mathrm{V01016}+\mathrm{V01017}\end{matrix}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -143,9 +143,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de pessoas alfabetizadas (principal) {#cn22_pop06_alf3_tot_2}
+### Total de pessoas alfabetizadas (principal)
 
 **ID da variável:** `cn22_pop06_alf3_tot_2`\
+**Script de processamento:** [cn22_pop06.qmd#L259](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L259)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes com idade de 20 a 59 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00749}+\mathrm{V00750}+\mathrm{V00751}+\\ \mathrm{V00752}+\mathrm{V00753}+\mathrm{V00754}+\\ \mathrm{V00755}+\mathrm{V00756}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01035}+\mathrm{V01036}+\mathrm{V01037}+\\ \mathrm{V01038}+\mathrm{V01039}\end{matrix}}$
@@ -155,11 +156,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas, com idade de 20 a 59 
 **Exemplo**:
 > No município de Juquitiba (SP), no setor censitário 352620905000032, 88% das pessoas com idade de 20 a 59 anos são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L259](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L259)
 
-### Pessoas amarelas {#cn22_pop06_alf3_cor_ama_2}
+### Pessoas amarelas
 
 **ID da variável:** `cn22_pop06_alf3_cor_ama_2`\
+**Script de processamento:** [cn22_pop06.qmd#L279](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L279)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade de 20 a 59 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00768}+\mathrm{V00773}+\mathrm{V00778}+\\ \mathrm{V00783}+\mathrm{V00788}+\mathrm{V00793}+\\ \mathrm{V00798}+\mathrm{V00803}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00664}+\mathrm{V00669}+\mathrm{V00674}+\\ \mathrm{V00679}+\mathrm{V00684}+\mathrm{V00689}+\\ \mathrm{V00694}+\mathrm{V00699}\end{matrix}}$
@@ -169,11 +170,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça amarel
 **Exemplo**:
 > No município de Osasco (SP), no setor censitário 353440000000000, 57% das pessoas com idade de 20 a 59 anos e de cor ou raça amarela são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L279](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L279)
 
-### Pessoas brancas {#cn22_pop06_alf3_cor_bra_2}
+### Pessoas brancas
 
 **ID da variável:** `cn22_pop06_alf3_cor_bra_2`\
+**Script de processamento:** [cn22_pop06.qmd#L277](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L277)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade de 20 a 59 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00766}+\mathrm{V00771}+\mathrm{V00776}+\\ \mathrm{V00781}+\mathrm{V00786}+\mathrm{V00791}+\\ \mathrm{V00796}+\mathrm{V00801}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00662}+\mathrm{V00667}+\mathrm{V00672}+\\ \mathrm{V00677}+\mathrm{V00682}+\mathrm{V00687}+\\ \mathrm{V00692}+\mathrm{V00697}\end{matrix}}$
@@ -183,11 +184,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça branca
 **Exemplo**:
 > No município de Xapuri (AC), no setor censitário 120071000000000, 58% das pessoas com idade de 20 a 59 anos e de cor ou raça branca são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L277](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L277)
 
-### Pessoas indígenas {#cn22_pop06_alf3_cor_ind_2}
+### Pessoas indígenas
 
 **ID da variável:** `cn22_pop06_alf3_cor_ind_2`\
+**Script de processamento:** [cn22_pop06.qmd#L280](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L280)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade de 20 a 59 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00770}+\mathrm{V00775}+\mathrm{V00780}+\\ \mathrm{V00785}+\mathrm{V00790}+\mathrm{V00795}+\\ \mathrm{V00800}+\mathrm{V00805}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00666}+\mathrm{V00671}+\mathrm{V00676}+\\ \mathrm{V00681}+\mathrm{V00686}+\mathrm{V00691}+\\ \mathrm{V00696}+\mathrm{V00701}\end{matrix}}$
@@ -197,11 +198,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça indíg
 **Exemplo**:
 > No município de Normandia (RR), no setor censitário 140041000000000, 30% das pessoas com idade de 20 a 59 anos e de cor ou raça indígena são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L280](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L280)
 
-### Pessoas negras {#cn22_pop06_alf3_cor_neg_2}
+### Pessoas negras
 
 **ID da variável:** `cn22_pop06_alf3_cor_neg_2`\
+**Script de processamento:** [cn22_pop06.qmd#L278](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L278)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade de 20 a 59 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00767}+\mathrm{V00769}+\mathrm{V00772}+\\ \mathrm{V00774}+\mathrm{V00777}+\mathrm{V00779}+\\ \mathrm{V00782}+\mathrm{V00784}+\mathrm{V00787}+\\ \mathrm{V00789}+\mathrm{V00792}+\mathrm{V00794}+\\ \mathrm{V00797}+\mathrm{V00799}+ \mathrm{V00802}+\\ \mathrm{V00804}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00663}+\mathrm{V00665}+\mathrm{V00668}+\\ \mathrm{V00670}+\mathrm{V00673}+\mathrm{V00675}+\\ \mathrm{V00678}+\mathrm{V00680}+\mathrm{V00683}+\\ \mathrm{V00685}+\mathrm{V00688}+\mathrm{V00690}+\\ \mathrm{V00693}+\mathrm{V00695}+ \mathrm{V00698}+\\ \mathrm{V00700}\end{matrix}}$
@@ -211,11 +212,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça negra 
 **Exemplo**:
 > No município de Anapurus (MA), no setor censitário 210081000000000, 66% das pessoas com idade de 20 a 59 anos e de cor ou raça negra são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L278](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L278)
 
-### Mulheres {#cn22_pop06_alf3_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_pop06_alf3_sex_f_2`\
+**Script de processamento:** [cn22_pop06.qmd#L268](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L268)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade de 20 a 59 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00840}+\mathrm{V00841}+\mathrm{V00842}+\\ \mathrm{V00843}+\mathrm{V00844}+\mathrm{V00845}+\\ \mathrm{V00846}+\mathrm{V00847}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01024}+\mathrm{V01025}+\mathrm{V01026}+\\ \mathrm{V01027}+\mathrm{V01028}\end{matrix}}$
@@ -225,11 +226,11 @@ O indicador mostra a porcentagem de pessoas do sexo feminino alfabetizadas, com 
 **Exemplo**:
 > No município de Niterói (RJ), no setor censitário 330330205000638, 75% das pessoas do sexo feminino com idade de 20 a 59 anos são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L268](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L268)
 
-### Homens {#cn22_pop06_alf3_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_pop06_alf3_sex_m_2`\
+**Script de processamento:** [cn22_pop06.qmd#L264](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L264)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade de 20 a 59 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00827}+\mathrm{V00828}+\mathrm{V00829}+\\ \mathrm{V00830}+\mathrm{V00831}+\mathrm{V00832}+\\ \mathrm{V00833}+\mathrm{V00834}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01013}+\mathrm{V01014}+\mathrm{V01015}+\\ \mathrm{V01016}+\mathrm{V01017}\end{matrix}}$
@@ -239,7 +240,6 @@ O indicador mostra a porcentagem de pessoas do sexo masculino alfabetizadas, com
 **Exemplo**:
 > No município de Guarabira (PB), no setor censitário 250630105000031, 78% das pessoas do sexo masculino com idade de 20 a 59 anos são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L264](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L264)
 
 ---
 

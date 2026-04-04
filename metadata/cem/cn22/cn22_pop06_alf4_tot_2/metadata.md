@@ -7,13 +7,13 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de pessoas alfabetizadas: 60 anos ou mais (principal)](#cn22_pop06_alf4_tot_2)**<br/> | Porcentagem em relação ao total de pessoas residentes com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00757}+\mathrm{V00758}+\mathrm{V00759}+\\ \mathrm{V00760}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01040}+\mathrm{V01041}\end{matrix}}$ |
-| **[Pessoas amarelas: 60 anos ou mais, Cor ou raça é amarela](#cn22_pop06_alf4_cor_ama_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00808}+\mathrm{V00813}+\mathrm{V00818}+\\ \mathrm{V00823}\end{matrix}}{\scriptstyle \mathrm{V01389}}$ |
-| **[Pessoas brancas: 60 anos ou mais, Cor ou raça é branca](#cn22_pop06_alf4_cor_bra_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00806}+\mathrm{V00811}+\mathrm{V00816}+\\ \mathrm{V00821}\end{matrix}}{\scriptstyle \mathrm{V01387}}$ |
-| **[Pessoas indígenas: 60 anos ou mais, Cor ou raça é indígena](#cn22_pop06_alf4_cor_ind_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00810}+\mathrm{V00815}+\mathrm{V00820}+\\ \mathrm{V00825}\end{matrix}}{\scriptstyle \mathrm{V01391}}$ |
-| **[Pessoas negras: 60 anos ou mais, Cor ou raça é preta ou parda](#cn22_pop06_alf4_cor_neg_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00807}+\mathrm{V00809}+\mathrm{V00812}+\\ \mathrm{V00814}+\mathrm{V00817}+\mathrm{V00819}+\\ \mathrm{V00822}+\mathrm{V00824}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01388}+\mathrm{V01390}\end{matrix}}$ |
-| **[Mulheres: Sexo feminino, 60 ou mais anos](#cn22_pop06_alf4_sex_f_2)**<br/> | Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00848}+\mathrm{V00849}+\mathrm{V00850}+\\ \mathrm{V00851}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01029}+\mathrm{V01030}\end{matrix}}$ |
-| **[Homens: Sexo masculino, 60 ou mais anos](#cn22_pop06_alf4_sex_m_2)**<br/> | Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00835}+\mathrm{V00836}+\mathrm{V00837}+\\ \mathrm{V00838}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01018}+\mathrm{V01019}\end{matrix}}$ |
+| **[Total de pessoas alfabetizadas: 60 anos ou mais (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L260)** | Porcentagem em relação ao total de pessoas residentes com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00757}+\mathrm{V00758}+\mathrm{V00759}+\\ \mathrm{V00760}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01040}+\mathrm{V01041}\end{matrix}}$ |
+| **[Pessoas amarelas: 60 anos ou mais, Cor ou raça é amarela](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L284)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00808}+\mathrm{V00813}+\mathrm{V00818}+\\ \mathrm{V00823}\end{matrix}}{\scriptstyle \mathrm{V01389}}$ |
+| **[Pessoas brancas: 60 anos ou mais, Cor ou raça é branca](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L282)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00806}+\mathrm{V00811}+\mathrm{V00816}+\\ \mathrm{V00821}\end{matrix}}{\scriptstyle \mathrm{V01387}}$ |
+| **[Pessoas indígenas: 60 anos ou mais, Cor ou raça é indígena](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L285)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00810}+\mathrm{V00815}+\mathrm{V00820}+\\ \mathrm{V00825}\end{matrix}}{\scriptstyle \mathrm{V01391}}$ |
+| **[Pessoas negras: 60 anos ou mais, Cor ou raça é preta ou parda](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L283)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00807}+\mathrm{V00809}+\mathrm{V00812}+\\ \mathrm{V00814}+\mathrm{V00817}+\mathrm{V00819}+\\ \mathrm{V00822}+\mathrm{V00824}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01388}+\mathrm{V01390}\end{matrix}}$ |
+| **[Mulheres: Sexo feminino, 60 ou mais anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L269)** | Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00848}+\mathrm{V00849}+\mathrm{V00850}+\\ \mathrm{V00851}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01029}+\mathrm{V01030}\end{matrix}}$ |
+| **[Homens: Sexo masculino, 60 ou mais anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L265)** | Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade superior a 60 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00835}+\mathrm{V00836}+\mathrm{V00837}+\\ \mathrm{V00838}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01018}+\mathrm{V01019}\end{matrix}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -67,9 +67,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de pessoas alfabetizadas (principal) {#cn22_pop06_alf4_tot_2}
+### Total de pessoas alfabetizadas (principal)
 
 **ID da variável:** `cn22_pop06_alf4_tot_2`\
+**Script de processamento:** [cn22_pop06.qmd#L260](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L260)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes com idade superior a 60 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00757}+\mathrm{V00758}+\mathrm{V00759}+\\ \mathrm{V00760}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01040}+\mathrm{V01041}\end{matrix}}$
@@ -79,11 +80,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas, com mais de 60 anos, 
 **Exemplo**:
 > No município de Brasília (DF), no setor censitário 530010805440143, 69% das pessoas com idade superior a 60 anos são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L260](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L260)
 
-### Pessoas amarelas {#cn22_pop06_alf4_cor_ama_2}
+### Pessoas amarelas
 
 **ID da variável:** `cn22_pop06_alf4_cor_ama_2`\
+**Script de processamento:** [cn22_pop06.qmd#L284](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L284)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade superior a 60 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00808}+\mathrm{V00813}+\mathrm{V00818}+\\ \mathrm{V00823}\end{matrix}}{\scriptstyle \mathrm{V01389}}$
@@ -93,11 +94,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça amarel
 **Exemplo**:
 > No município de Sertaneja (PR), no setor censitário 412641000000000, 69% das pessoas com idade superior a 60 anos e de cor ou raça amarela são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L284](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L284)
 
-### Pessoas brancas {#cn22_pop06_alf4_cor_bra_2}
+### Pessoas brancas
 
 **ID da variável:** `cn22_pop06_alf4_cor_bra_2`\
+**Script de processamento:** [cn22_pop06.qmd#L282](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L282)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade superior a 60 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00806}+\mathrm{V00811}+\mathrm{V00816}+\\ \mathrm{V00821}\end{matrix}}{\scriptstyle \mathrm{V01387}}$
@@ -107,11 +108,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça branca
 **Exemplo**:
 > No município de Novo Cruzeiro (MG), no setor censitário 314531000000000, 62% das pessoas com idade superior a 60 anos e de cor ou raça branca são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L282](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L282)
 
-### Pessoas indígenas {#cn22_pop06_alf4_cor_ind_2}
+### Pessoas indígenas
 
 **ID da variável:** `cn22_pop06_alf4_cor_ind_2`\
+**Script de processamento:** [cn22_pop06.qmd#L285](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L285)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade superior a 60 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00810}+\mathrm{V00815}+\mathrm{V00820}+\\ \mathrm{V00825}\end{matrix}}{\scriptstyle \mathrm{V01391}}$
@@ -121,11 +122,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça indíg
 **Exemplo**:
 > No município de Itarema (CE), no setor censitário 230655000000000, 23% das pessoas com idade superior a 60 anos e de cor ou raça indígena são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L285](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L285)
 
-### Pessoas negras {#cn22_pop06_alf4_cor_neg_2}
+### Pessoas negras
 
 **ID da variável:** `cn22_pop06_alf4_cor_neg_2`\
+**Script de processamento:** [cn22_pop06.qmd#L283](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L283)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade superior a 60 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00807}+\mathrm{V00809}+\mathrm{V00812}+\\ \mathrm{V00814}+\mathrm{V00817}+\mathrm{V00819}+\\ \mathrm{V00822}+\mathrm{V00824}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01388}+\mathrm{V01390}\end{matrix}}$
@@ -135,11 +136,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça negra 
 **Exemplo**:
 > No município de Iconha (ES), no setor censitário 320260000000000, 50% das pessoas com idade superior a 60 anos e de cor ou raça negra são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L283](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L283)
 
-### Mulheres {#cn22_pop06_alf4_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_pop06_alf4_sex_f_2`\
+**Script de processamento:** [cn22_pop06.qmd#L269](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L269)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade superior a 60 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00848}+\mathrm{V00849}+\mathrm{V00850}+\\ \mathrm{V00851}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01029}+\mathrm{V01030}\end{matrix}}$
@@ -149,11 +150,11 @@ O indicador mostra a porcentagem de pessoas do sexo feminino alfabetizadas, com 
 **Exemplo**:
 > No município de Riachão do Jacuípe (BA), no setor censitário 292630105000006, 38% das pessoas do sexo feminino com idade superior a 60 anos são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L269](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L269)
 
-### Homens {#cn22_pop06_alf4_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_pop06_alf4_sex_m_2`\
+**Script de processamento:** [cn22_pop06.qmd#L265](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L265)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade superior a 60 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00835}+\mathrm{V00836}+\mathrm{V00837}+\\ \mathrm{V00838}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01018}+\mathrm{V01019}\end{matrix}}$
@@ -163,7 +164,6 @@ O indicador mostra a porcentagem de pessoas do sexo masculino alfabetizadas, com
 **Exemplo**:
 > No município de Blumenau (SC), no setor censitário 420240405000629, 57% das pessoas do sexo masculino com idade superior a 60 anos são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L265](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L265)
 
 ---
 

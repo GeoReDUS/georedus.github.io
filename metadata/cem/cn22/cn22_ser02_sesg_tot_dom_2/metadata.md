@@ -7,10 +7,10 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados, Destinação do esgoto do banheiro ou sanitário ou buraco para dejeções é rede geral ou pluvial (principal)](#cn22_ser02_sesg_tot_dom_2)**<br/> | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00001} - \mathrm{V00309}}{\mathrm{V00001}}$ |
-| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Destinação do esgoto do banheiro ou sanitário ou buraco para dejeções é rede geral ou pluvial, Pessoas de sexo feminino no domicílio](#cn22_ser02_sesg_sex_f_2)**<br/> | Porcentagem em relação ao total de mulheres nos domicílios | $\dfrac{\mathrm{V00014} - \mathrm{V00604}}{\mathrm{V00014}}$ |
-| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Destinação do esgoto do banheiro ou sanitário ou buraco para dejeções é rede geral ou pluvial, Quantidade de moradores](#cn22_ser02_sesg_tot_mor_2)**<br/> | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00005} - \mathrm{V00580}}{\mathrm{V00005}}$ |
-| **[Homens: Domicílios Particulares Permanentes Ocupados, Destinação do esgoto inexistente, pois não tinham banheiro nem sanitário, Pessoas de sexo masculino no domicílio OU Domicílios Particulares Permanentes Ocupados, Destinação do esgoto do banheiro ou sanitário ou buraco para dejeções é rede geral ou pluvial, Pessoas de sexo masculino no domicílio](#cn22_ser02_sesg_sex_m_2)**<br/> | Porcentagem em relação ao total de homens nos domicílios | $\dfrac{\mathrm{V00011} - \mathrm{V00596}}{\mathrm{V00011}}$ |
+| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados, Destinação do esgoto do banheiro ou sanitário ou buraco para dejeções é rede geral ou pluvial (principal)](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L256)** | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00001} - \mathrm{V00309}}{\mathrm{V00001}}$ |
+| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Destinação do esgoto do banheiro ou sanitário ou buraco para dejeções é rede geral ou pluvial, Pessoas de sexo feminino no domicílio](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L266)** | Porcentagem em relação ao total de mulheres nos domicílios | $\dfrac{\mathrm{V00014} - \mathrm{V00604}}{\mathrm{V00014}}$ |
+| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Destinação do esgoto do banheiro ou sanitário ou buraco para dejeções é rede geral ou pluvial, Quantidade de moradores](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L259)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00005} - \mathrm{V00580}}{\mathrm{V00005}}$ |
+| **[Homens: Domicílios Particulares Permanentes Ocupados, Destinação do esgoto inexistente, pois não tinham banheiro nem sanitário, Pessoas de sexo masculino no domicílio OU Domicílios Particulares Permanentes Ocupados, Destinação do esgoto do banheiro ou sanitário ou buraco para dejeções é rede geral ou pluvial, Pessoas de sexo masculino no domicílio](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L263)** | Porcentagem em relação ao total de homens nos domicílios | $\dfrac{\mathrm{V00011} - \mathrm{V00596}}{\mathrm{V00011}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -29,9 +29,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal) {#cn22_ser02_sesg_tot_dom_2}
+### Total de domicílios (principal)
 
 **ID da variável:** `cn22_ser02_sesg_tot_dom_2`\
+**Script de processamento:** [cn22_ser.qmd#L256](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L256)\
 **Unidade de medida:** Porcentagem em relação ao total de domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00001} - \mathrm{V00309}}{\mathrm{V00001}}$
@@ -41,11 +42,11 @@ O indicador mostra a porcentagem de domicílios particulares permanentes ocupado
 **Exemplo**:
 > No município de Sorocaba (SP), no setor censitário 355220505000722, 29% dos domicílios particulares permanentes ocupados não possuem destinação de esgoto por rede geral ou pluvial.
 
-**Script de processamento:** [cn22_ser.qmd#L256](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L256)
 
-### Mulheres {#cn22_ser02_sesg_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_ser02_sesg_sex_f_2`\
+**Script de processamento:** [cn22_ser.qmd#L266](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L266)\
 **Unidade de medida:** Porcentagem em relação ao total de mulheres nos domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00014} - \mathrm{V00604}}{\mathrm{V00014}}$
@@ -55,11 +56,11 @@ O indicador mostra a porcentagem de moradores do sexo feminino residentes em dom
 **Exemplo**:
 > No município de Ilhéus (BA), no setor censitário 291360605000272, 42% dos moradores do sexo feminino residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem destinação de esgoto por rede geral ou pluvial.
 
-**Script de processamento:** [cn22_ser.qmd#L266](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L266)
 
-### Total de moradores {#cn22_ser02_sesg_tot_mor_2}
+### Total de moradores
 
 **ID da variável:** `cn22_ser02_sesg_tot_mor_2`\
+**Script de processamento:** [cn22_ser.qmd#L259](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L259)\
 **Unidade de medida:** Porcentagem em relação ao total de moradores
 
 **Cálculo:** $\dfrac{\mathrm{V00005} - \mathrm{V00580}}{\mathrm{V00005}}$
@@ -69,11 +70,11 @@ O indicador mostra a porcentagem de moradores residentes em domicílios particul
 **Exemplo**:
 > No município de Santa Cruz do Sul (RS), no setor censitário 431680805000155, 74% dos moradores residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem destinação de esgoto por rede geral ou pluvial.
 
-**Script de processamento:** [cn22_ser.qmd#L259](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L259)
 
-### Homens {#cn22_ser02_sesg_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_ser02_sesg_sex_m_2`\
+**Script de processamento:** [cn22_ser.qmd#L263](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L263)\
 **Unidade de medida:** Porcentagem em relação ao total de homens nos domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00011} - \mathrm{V00596}}{\mathrm{V00011}}$
@@ -83,7 +84,6 @@ O indicador mostra a porcentagem de moradores do sexo masculino residentes em do
 **Exemplo**:
 > No município de Tangará da Serra (MT), no setor censitário 510795805000010, 24% dos moradores do sexo masculino residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem destinação de esgoto por rede geral ou pluvial.
 
-**Script de processamento:** [cn22_ser.qmd#L263](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L263)
 
 ---
 

@@ -7,10 +7,10 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição (principal)](#cn22_ser02_sagu_tot_dom_2)**<br/> | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00001} - \mathrm{V00111}}{\mathrm{V00001}}$ |
-| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição, Pessoas de sexo feminino no domicílio](#cn22_ser02_sagu_sex_f_2)**<br/> | Porcentagem em relação ao total de mulheres nos domicílios | $\dfrac{\mathrm{V00014} - \mathrm{V00532}}{\mathrm{V00014}}$ |
-| **[Homens: Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição, Pessoas de sexo masculino no domicílio](#cn22_ser02_sagu_sex_m_2)**<br/> | Porcentagem em relação ao total de homens nos domicílios | $\dfrac{\mathrm{V00011} - \mathrm{V00524}}{\mathrm{V00011}}$ |
-| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição, Quantidade de moradores](#cn22_ser02_sagu_tot_mor_2)**<br/> | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00005} - \mathrm{V00508}}{\mathrm{V00005}}$ |
+| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição (principal)](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L241)** | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00001} - \mathrm{V00111}}{\mathrm{V00001}}$ |
+| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição, Pessoas de sexo feminino no domicílio](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L251)** | Porcentagem em relação ao total de mulheres nos domicílios | $\dfrac{\mathrm{V00014} - \mathrm{V00532}}{\mathrm{V00014}}$ |
+| **[Homens: Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição, Pessoas de sexo masculino no domicílio](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L248)** | Porcentagem em relação ao total de homens nos domicílios | $\dfrac{\mathrm{V00011} - \mathrm{V00524}}{\mathrm{V00011}}$ |
+| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição, Quantidade de moradores](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L244)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00005} - \mathrm{V00508}}{\mathrm{V00005}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -29,9 +29,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal) {#cn22_ser02_sagu_tot_dom_2}
+### Total de domicílios (principal)
 
 **ID da variável:** `cn22_ser02_sagu_tot_dom_2`\
+**Script de processamento:** [cn22_ser.qmd#L241](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L241)\
 **Unidade de medida:** Porcentagem em relação ao total de domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00001} - \mathrm{V00111}}{\mathrm{V00001}}$
@@ -41,11 +42,11 @@ O indicador mostra a porcentagem de domicílios particulares permanentes ocupado
 **Exemplo**:
 > No município de Cascavel (PR), no setor censitário 410480815000014, 78% dos domicílios particulares permanentes ocupados não possuem abastecimento de água por rede de distribuição geral.
 
-**Script de processamento:** [cn22_ser.qmd#L241](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L241)
 
-### Mulheres {#cn22_ser02_sagu_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_ser02_sagu_sex_f_2`\
+**Script de processamento:** [cn22_ser.qmd#L251](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L251)\
 **Unidade de medida:** Porcentagem em relação ao total de mulheres nos domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00014} - \mathrm{V00532}}{\mathrm{V00014}}$
@@ -55,11 +56,11 @@ O indicador mostra a porcentagem de moradores do sexo feminino residentes em dom
 **Exemplo**:
 > No município de Castanhal (PA), no setor censitário 150240005000250, 43% dos moradores do sexo feminino residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem abastecimento de água por rede de distribuição geral.
 
-**Script de processamento:** [cn22_ser.qmd#L251](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L251)
 
-### Homens {#cn22_ser02_sagu_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_ser02_sagu_sex_m_2`\
+**Script de processamento:** [cn22_ser.qmd#L248](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L248)\
 **Unidade de medida:** Porcentagem em relação ao total de homens nos domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00011} - \mathrm{V00524}}{\mathrm{V00011}}$
@@ -69,11 +70,11 @@ O indicador mostra a porcentagem de moradores do sexo masculino residentes em do
 **Exemplo**:
 > No município de Aracaju (SE), no setor censitário 280030805001455, 54% dos moradores do sexo masculino residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem abastecimento de água por rede de distribuição geral.
 
-**Script de processamento:** [cn22_ser.qmd#L248](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L248)
 
-### Total de moradores {#cn22_ser02_sagu_tot_mor_2}
+### Total de moradores
 
 **ID da variável:** `cn22_ser02_sagu_tot_mor_2`\
+**Script de processamento:** [cn22_ser.qmd#L244](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L244)\
 **Unidade de medida:** Porcentagem em relação ao total de moradores
 
 **Cálculo:** $\dfrac{\mathrm{V00005} - \mathrm{V00508}}{\mathrm{V00005}}$
@@ -83,7 +84,6 @@ O indicador mostra a porcentagem de moradores residentes em domicílios particul
 **Exemplo**:
 > No município de Corumbá (MS), no setor censitário 500320705000164, 23% dos moradores residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem abastecimento de água por rede de distribuição geral.
 
-**Script de processamento:** [cn22_ser.qmd#L244](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L244)
 
 ---
 

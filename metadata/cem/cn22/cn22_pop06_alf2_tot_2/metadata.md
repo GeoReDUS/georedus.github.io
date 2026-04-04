@@ -7,13 +7,13 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de pessoas alfabetizadas: 15 a 19 anos (principal)](#cn22_pop06_alf2_tot_2)**<br/> | Porcentagem em relação ao total de pessoas residentes com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00748}}{\scriptstyle \mathrm{V01034}}$ |
-| **[Pessoas amarelas: 15 a 19 anos, Cor ou raça é amarela](#cn22_pop06_alf2_cor_ama_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00763}}{\scriptstyle \mathrm{V00659}}$ |
-| **[Pessoas brancas: 15 a 19 anos, Cor ou raça é branca](#cn22_pop06_alf2_cor_bra_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00761}}{\scriptstyle \mathrm{V00657}}$ |
-| **[Pessoas indígenas: 15 a 19 anos, Cor ou raça é indígena](#cn22_pop06_alf2_cor_ind_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00765}}{\scriptstyle \mathrm{V00661}}$ |
-| **[Pessoas negras: 15 a 19 anos, Cor ou raça é preta ou parda](#cn22_pop06_alf2_cor_neg_2)**<br/> | Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade de 15 a 19 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00762}+\mathrm{V00764}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00658}+\mathrm{V00660}\end{matrix}}$ |
-| **[Mulheres: Sexo feminino, 15 a 19 anos](#cn22_pop06_alf2_sex_f_2)**<br/> | Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00839}}{\scriptstyle \mathrm{V01023}}$ |
-| **[Homens: Sexo masculino, 15 a 19 anos](#cn22_pop06_alf2_sex_m_2)**<br/> | Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00826}}{\scriptstyle \mathrm{V01012}}$ |
+| **[Total de pessoas alfabetizadas: 15 a 19 anos (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L258)** | Porcentagem em relação ao total de pessoas residentes com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00748}}{\scriptstyle \mathrm{V01034}}$ |
+| **[Pessoas amarelas: 15 a 19 anos, Cor ou raça é amarela](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L274)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00763}}{\scriptstyle \mathrm{V00659}}$ |
+| **[Pessoas brancas: 15 a 19 anos, Cor ou raça é branca](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L272)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00761}}{\scriptstyle \mathrm{V00657}}$ |
+| **[Pessoas indígenas: 15 a 19 anos, Cor ou raça é indígena](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L275)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00765}}{\scriptstyle \mathrm{V00661}}$ |
+| **[Pessoas negras: 15 a 19 anos, Cor ou raça é preta ou parda](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L273)** | Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade de 15 a 19 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00762}+\mathrm{V00764}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00658}+\mathrm{V00660}\end{matrix}}$ |
+| **[Mulheres: Sexo feminino, 15 a 19 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L267)** | Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00839}}{\scriptstyle \mathrm{V01023}}$ |
+| **[Homens: Sexo masculino, 15 a 19 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L263)** | Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00826}}{\scriptstyle \mathrm{V01012}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -40,9 +40,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de pessoas alfabetizadas (principal) {#cn22_pop06_alf2_tot_2}
+### Total de pessoas alfabetizadas (principal)
 
 **ID da variável:** `cn22_pop06_alf2_tot_2`\
+**Script de processamento:** [cn22_pop06.qmd#L258](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L258)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes com idade de 15 a 19 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \mathrm{V00748}}{\scriptstyle \mathrm{V01034}}$
@@ -52,11 +53,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas, com idade de 15 a 19 
 **Exemplo**:
 > No município de Monte das Gameleiras (RN), no setor censitário 240790605000002, 94% das pessoas com idade de 15 a 19 anos são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L258](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L258)
 
-### Pessoas amarelas {#cn22_pop06_alf2_cor_ama_2}
+### Pessoas amarelas
 
 **ID da variável:** `cn22_pop06_alf2_cor_ama_2`\
+**Script de processamento:** [cn22_pop06.qmd#L274](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L274)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade de 15 a 19 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \mathrm{V00763}}{\scriptstyle \mathrm{V00659}}$
@@ -66,11 +67,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça amarel
 **Exemplo**:
 > No município de São Paulo (SP), no setor censitário 355031000000000, 75% das pessoas com idade de 15 a 19 anos e de cor ou raça amarela são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L274](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L274)
 
-### Pessoas brancas {#cn22_pop06_alf2_cor_bra_2}
+### Pessoas brancas
 
 **ID da variável:** `cn22_pop06_alf2_cor_bra_2`\
+**Script de processamento:** [cn22_pop06.qmd#L272](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L272)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade de 15 a 19 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \mathrm{V00761}}{\scriptstyle \mathrm{V00657}}$
@@ -80,11 +81,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça branca
 **Exemplo**:
 > No município de Foz do Iguaçu (PR), no setor censitário 410830405000421, 93% das pessoas com idade de 15 a 19 anos e de cor ou raça branca são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L272](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L272)
 
-### Pessoas indígenas {#cn22_pop06_alf2_cor_ind_2}
+### Pessoas indígenas
 
 **ID da variável:** `cn22_pop06_alf2_cor_ind_2`\
+**Script de processamento:** [cn22_pop06.qmd#L275](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L275)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade de 15 a 19 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \mathrm{V00765}}{\scriptstyle \mathrm{V00661}}$
@@ -94,11 +95,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça indíg
 **Exemplo**:
 > No município de São Gabriel da Cachoeira (AM), no setor censitário 130381000000000, 36% das pessoas com idade de 15 a 19 anos e de cor ou raça indígena são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L275](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L275)
 
-### Pessoas negras {#cn22_pop06_alf2_cor_neg_2}
+### Pessoas negras
 
 **ID da variável:** `cn22_pop06_alf2_cor_neg_2`\
+**Script de processamento:** [cn22_pop06.qmd#L273](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L273)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade de 15 a 19 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00762}+\mathrm{V00764}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V00658}+\mathrm{V00660}\end{matrix}}$
@@ -108,11 +109,11 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça negra 
 **Exemplo**:
 > No município de Mogi das Cruzes (SP), no setor censitário 353061000000000, 89% das pessoas com idade de 15 a 19 anos e de cor ou raça negra são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L273](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L273)
 
-### Mulheres {#cn22_pop06_alf2_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_pop06_alf2_sex_f_2`\
+**Script de processamento:** [cn22_pop06.qmd#L267](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L267)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade de 15 a 19 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \mathrm{V00839}}{\scriptstyle \mathrm{V01023}}$
@@ -122,11 +123,11 @@ O indicador mostra a porcentagem de pessoas do sexo feminino alfabetizadas, com 
 **Exemplo**:
 > No município de Piracicaba (SP), no setor censitário 353870905000490, 86% das pessoas do sexo feminino com idade de 15 a 19 anos são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L267](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L267)
 
-### Homens {#cn22_pop06_alf2_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_pop06_alf2_sex_m_2`\
+**Script de processamento:** [cn22_pop06.qmd#L263](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L263)\
 **Unidade de medida:** Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade de 15 a 19 anos
 
 **Cálculo:** $\dfrac{\scriptstyle \mathrm{V00826}}{\scriptstyle \mathrm{V01012}}$
@@ -136,7 +137,6 @@ O indicador mostra a porcentagem de pessoas do sexo masculino alfabetizadas, com
 **Exemplo**:
 > No município de Alta Floresta D’Oeste (RO), no setor censitário 110001525000003, 86% das pessoas do sexo masculino com idade de 15 a 19 anos são alfabetizadas em 2022.
 
-**Script de processamento:** [cn22_pop06.qmd#L263](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L263)
 
 ---
 

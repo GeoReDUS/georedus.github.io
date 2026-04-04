@@ -5,7 +5,7 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Renda das pessoas responsáveis: Valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por domicílios particulares permanentes ocupados (principal)](#renda_responsavel)**<br/> | Renda média mensal das pessoas responsáveis | — |
+| **Renda das pessoas responsáveis: Valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por domicílios particulares permanentes ocupados (principal)** | Renda média mensal das pessoas responsáveis | — |
 
 ---
 

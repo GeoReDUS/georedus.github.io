@@ -7,10 +7,10 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados, Lixo coletado no domicílio por serviço de limpeza E Domicílios Particulares Permanentes Ocupados, Lixo depositado em caçamba de serviço de limpeza (principal)](#cn22_ser01_slix_tot_dom_2)**<br/> | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00001} - \left(\mathrm{V00397} + \mathrm{V00398}\right)}{\mathrm{V00001}}$ |
-| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Lixo coletado no domicílio por serviço de limpeza, Pessoas de sexo feminino no domicílio E Domicílios Particulares Permanentes Ocupados, Lixo depositado em caçamba de serviço de limpeza, Pessoas de sexo feminino no domicílio](#cn22_ser01_slix_sex_f_2)**<br/> | Porcentagem em relação ao total de mulheres nos domicílios | $\dfrac{\mathrm{V00014} - \left(\mathrm{V00630} + \mathrm{V00631}\right)}{\mathrm{V00014}}$ |
-| **[Homens: Domicílios Particulares Permanentes Ocupados, Lixo coletado no domicílio por serviço de limpeza, Pessoas de sexo masculino no domicílio E Domicílios Particulares Permanentes Ocupados, Lixo depositado em caçamba de serviço de limpeza, Pessoas de sexo masculino no domicílio](#cn22_ser01_slix_sex_m_2)**<br/> | Porcentagem em relação ao total de homens nos domicílios | $\dfrac{\mathrm{V00011} - \left(\mathrm{V00624} + \mathrm{V00625}\right)}{\mathrm{V00011}}$ |
-| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Lixo coletado no domicílio por serviço de limpeza, Quantidade de moradores E Domicílios Particulares Permanentes Ocupados, Lixo depositado em caçamba de serviço de limpeza, Quantidade de moradores](#cn22_ser01_slix_tot_mor_2)**<br/> | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00005} - \left(\mathrm{V00612} + \mathrm{V00613}\right)}{\mathrm{V00005}}$ |
+| **[Total de domicílios: Domicílios Particulares Permanentes Ocupados, Lixo coletado no domicílio por serviço de limpeza E Domicílios Particulares Permanentes Ocupados, Lixo depositado em caçamba de serviço de limpeza (principal)](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L225)** | Porcentagem em relação ao total de domicílios | $\dfrac{\mathrm{V00001} - \left(\mathrm{V00397} + \mathrm{V00398}\right)}{\mathrm{V00001}}$ |
+| **[Mulheres: Domicílios Particulares Permanentes Ocupados, Lixo coletado no domicílio por serviço de limpeza, Pessoas de sexo feminino no domicílio E Domicílios Particulares Permanentes Ocupados, Lixo depositado em caçamba de serviço de limpeza, Pessoas de sexo feminino no domicílio](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L235)** | Porcentagem em relação ao total de mulheres nos domicílios | $\dfrac{\mathrm{V00014} - \left(\mathrm{V00630} + \mathrm{V00631}\right)}{\mathrm{V00014}}$ |
+| **[Homens: Domicílios Particulares Permanentes Ocupados, Lixo coletado no domicílio por serviço de limpeza, Pessoas de sexo masculino no domicílio E Domicílios Particulares Permanentes Ocupados, Lixo depositado em caçamba de serviço de limpeza, Pessoas de sexo masculino no domicílio](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L232)** | Porcentagem em relação ao total de homens nos domicílios | $\dfrac{\mathrm{V00011} - \left(\mathrm{V00624} + \mathrm{V00625}\right)}{\mathrm{V00011}}$ |
+| **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Lixo coletado no domicílio por serviço de limpeza, Quantidade de moradores E Domicílios Particulares Permanentes Ocupados, Lixo depositado em caçamba de serviço de limpeza, Quantidade de moradores](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L228)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00005} - \left(\mathrm{V00612} + \mathrm{V00613}\right)}{\mathrm{V00005}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -33,9 +33,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal) {#cn22_ser01_slix_tot_dom_2}
+### Total de domicílios (principal)
 
 **ID da variável:** `cn22_ser01_slix_tot_dom_2`\
+**Script de processamento:** [cn22_ser.qmd#L225](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L225)\
 **Unidade de medida:** Porcentagem em relação ao total de domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00001} - \left(\mathrm{V00397} + \mathrm{V00398}\right)}{\mathrm{V00001}}$
@@ -45,11 +46,11 @@ O indicador mostra a porcentagem de domicílios particulares permanentes ocupado
 **Exemplo**:
 > No município de Caldas Novas (GO), no setor censitário 520450805000251, 43% dos domicílios particulares permanentes ocupados não possuem coleta de lixo.
 
-**Script de processamento:** [cn22_ser.qmd#L225](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L225)
 
-### Mulheres {#cn22_ser01_slix_sex_f_2}
+### Mulheres
 
 **ID da variável:** `cn22_ser01_slix_sex_f_2`\
+**Script de processamento:** [cn22_ser.qmd#L235](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L235)\
 **Unidade de medida:** Porcentagem em relação ao total de mulheres nos domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00014} - \left(\mathrm{V00630} + \mathrm{V00631}\right)}{\mathrm{V00014}}$
@@ -59,11 +60,11 @@ O indicador mostra a porcentagem de moradores do sexo feminino residentes em dom
 **Exemplo**:
 > No município de São Bernardo do Campo (SP), no setor censitário 354870805001972, 10% dos moradores do sexo feminino residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem coleta de lixo.
 
-**Script de processamento:** [cn22_ser.qmd#L235](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L235)
 
-### Homens {#cn22_ser01_slix_sex_m_2}
+### Homens
 
 **ID da variável:** `cn22_ser01_slix_sex_m_2`\
+**Script de processamento:** [cn22_ser.qmd#L232](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L232)\
 **Unidade de medida:** Porcentagem em relação ao total de homens nos domicílios
 
 **Cálculo:** $\dfrac{\mathrm{V00011} - \left(\mathrm{V00624} + \mathrm{V00625}\right)}{\mathrm{V00011}}$
@@ -73,11 +74,11 @@ O indicador mostra a porcentagem de moradores do sexo masculino residentes em do
 **Exemplo**:
 > No município de Palmas (TO), no setor censitário 172100005000770, 28% dos moradores do sexo masculino residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem coleta de lixo.
 
-**Script de processamento:** [cn22_ser.qmd#L232](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L232)
 
-### Total de moradores {#cn22_ser01_slix_tot_mor_2}
+### Total de moradores
 
 **ID da variável:** `cn22_ser01_slix_tot_mor_2`\
+**Script de processamento:** [cn22_ser.qmd#L228](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L228)\
 **Unidade de medida:** Porcentagem em relação ao total de moradores
 
 **Cálculo:** $\dfrac{\mathrm{V00005} - \left(\mathrm{V00612} + \mathrm{V00613}\right)}{\mathrm{V00005}}$
@@ -87,7 +88,6 @@ O indicador mostra a porcentagem de moradores residentes em domicílios particul
 **Exemplo**:
 > No município de Feira de Santana (BA), no setor censitário 291080005070187, 69% dos moradores residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem coleta de lixo.
 
-**Script de processamento:** [cn22_ser.qmd#L228](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L228)
 
 ---
 

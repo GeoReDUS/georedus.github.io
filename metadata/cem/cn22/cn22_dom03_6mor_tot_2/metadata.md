@@ -7,7 +7,7 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de responsáveis: Domicílios particulares permanentes ocupados com 6 ou mais moradores (principal)](#cn22_dom03_6mor_tot_2)**<br/> | Porcentagem em relação ao total de domicílios | $\dfrac{\begin{aligned} \mathrm{V00022} + \mathrm{V00023} + \mathrm{V00024} \\ + \mathrm{V00025} + \mathrm{V00026} \end{aligned}}{\mathrm{V00001}}$ |
+| **[Total de responsáveis: Domicílios particulares permanentes ocupados com 6 ou mais moradores (principal)](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L227)** | Porcentagem em relação ao total de domicílios | $\dfrac{\begin{aligned} \mathrm{V00022} + \mathrm{V00023} + \mathrm{V00024} \\ + \mathrm{V00025} + \mathrm{V00026} \end{aligned}}{\mathrm{V00001}}$ |
 
 ### Variáveis originais do CENSO 2022 - IBGE
 
@@ -24,9 +24,10 @@
 
 ## Detalhamento das variáveis
 
-### Total de responsáveis (principal) {#cn22_dom03_6mor_tot_2}
+### Total de responsáveis (principal)
 
 **ID da variável:** `cn22_dom03_6mor_tot_2`\
+**Script de processamento:** [cn22_dom.qmd#L227](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L227)\
 **Unidade de medida:** Porcentagem em relação ao total de domicílios
 
 **Cálculo:** $\dfrac{\begin{aligned} \mathrm{V00022} + \mathrm{V00023} + \mathrm{V00024} \\ + \mathrm{V00025} + \mathrm{V00026} \end{aligned}}{\mathrm{V00001}}$
@@ -36,7 +37,6 @@ O indicador mostra a porcentagem de domicílios com mais de 6 moradores em rela�
 **Exemplo**:
 > No município de Luziânia (GO), no setor censitário 521250105000096, 09% dos domicílios particulares permanentes ocupados possuem mais de 6 moradores.
 
-**Script de processamento:** [cn22_dom.qmd#L227](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L227)
 
 ---
 
