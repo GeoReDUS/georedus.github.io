@@ -1,0 +1,263 @@
+{
+  "indicator_id": "cn22_dom03_cas_tot_2",
+  "variable_id": "cn22_dom03_cas_tot_2",
+  "year": "2022",
+  "indicator_path": "População e domicílios / 2022 / Posse e tipo dos domicílios",
+  "indicator_label": "Domicílios tipo casa",
+  "variant_label": "Total de domicílios",
+  "measure_unit": "Porcentagem em relação ao total de domicílios",
+  "variant_path": "Total",
+  "description": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa E Tipo de espécie é casa de vila ou em condomínio",
+  "doc": {
+    "variable_id": "cn22_dom03_cas_tot_2",
+    "formula": "\\dfrac{\\mathrm{V00047} + \\mathrm{V00048}}{\\mathrm{V00001}}",
+    "descricao": "O indicador mostra a porcentagem de domicílios tipo casa em relação ao total de domicílios particulares permanentes ocupados, para cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+    "leitura": "No município de Rio Branco (AC), no setor censitário 120040105000287, 60% dos domicílios particulares permanentes ocupados são do tipo casa.",
+    "src": {
+      "id": "cn22_dom",
+      "repoUrl": "https://georedus.github.io/cn22-dom",
+      "htmlUrl": "https://github.com/GeoReDUS/cn22-dom/blob/refs/heads/main/docs/r/cn22_dom.html",
+      "scriptUrl": "https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd"
+    },
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L217",
+    "sourceIbgeVariables": [
+      {
+        "variavel": "V00047",
+        "descricao": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa",
+        "tema": "Características do Domicílio - Parte 1",
+        "tipo": "Domicílio",
+        "datasets": [
+          {
+            "id": "domicilios_1",
+            "label": "Domicílios 1",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio1_BR.zip"
+          }
+        ]
+      },
+      {
+        "variavel": "V00048",
+        "descricao": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa de vila ou em condomínio",
+        "tema": "Características do Domicílio - Parte 1",
+        "tipo": "Domicílio",
+        "datasets": [
+          {
+            "id": "domicilios_1",
+            "label": "Domicílios 1",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio1_BR.zip"
+          }
+        ]
+      },
+      {
+        "variavel": "V00001",
+        "descricao": "Domicílios Particulares Permanentes Ocupados",
+        "tema": "Características do Domicílio - Parte 1",
+        "tipo": "Domicílio",
+        "datasets": [
+          {
+            "id": "domicilios_1",
+            "label": "Domicílios 1",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio1_BR.zip"
+          }
+        ]
+      }
+    ]
+  },
+  "variants": [
+    {
+      "indicator_id": "cn22_dom03_cas_tot_2",
+      "variable_id": "cn22_dom03_cas_sex_f_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Posse e tipo dos domicílios",
+      "indicator_label": "Domicílios tipo casa",
+      "variant_label": "Mulheres",
+      "measure_unit": "Porcentagem em relação ao total de mulheres residentes",
+      "variant_path": "Sexo dos moradores",
+      "description": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Pessoas de sexo feminino no domicílio E Tipo de espécie é casa de vila ou em condomínio, Pessoas de sexo feminino no domicílio",
+      "doc": {
+        "variable_id": "cn22_dom03_cas_sex_f_2",
+        "formula": "\\dfrac{\\mathrm{V00505} + \\mathrm{V00506}}{\\mathrm{V00014}}",
+        "descricao": "O indicador mostra a porcentagem de moradores do sexo feminino residentes em domicílios tipo casa em relação ao total de moradores do sexo feminino residentes em domicílios particulares permanentes ocupados, para cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Sinop (MT), no setor censitário 510790905000331, 77% dos moradores do sexo feminino residentes em domicílios particulares permanentes ocupados residem em casas.",
+        "src": {
+          "id": "cn22_dom",
+          "repoUrl": "https://georedus.github.io/cn22-dom",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-dom/blob/refs/heads/main/docs/r/cn22_dom.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L220",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00505",
+            "descricao": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Pessoas de sexo feminino no domicílio",
+            "tema": "Características do Domicílio - Parte 3",
+            "tipo": "Domicílio",
+            "datasets": [
+              {
+                "id": "domicilios_3",
+                "label": "Domicílios 3",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio3_BR_20250417.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00506",
+            "descricao": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa de vila ou em condomínio, Pessoas de sexo feminino no domicílio",
+            "tema": "Características do Domicílio - Parte 3",
+            "tipo": "Domicílio",
+            "datasets": [
+              {
+                "id": "domicilios_3",
+                "label": "Domicílios 3",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio3_BR_20250417.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00014",
+            "descricao": "Domicílios Particulares Permanentes Ocupados, Pessoas de sexo feminino no domicílio",
+            "tema": "Características do Domicílio - Parte 1",
+            "tipo": "Domicílio",
+            "datasets": [
+              {
+                "id": "domicilios_1",
+                "label": "Domicílios 1",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio1_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_dom03_cas_tot_2",
+      "variable_id": "cn22_dom03_cas_sex_m_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Posse e tipo dos domicílios",
+      "indicator_label": "Domicílios tipo casa",
+      "variant_label": "Homens",
+      "measure_unit": "Porcentagem em relação ao total de homens residentes",
+      "variant_path": "Sexo dos moradores",
+      "description": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Pessoas de sexo masculino no domicílio E Tipo de espécie é casa de vila ou em condomínio, Pessoas de sexo masculino no domicílio",
+      "doc": {
+        "variable_id": "cn22_dom03_cas_sex_m_2",
+        "formula": "\\dfrac{\\mathrm{V00502} + \\mathrm{V00503}}{\\mathrm{V00011}}",
+        "descricao": "O indicador mostra a porcentagem de moradores do sexo masculino residentes em domicílios tipo casa em relação ao total de moradores do sexo masculino residentes em domicílios particulares permanentes ocupados, para cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Ponta Grossa (PR), no setor censitário 411990505000180, 46% dos moradores do sexo masculino residentes em domicílios particulares permanentes ocupados residem em casas.",
+        "src": {
+          "id": "cn22_dom",
+          "repoUrl": "https://georedus.github.io/cn22-dom",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-dom/blob/refs/heads/main/docs/r/cn22_dom.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L219",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00502",
+            "descricao": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Pessoas de sexo masculino no domicílio",
+            "tema": "Características do Domicílio - Parte 3",
+            "tipo": "Domicílio",
+            "datasets": [
+              {
+                "id": "domicilios_3",
+                "label": "Domicílios 3",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio3_BR_20250417.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00503",
+            "descricao": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa de vila ou em condomínio, Pessoas de sexo masculino no domicílio",
+            "tema": "Características do Domicílio - Parte 3",
+            "tipo": "Domicílio",
+            "datasets": [
+              {
+                "id": "domicilios_3",
+                "label": "Domicílios 3",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio3_BR_20250417.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00011",
+            "descricao": "Domicílios Particulares Permanentes Ocupados, Pessoas de sexo masculino no domicílio",
+            "tema": "Características do Domicílio - Parte 1",
+            "tipo": "Domicílio",
+            "datasets": [
+              {
+                "id": "domicilios_1",
+                "label": "Domicílios 1",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio1_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_dom03_cas_tot_2",
+      "variable_id": "cn22_dom03_cas_tot_mor_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Posse e tipo dos domicílios",
+      "indicator_label": "Domicílios tipo casa",
+      "variant_label": "Total de moradores",
+      "measure_unit": "Porcentagem em relação ao total de moradores",
+      "variant_path": "Total",
+      "description": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Quantidade de moradores E Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa de vila ou em condomínio, Quantidade de moradores",
+      "doc": {
+        "variable_id": "cn22_dom03_cas_tot_mor_2",
+        "formula": "\\dfrac{\\mathrm{V00084} + \\mathrm{V00085}}{\\mathrm{V00005}}",
+        "descricao": "O indicador mostra a porcentagem de moradores residentes em domicílios tipo casa em relação ao total de moradores residentes em domicílios particulares permanentes ocupados, para cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Nova Iguaçu (RJ), no setor censitário 330350005100277, 57% dos moradores residentes em domicílios particulares permanentes ocupados residem em casas.",
+        "src": {
+          "id": "cn22_dom",
+          "repoUrl": "https://georedus.github.io/cn22-dom",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-dom/blob/refs/heads/main/docs/r/cn22_dom.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L218",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00084",
+            "descricao": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa, Quantidade de moradores",
+            "tema": "Características do Domicílio - Parte 1",
+            "tipo": "Domicílio",
+            "datasets": [
+              {
+                "id": "domicilios_1",
+                "label": "Domicílios 1",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio1_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00085",
+            "descricao": "Domicílios Particulares Permanentes Ocupados, Tipo de espécie é casa de vila ou em condomínio, Quantidade de moradores",
+            "tema": "Características do Domicílio - Parte 1",
+            "tipo": "Domicílio",
+            "datasets": [
+              {
+                "id": "domicilios_1",
+                "label": "Domicílios 1",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio1_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00005",
+            "descricao": "Domicílios Particulares Permanentes Ocupados, Quantidade de moradores",
+            "tema": "Características do Domicílio - Parte 1",
+            "tipo": "Domicílio",
+            "datasets": [
+              {
+                "id": "domicilios_1",
+                "label": "Domicílios 1",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_caracteristicas_domicilio1_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "metodologicalDetails": "-   **Unidade territorial:** os indicadores são calculados na escala do setor censitário, identificado pelo código oficial `cd_setor`.\n    \n-   **Tratamento da categoria “X”:** registros identificados pelo IBGE como “dado numérico omitido” são convertidos para `NA` antes do processamento. [`Documento acessível aqui`](https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138)\n    \n-   **Indicadores absolutos:** a soma de variáveis utiliza a função interna `safe_row_sum()`, com as seguintes regras:\n    \n    -   valor numérico + `NA` → retorna o valor numérico;\n    -   todos os valores `NA` → retorna `NA`.\n-   **Indicadores relativos:** as proporções são calculadas com a função interna `safe_divide()`, que:\n    \n    -   retorna `NA` quando o denominador é `0` ou `NA`;\n    -   evita a geração de valores `NaN` ou `Inf`."
+}

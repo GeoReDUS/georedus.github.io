@@ -1,0 +1,156 @@
+{
+  "indicator_id": "cn22_pop03_0a4_tot_2",
+  "variable_id": "cn22_pop03_0a4_tot_2",
+  "year": "2022",
+  "indicator_path": "População e domicílios / 2022 / População por faixa etária",
+  "indicator_label": "Pessoas de 0 a 4 anos de idade",
+  "variant_label": "Total de residentes",
+  "measure_unit": "Porcentagem em relação ao total de pessoas residentes",
+  "variant_path": "Total",
+  "description": "0 a 4 anos",
+  "doc": {
+    "variable_id": "cn22_pop03_0a4_tot_2",
+    "formula": "\\dfrac{\\mathrm{V01031}}{\\mathrm{V0001}}",
+    "descricao": "O indicador mostra a porcentagem de pessoas residentes com idade de 0 a 4 anos em relação ao número total de pessoas residentes em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+    "leitura": "No município de Caucaia (CE), no setor censitário 230370905000530, 09% das pessoas residentes tem idade de 0 a 4 anos, em 2022.",
+    "src": {
+      "id": "cn22_pop03",
+      "repoUrl": "https://georedus.github.io/cn22-pop/",
+      "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop03.html",
+      "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd"
+    },
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd",
+    "sourceIbgeVariables": [
+      {
+        "variavel": "V01031",
+        "descricao": "0 a 4 anos",
+        "tema": "Demografia",
+        "tipo": "Pessoas",
+        "datasets": [
+          {
+            "id": "demografia",
+            "label": "Demografia",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+          }
+        ]
+      },
+      {
+        "variavel": "V0001",
+        "descricao": "Total de pessoas",
+        "tema": "Básico",
+        "datasets": [
+          {
+            "id": "basico",
+            "label": "Básico",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip"
+          }
+        ]
+      }
+    ]
+  },
+  "variants": [
+    {
+      "indicator_id": "cn22_pop03_0a4_tot_2",
+      "variable_id": "cn22_pop03_0a4_sex_f_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / População por faixa etária",
+      "indicator_label": "Pessoas de 0 a 4 anos de idade",
+      "variant_label": "Mulheres",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes",
+      "variant_path": "Sexo dos residentes",
+      "description": "Sexo feminino, 0 a 4 anos",
+      "doc": {
+        "variable_id": "cn22_pop03_0a4_sex_f_2",
+        "formula": "\\dfrac{\\mathrm{V01020}}{\\mathrm{V0001}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas do sexo feminino com idade de 0 a 4 anos em relação ao número total de pessoas residentes em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Juiz de Fora (MG), no setor censitário 313670205090068, 02% das pessoas residentes são do sexo feminino com idade de 0 a 4 anos em 2022.",
+        "src": {
+          "id": "cn22_pop03",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop03.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V01020",
+            "descricao": "Sexo feminino, 0 a 4 anos",
+            "tema": "Demografia",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "demografia",
+                "label": "Demografia",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V0001",
+            "descricao": "Total de pessoas",
+            "tema": "Básico",
+            "datasets": [
+              {
+                "id": "basico",
+                "label": "Básico",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop03_0a4_tot_2",
+      "variable_id": "cn22_pop03_0a4_sex_m_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / População por faixa etária",
+      "indicator_label": "Pessoas de 0 a 4 anos de idade",
+      "variant_label": "Homens",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes",
+      "variant_path": "Sexo dos residentes",
+      "description": "Sexo masculino, 0 a 4 anos",
+      "doc": {
+        "variable_id": "cn22_pop03_0a4_sex_m_2",
+        "formula": "\\dfrac{\\mathrm{V01009}}{\\mathrm{V0001}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas do sexo masculino com idade de 0 a 4 anos em relação ao número total de pessoas residentes em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Barcarena (PA), no setor censitário 150130310000116, 06% das pessoas residentes são do sexo masculino com idade de 0 a 4 anos.",
+        "src": {
+          "id": "cn22_pop03",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop03.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V01009",
+            "descricao": "Sexo masculino, 0 a 4 anos",
+            "tema": "Demografia",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "demografia",
+                "label": "Demografia",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V0001",
+            "descricao": "Total de pessoas",
+            "tema": "Básico",
+            "datasets": [
+              {
+                "id": "basico",
+                "label": "Básico",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "metodologicalDetails": "Os indicadores relativos do **pop03** foram obtidos pela razão entre cada variável de faixa etária e o total de pessoas residentes no setor censitário, correspondente ao indicador **cn22\\_pop01\\_res\\_tot\\_0** e à variável **V0001** do IBGE. Assim, os resultados expressam medidas proporcionais em relação ao total da população residente em cada setor.\n\nO Censo 2022 do IBGE divulga os resultados a partir de grupos de variáveis, os quais geram arquivos, como “Alfabetização”, “Demografia”, “Parentesco”, entre outros.\n\nAlgumas dessas variáveis apresentam a mesma descrição em mais de um arquivo. Por exemplo, a variável “V0001”, do Arquivo “Básico” representa o “Total de pessoas”, e a variável “V01006”, do Arquivo “Demografia”, representa a “Quantidade de moradores”. Portanto, ambas representam a população total do setor censitário.\n\nEntretanto, para diferentes arquivos, podem ocorrer diferentes tratamentos de dados quanto ao Sigilo e Confidencialidade, os registros identificados pelo IBGE como “dado numérico omitido” (Categoria “X”).\n\nEm relação ao Arquivo “Básico”, que apresenta informações fundamentais para o cálculo populacional do país, o IBGE opta por divulgar o número real de pessoas do setor censitário, mesmo que este tenha menos de 5 domicílios ocupados. Já para os demais arquivos, o sigilo é aplicado nessas situações. Dessa maneira, o Arquivo “Básico” não sofre omissão de dados por sigilo enquanto o Arquivo “Demografia” sofre.\n\nPara a maioria dos casos, ao se comparar os valores da variável “V01006” com os valores de “V0001”, a diferença não existe. Porém, nos poucos casos em que o tratamento de sigilo causou divergências nessa comparação, há setores com diferenças bastantes significativos, como o setor censitário 530010805400050, que apresenta “V0001” = 10163 moradores, enquanto o “V01006” = “X”.\n\nDiante disso, neste script, optou-se pela variável “V0001”, por se demonstrar mais consistente, como denominador dos indicadores gerados, em detrimento da variável “V01006”. Essa escolha visa eliminar os “dados numéricos omitidos” (Categoria “X”), que a partir da metodologia adotada, são convertidos em “NA”.\n\nPor fim, destaca-se que os indicadores com recorte de cor/raça são disponibilizados apenas a partir da faixa etária de 15 anos. Isso se deve ao fato de que os dados do Censo Demográfico 2022 não divulgam variáveis que articulem simultaneamente faixas etárias desagregadas - como aquelas adotadas na plataforma (0 a 4, 5 a 9 e 10 a 14 anos) - com o recorte de cor/raça. Dessa forma, a construção dessas métricas inicia-se na faixa de 15 a 19 anos, primeiro grupo etário em que essa combinação de variáveis está disponível."
+}

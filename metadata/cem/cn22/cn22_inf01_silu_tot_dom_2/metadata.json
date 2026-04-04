@@ -1,0 +1,59 @@
+{
+  "indicator_id": "cn22_inf01_silu_tot_dom_2",
+  "variable_id": "cn22_inf01_silu_tot_dom_2",
+  "year": "2022",
+  "indicator_path": "Infraestrutura e serviços urbanos / 2022 / Infraestrutura",
+  "indicator_label": "Domicílios sem iluminação pública",
+  "variant_label": "Total de domicílios",
+  "measure_unit": "Porcentagem em relação ao total de domicílios",
+  "variant_path": "Total",
+  "description": "Teste",
+  "doc": {
+    "variable_id": "cn22_inf01_silu_tot_dom_2",
+    "formula": "\\dfrac{\\mathrm{V05013}}{\\mathrm{V05000}}",
+    "descricao": "O indicador mostra a porcentagem de domicílios particulares permanentes ocupados (DPPO) sem iluminação pública no entorno em relação ao total de DPPO, para cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+    "leitura": "No município de Coari (AM), no setor censitário 130120905000103, 11% dos domicílios particulares permanentes ocupados não possuem iluminação pública no entorno.",
+    "src": {
+      "id": "cn22_inf",
+      "repoUrl": "https://georedus.github.io/cn22-inf",
+      "htmlUrl": "https://github.com/GeoReDUS/cn22-inf/blob/refs/heads/main/docs/r/cn22_inf.html",
+      "scriptUrl": "https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd"
+    },
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L209",
+    "sourceIbgeVariables": [
+      null,
+      null
+    ]
+  },
+  "variants": [
+    {
+      "indicator_id": "cn22_inf01_silu_tot_dom_2",
+      "variable_id": "cn22_inf01_silu_tot_mor_2",
+      "year": "2022",
+      "indicator_path": "Infraestrutura e serviços urbanos / 2022 / Infraestrutura",
+      "indicator_label": "Domicílios sem iluminação pública",
+      "variant_label": "Total de moradores",
+      "measure_unit": "Porcentagem em relação ao total de moradores",
+      "variant_path": "Total",
+      "description": "Teste",
+      "doc": {
+        "variable_id": "cn22_inf01_silu_tot_mor_2",
+        "formula": "\\dfrac{\\mathrm{V05213}}{\\mathrm{V05200}}",
+        "descricao": "O indicador mostra a porcentagem de moradores residentes em domicílios particulares permanentes ocupados (DPPO) sem iluminação pública no entorno em relação ao total de moradores residentes em DPPO, para cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Belford Roxo (RJ), no setor censitário 330045605030196, 90% dos moradores residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem iluminação pública no entorno.",
+        "src": {
+          "id": "cn22_inf",
+          "repoUrl": "https://georedus.github.io/cn22-inf",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-inf/blob/refs/heads/main/docs/r/cn22_inf.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L212",
+        "sourceIbgeVariables": [
+          null,
+          null
+        ]
+      }
+    }
+  ],
+  "metodologicalDetails": "-   **Unidade territorial:** os indicadores são calculados na escala do setor censitário, identificado pelo código oficial `cd_setor`.\n    \n-   **Tratamento da categoria “X”:** registros identificados pelo IBGE como “dado numérico omitido” são convertidos para `NA` antes do processamento, passando a obedecer às regras de agregação acima. [Documento acessível aqui](https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138)\n    \n-   **Indicadores absolutos:** a soma de variáveis utiliza a função interna `safe_row_sum()`, com as seguintes regras:\n    \n    -   valor numérico + `NA` → retorna o valor numérico;\n    -   todos os valores `NA` → retorna `NA`.\n-   **Indicadores relativos:** as proporções são calculadas com a função interna `safe_divide()`, que:\n    \n    -   retorna `NA` quando o denominador é `0` ou `NA`;\n    -   evita a geração de valores `NaN` ou `Inf`.\n-   **Geração de indicativos:** as variáveis relativas foram obtidas pela divisão dos indicadores por um dos seguintes:\n    \n    -   total de domicílios particulares permanentes ocupados \\[Domicílios em Setor Escolhido para Aplicação do Entorno\\] (V05000), denominada neste trabalho `cn_22_dom06_ent_tot_0`, resultando em medidas proporcionais ao total de domicílios particulares permanentes ocupados do setor;\n    -   quantidade total de moradores em domicílios particulares permanentes ocupados \\[Domicílios em Setor Escolhido para Aplicação do Entorno\\] (V05200), denominada neste trabalho `cn_22_dom06_ent_tot_mor_0`, resultando em medidas proporcionais ao total de moradores em domicílios particulares permanentes ocupados do setor;"
+}

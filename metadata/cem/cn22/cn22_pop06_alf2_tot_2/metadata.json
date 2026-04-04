@@ -1,0 +1,393 @@
+{
+  "indicator_id": "cn22_pop06_alf2_tot_2",
+  "variable_id": "cn22_pop06_alf2_tot_2",
+  "year": "2022",
+  "indicator_path": "População e domicílios / 2022 / Alfabetização",
+  "indicator_label": "Pessoas de 15 a 19 anos de idade",
+  "variant_label": "Total de pessoas alfabetizadas",
+  "measure_unit": "Porcentagem em relação ao total de pessoas residentes com idade de 15 a 19 anos",
+  "variant_path": "Total",
+  "description": "15 a 19 anos",
+  "doc": {
+    "variable_id": "cn22_pop06_alf2_tot_2",
+    "formula": "\\dfrac{\\scriptstyle \\mathrm{V00748}}{\\scriptstyle \\mathrm{V01034}}",
+    "descricao": "O indicador mostra a porcentagem de pessoas alfabetizadas, com idade de 15 a 19 anos, em relação ao número total de pessoas com idade de 15 a 19 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+    "leitura": "No município de Monte das Gameleiras (RN), no setor censitário 240790605000002, 94% das pessoas com idade de 15 a 19 anos são alfabetizadas em 2022.",
+    "src": {
+      "id": "cn22_pop06",
+      "repoUrl": "https://georedus.github.io/cn22-pop/",
+      "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+      "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+    },
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L258",
+    "sourceIbgeVariables": [
+      {
+        "variavel": "V00748",
+        "descricao": "Pessoas alfabetizadas, 15 a 19 anos",
+        "tema": "Alfabetização",
+        "tipo": "Pessoas",
+        "datasets": [
+          {
+            "id": "alfabetizacao",
+            "label": "Alfabetização",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+          }
+        ]
+      },
+      {
+        "variavel": "V01034",
+        "descricao": "15 a 19 anos",
+        "tema": "Demografia",
+        "tipo": "Pessoas",
+        "datasets": [
+          {
+            "id": "demografia",
+            "label": "Demografia",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+          }
+        ]
+      }
+    ]
+  },
+  "variants": [
+    {
+      "indicator_id": "cn22_pop06_alf2_tot_2",
+      "variable_id": "cn22_pop06_alf2_cor_ama_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 15 a 19 anos de idade",
+      "variant_label": "Pessoas amarelas",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade de 15 a 19 anos",
+      "variant_path": "Cor dos residentes",
+      "description": "15 a 19 anos, Cor ou raça é amarela",
+      "doc": {
+        "variable_id": "cn22_pop06_alf2_cor_ama_2",
+        "formula": "\\dfrac{\\scriptstyle \\mathrm{V00763}}{\\scriptstyle \\mathrm{V00659}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça amarela, com idade de 15 a 19 anos, em relação ao número total de pessoas de cor ou raça amarela com idade de 15 a 19 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de São Paulo (SP), no setor censitário 355031000000000, 75% das pessoas com idade de 15 a 19 anos e de cor ou raça amarela são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L274",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00763",
+            "descricao": "Pessoas alfabetizadas, 15 a 19 anos, Cor ou raça é amarela",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00659",
+            "descricao": "15 a 19 anos, Cor ou raça é amarela",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop06_alf2_tot_2",
+      "variable_id": "cn22_pop06_alf2_cor_bra_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 15 a 19 anos de idade",
+      "variant_label": "Pessoas brancas",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade de 15 a 19 anos",
+      "variant_path": "Cor dos residentes",
+      "description": "15 a 19 anos, Cor ou raça é branca",
+      "doc": {
+        "variable_id": "cn22_pop06_alf2_cor_bra_2",
+        "formula": "\\dfrac{\\scriptstyle \\mathrm{V00761}}{\\scriptstyle \\mathrm{V00657}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça branca, com idade de 15 a 19 anos, em relação ao número total de pessoas de cor ou raça branca com idade de 15 a 19 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Foz do Iguaçu (PR), no setor censitário 410830405000421, 93% das pessoas com idade de 15 a 19 anos e de cor ou raça branca são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L272",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00761",
+            "descricao": "Pessoas alfabetizadas, 15 a 19 anos, Cor ou raça é branca",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00657",
+            "descricao": "15 a 19 anos, Cor ou raça é branca",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop06_alf2_tot_2",
+      "variable_id": "cn22_pop06_alf2_cor_ind_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 15 a 19 anos de idade",
+      "variant_label": "Pessoas indígenas",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade de 15 a 19 anos",
+      "variant_path": "Cor dos residentes",
+      "description": "15 a 19 anos, Cor ou raça é indígena",
+      "doc": {
+        "variable_id": "cn22_pop06_alf2_cor_ind_2",
+        "formula": "\\dfrac{\\scriptstyle \\mathrm{V00765}}{\\scriptstyle \\mathrm{V00661}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça indígena, com idade de 15 a 19 anos, em relação ao número total de pessoas de cor ou raça indígena com idade de 15 a 19 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de São Gabriel da Cachoeira (AM), no setor censitário 130381000000000, 36% das pessoas com idade de 15 a 19 anos e de cor ou raça indígena são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L275",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00765",
+            "descricao": "Pessoas alfabetizadas, 15 a 19 anos, Cor ou raça é indígena",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00661",
+            "descricao": "15 a 19 anos, Cor ou raça é indígena",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop06_alf2_tot_2",
+      "variable_id": "cn22_pop06_alf2_cor_neg_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 15 a 19 anos de idade",
+      "variant_label": "Pessoas negras",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade de 15 a 19 anos",
+      "variant_path": "Cor dos residentes",
+      "description": "15 a 19 anos, Cor ou raça é preta ou parda",
+      "doc": {
+        "variable_id": "cn22_pop06_alf2_cor_neg_2",
+        "formula": "\\dfrac{\\scriptstyle \\begin{matrix}\\mathrm{V00762}+\\mathrm{V00764}\\end{matrix}}{\\scriptstyle \\begin{matrix}\\mathrm{V00658}+\\mathrm{V00660}\\end{matrix}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça negra (preta e parda), com idade de 15 a 19 anos, em relação ao número total de pessoas de cor ou raça negra com idade de 15 a 19 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Mogi das Cruzes (SP), no setor censitário 353061000000000, 89% das pessoas com idade de 15 a 19 anos e de cor ou raça negra são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L273",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00762",
+            "descricao": "Pessoas alfabetizadas, 15 a 19 anos, Cor ou raça é preta",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00764",
+            "descricao": "Pessoas alfabetizadas, 15 a 19 anos, Cor ou raça é parda",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00658",
+            "descricao": "15 a 19 anos, Cor ou raça é preta",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00660",
+            "descricao": "15 a 19 anos, Cor ou raça é parda",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop06_alf2_tot_2",
+      "variable_id": "cn22_pop06_alf2_sex_f_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 15 a 19 anos de idade",
+      "variant_label": "Mulheres",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade de 15 a 19 anos",
+      "variant_path": "Sexo dos residentes",
+      "description": "Sexo feminino, 15 a 19 anos",
+      "doc": {
+        "variable_id": "cn22_pop06_alf2_sex_f_2",
+        "formula": "\\dfrac{\\scriptstyle \\mathrm{V00839}}{\\scriptstyle \\mathrm{V01023}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas do sexo feminino alfabetizadas, com idade de 15 a 19 anos, em relação ao número total de pessoas do sexo feminino com idade de 15 a 19 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Piracicaba (SP), no setor censitário 353870905000490, 86% das pessoas do sexo feminino com idade de 15 a 19 anos são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L267",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00839",
+            "descricao": "Pessoas alfabetizadas, Sexo feminino, 15 a 19 anos",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01023",
+            "descricao": "Sexo feminino, 15 a 19 anos",
+            "tema": "Demografia",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "demografia",
+                "label": "Demografia",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop06_alf2_tot_2",
+      "variable_id": "cn22_pop06_alf2_sex_m_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 15 a 19 anos de idade",
+      "variant_label": "Homens",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade de 15 a 19 anos",
+      "variant_path": "Sexo dos residentes",
+      "description": "Sexo masculino, 15 a 19 anos",
+      "doc": {
+        "variable_id": "cn22_pop06_alf2_sex_m_2",
+        "formula": "\\dfrac{\\scriptstyle \\mathrm{V00826}}{\\scriptstyle \\mathrm{V01012}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas do sexo masculino alfabetizadas, com idade de 15 a 19 anos, em relação ao número total de pessoas do sexo masculino com idade de 15 a 19 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Alta Floresta D’Oeste (RO), no setor censitário 110001525000003, 86% das pessoas do sexo masculino com idade de 15 a 19 anos são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L263",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00826",
+            "descricao": "Pessoas alfabetizadas, Sexo masculino, 15 a 19 anos",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01012",
+            "descricao": "Sexo masculino, 15 a 19 anos",
+            "tema": "Demografia",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "demografia",
+                "label": "Demografia",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "metodologicalDetails": "As variáveis relativas foram obtidas pela razão entre cada indicador e o total de pessoas da mesma faixa etária no setor censitário. Desse modo, os resultados expressam medidas proporcionais internas a cada grupo etário - por exemplo, o número de pessoas alfabetizadas de 15 a 19 anos em relação ao total de pessoas de 15 a 19 anos no setor. Quando houver recorte de cor ou raça, a abordagem é semelhante, sendo expressas medidas proporcionais internas ao grupo etário e de cor ou raça - por exemplo, o número de pessoas alfabetizadas de 15 a 19 anos e de cor ou raça negra em relação ao total de pessoas de 15 a 19 anos e de cor ou raça negra no setor.\n\nO Censo 2022 do IBGE divulga os resultados a partir de grupos de variáveis, os quais geram arquivos, como “Alfabetização”, “Demografia”, “Parentesco”, entre outros.\n\nAlgumas dessas variáveis apresentam a mesma descrição em mais de um arquivo. Por exemplo, a variável “V00645”, do Arquivo “Alfabetização”, e a variável “V01035”, do Arquivo “Demografia”, representam o número de moradores com idade de 20 a 24 anos. Entretanto, para diferentes arquivos, podem ocorrer diferentes agregações de grupos etários - por exemplo, no arquivo “Alfabetização”, a variável “V00647” representa o número de moradores com idade de 30 a 34 anos, porém no arquivo “Demografia”, a variável “V01037” representa o número de moradores com idade de 30 a 39 anos.\n\nDiante disso, neste script, quando houve possibilidade de escolha entre distintas variáveis para obter denominadores de indicadores relativos, optou-se por variáveis com dados de grupos etários mais agregados, portanto, mais abrangentes. Essa escolha visa reduzir os registros identificados pelo IBGE como “dado numérico omitido” (Categoria “X”), que a partir da metodologia adotada, são convertidos em “NA”."
+}

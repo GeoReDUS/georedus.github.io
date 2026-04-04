@@ -1,0 +1,13 @@
+{
+  "indicator_id": "renda_responsavel",
+  "variable_id": "renda_responsavel",
+  "year": "2022",
+  "indicator_path": "População e domicílios / 2022 / Rendimento",
+  "indicator_label": "Renda das pessoas responsáveis",
+  "variant_label": "Renda das pessoas responsáveis",
+  "measure_unit": "Renda média mensal das pessoas responsáveis",
+  "variant_path": "Total",
+  "description": "Valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por domicílios particulares permanentes ocupados",
+  "variants": [],
+  "metodologicalDetails": null
+}

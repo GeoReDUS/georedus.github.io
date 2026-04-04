@@ -1,0 +1,744 @@
+{
+  "indicator_id": "cn22_pop06_alf4_tot_2",
+  "variable_id": "cn22_pop06_alf4_tot_2",
+  "year": "2022",
+  "indicator_path": "População e domicílios / 2022 / Alfabetização",
+  "indicator_label": "Pessoas de 60 ou mais anos de idade",
+  "variant_label": "Total de pessoas alfabetizadas",
+  "measure_unit": "Porcentagem em relação ao total de pessoas residentes com idade superior a 60 anos",
+  "variant_path": "Total",
+  "description": "60 anos ou mais",
+  "doc": {
+    "variable_id": "cn22_pop06_alf4_tot_2",
+    "formula": "\\dfrac{\\scriptstyle \\begin{matrix}\\mathrm{V00757}+\\mathrm{V00758}+\\mathrm{V00759}+\\\\ \\mathrm{V00760}\\end{matrix}}{\\scriptstyle \\begin{matrix}\\mathrm{V01040}+\\mathrm{V01041}\\end{matrix}}",
+    "descricao": "O indicador mostra a porcentagem de pessoas alfabetizadas, com mais de 60 anos, em relação ao número total de pessoas com idade superior a 60 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+    "leitura": "No município de Brasília (DF), no setor censitário 530010805440143, 69% das pessoas com idade superior a 60 anos são alfabetizadas em 2022.",
+    "src": {
+      "id": "cn22_pop06",
+      "repoUrl": "https://georedus.github.io/cn22-pop/",
+      "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+      "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+    },
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L260",
+    "sourceIbgeVariables": [
+      {
+        "variavel": "V00757",
+        "descricao": "Pessoas alfabetizadas, 60 a 64 anos",
+        "tema": "Alfabetização",
+        "tipo": "Pessoas",
+        "datasets": [
+          {
+            "id": "alfabetizacao",
+            "label": "Alfabetização",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+          }
+        ]
+      },
+      {
+        "variavel": "V00758",
+        "descricao": "Pessoas alfabetizadas, 65 a 69 anos",
+        "tema": "Alfabetização",
+        "tipo": "Pessoas",
+        "datasets": [
+          {
+            "id": "alfabetizacao",
+            "label": "Alfabetização",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+          }
+        ]
+      },
+      {
+        "variavel": "V00759",
+        "descricao": "Pessoas alfabetizadas, 70 a 79 anos",
+        "tema": "Alfabetização",
+        "tipo": "Pessoas",
+        "datasets": [
+          {
+            "id": "alfabetizacao",
+            "label": "Alfabetização",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+          }
+        ]
+      },
+      {
+        "variavel": "V00760",
+        "descricao": "Pessoas alfabetizadas, 80 anos ou mais",
+        "tema": "Alfabetização",
+        "tipo": "Pessoas",
+        "datasets": [
+          {
+            "id": "alfabetizacao",
+            "label": "Alfabetização",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+          }
+        ]
+      },
+      {
+        "variavel": "V01040",
+        "descricao": "60 a 69 anos",
+        "tema": "Demografia",
+        "tipo": "Pessoas",
+        "datasets": [
+          {
+            "id": "demografia",
+            "label": "Demografia",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+          }
+        ]
+      },
+      {
+        "variavel": "V01041",
+        "descricao": "70 anos ou mais",
+        "tema": "Demografia",
+        "tipo": "Pessoas",
+        "datasets": [
+          {
+            "id": "demografia",
+            "label": "Demografia",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+          }
+        ]
+      }
+    ]
+  },
+  "variants": [
+    {
+      "indicator_id": "cn22_pop06_alf4_tot_2",
+      "variable_id": "cn22_pop06_alf4_cor_ama_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 60 ou mais anos de idade",
+      "variant_label": "Pessoas amarelas",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade superior a 60 anos",
+      "variant_path": "Cor dos residentes",
+      "description": "60 anos ou mais, Cor ou raça é amarela",
+      "doc": {
+        "variable_id": "cn22_pop06_alf4_cor_ama_2",
+        "formula": "\\dfrac{\\scriptstyle \\begin{matrix}\\mathrm{V00808}+\\mathrm{V00813}+\\mathrm{V00818}+\\\\ \\mathrm{V00823}\\end{matrix}}{\\scriptstyle \\mathrm{V01389}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça amarela, com idade superior a 60 anos, em relação ao número total de pessoas de cor ou raça amarela com idade superior a 60 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Sertaneja (PR), no setor censitário 412641000000000, 69% das pessoas com idade superior a 60 anos e de cor ou raça amarela são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L284",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00808",
+            "descricao": "Pessoas alfabetizadas, 60 a 64 anos, Cor ou raça é amarela",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00813",
+            "descricao": "Pessoas alfabetizadas, 65 a 69 anos, Cor ou raça é amarela",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00818",
+            "descricao": "Pessoas alfabetizadas, 70 a 79 anos, Cor ou raça é amarela",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00823",
+            "descricao": "Pessoas alfabetizadas, 80 anos ou mais, Cor ou raça é amarela",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01389",
+            "descricao": "60 anos ou mais, Cor ou raça é amarela",
+            "tema": "Cor ou Raça",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "cor_ou_raca",
+                "label": "Cor/Raça",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_cor_ou_raca_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop06_alf4_tot_2",
+      "variable_id": "cn22_pop06_alf4_cor_bra_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 60 ou mais anos de idade",
+      "variant_label": "Pessoas brancas",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade superior a 60 anos",
+      "variant_path": "Cor dos residentes",
+      "description": "60 anos ou mais, Cor ou raça é branca",
+      "doc": {
+        "variable_id": "cn22_pop06_alf4_cor_bra_2",
+        "formula": "\\dfrac{\\scriptstyle \\begin{matrix}\\mathrm{V00806}+\\mathrm{V00811}+\\mathrm{V00816}+\\\\ \\mathrm{V00821}\\end{matrix}}{\\scriptstyle \\mathrm{V01387}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça branca, com idade superior a 60 anos, em relação ao número total de pessoas de cor ou raça branca com idade superior a 60 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Novo Cruzeiro (MG), no setor censitário 314531000000000, 62% das pessoas com idade superior a 60 anos e de cor ou raça branca são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L282",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00806",
+            "descricao": "Pessoas alfabetizadas, 60 a 64 anos, Cor ou raça é branca",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00811",
+            "descricao": "Pessoas alfabetizadas, 65 a 69 anos, Cor ou raça é branca",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00816",
+            "descricao": "Pessoas alfabetizadas, 70 a 79 anos, Cor ou raça é branca",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00821",
+            "descricao": "Pessoas alfabetizadas, 80 anos ou mais, Cor ou raça é branca",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01387",
+            "descricao": "60 anos ou mais, Cor ou raça é branca",
+            "tema": "Cor ou Raça",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "cor_ou_raca",
+                "label": "Cor/Raça",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_cor_ou_raca_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop06_alf4_tot_2",
+      "variable_id": "cn22_pop06_alf4_cor_ind_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 60 ou mais anos de idade",
+      "variant_label": "Pessoas indígenas",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade superior a 60 anos",
+      "variant_path": "Cor dos residentes",
+      "description": "60 anos ou mais, Cor ou raça é indígena",
+      "doc": {
+        "variable_id": "cn22_pop06_alf4_cor_ind_2",
+        "formula": "\\dfrac{\\scriptstyle \\begin{matrix}\\mathrm{V00810}+\\mathrm{V00815}+\\mathrm{V00820}+\\\\ \\mathrm{V00825}\\end{matrix}}{\\scriptstyle \\mathrm{V01391}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça indígena, com idade superior a 60 anos, em relação ao número total de pessoas de cor ou raça indígena com idade superior a 60 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Itarema (CE), no setor censitário 230655000000000, 23% das pessoas com idade superior a 60 anos e de cor ou raça indígena são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L285",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00810",
+            "descricao": "Pessoas alfabetizadas, 60 a 64 anos, Cor ou raça é indígena",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00815",
+            "descricao": "Pessoas alfabetizadas, 65 a 69 anos, Cor ou raça é indígena",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00820",
+            "descricao": "Pessoas alfabetizadas, 70 a 79 anos, Cor ou raça é indígena",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00825",
+            "descricao": "Pessoas alfabetizadas, 80 anos ou mais, Cor ou raça é indígena",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01391",
+            "descricao": "60 anos ou mais, Cor ou raça é indígena",
+            "tema": "Cor ou Raça",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "cor_ou_raca",
+                "label": "Cor/Raça",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_cor_ou_raca_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop06_alf4_tot_2",
+      "variable_id": "cn22_pop06_alf4_cor_neg_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 60 ou mais anos de idade",
+      "variant_label": "Pessoas negras",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade superior a 60 anos",
+      "variant_path": "Cor dos residentes",
+      "description": "60 anos ou mais, Cor ou raça é preta ou parda",
+      "doc": {
+        "variable_id": "cn22_pop06_alf4_cor_neg_2",
+        "formula": "\\dfrac{\\scriptstyle \\begin{matrix}\\mathrm{V00807}+\\mathrm{V00809}+\\mathrm{V00812}+\\\\ \\mathrm{V00814}+\\mathrm{V00817}+\\mathrm{V00819}+\\\\ \\mathrm{V00822}+\\mathrm{V00824}\\end{matrix}}{\\scriptstyle \\begin{matrix}\\mathrm{V01388}+\\mathrm{V01390}\\end{matrix}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça negra (preta e parda), com idade superior a 60 anos, em relação ao número total de pessoas de cor ou raça negra com idade superior a 60 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Iconha (ES), no setor censitário 320260000000000, 50% das pessoas com idade superior a 60 anos e de cor ou raça negra são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L283",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00807",
+            "descricao": "Pessoas alfabetizadas, 60 a 64 anos, Cor ou raça é preta",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00809",
+            "descricao": "Pessoas alfabetizadas, 60 a 64 anos, Cor ou raça é parda",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00812",
+            "descricao": "Pessoas alfabetizadas, 65 a 69 anos, Cor ou raça é preta",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00814",
+            "descricao": "Pessoas alfabetizadas, 65 a 69 anos, Cor ou raça é parda",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00817",
+            "descricao": "Pessoas alfabetizadas, 70 a 79 anos, Cor ou raça é preta",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00819",
+            "descricao": "Pessoas alfabetizadas, 70 a 79 anos, Cor ou raça é parda",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00822",
+            "descricao": "Pessoas alfabetizadas, 80 anos ou mais, Cor ou raça é preta",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00824",
+            "descricao": "Pessoas alfabetizadas, 80 anos ou mais, Cor ou raça é parda",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01388",
+            "descricao": "60 anos ou mais, Cor ou raça é preta",
+            "tema": "Cor ou Raça",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "cor_ou_raca",
+                "label": "Cor/Raça",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_cor_ou_raca_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01390",
+            "descricao": "60 anos ou mais, Cor ou raça é parda",
+            "tema": "Cor ou Raça",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "cor_ou_raca",
+                "label": "Cor/Raça",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_cor_ou_raca_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop06_alf4_tot_2",
+      "variable_id": "cn22_pop06_alf4_sex_f_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 60 ou mais anos de idade",
+      "variant_label": "Mulheres",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade superior a 60 anos",
+      "variant_path": "Sexo dos residentes",
+      "description": "Sexo feminino, 60 ou mais anos",
+      "doc": {
+        "variable_id": "cn22_pop06_alf4_sex_f_2",
+        "formula": "\\dfrac{\\scriptstyle \\begin{matrix}\\mathrm{V00848}+\\mathrm{V00849}+\\mathrm{V00850}+\\\\ \\mathrm{V00851}\\end{matrix}}{\\scriptstyle \\begin{matrix}\\mathrm{V01029}+\\mathrm{V01030}\\end{matrix}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas do sexo feminino alfabetizadas, com idade superior a 60 anos, em relação ao número total de pessoas do sexo feminino com idade superior a 60 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Riachão do Jacuípe (BA), no setor censitário 292630105000006, 38% das pessoas do sexo feminino com idade superior a 60 anos são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L269",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00848",
+            "descricao": "Pessoas alfabetizadas, Sexo feminino, 60 a 64 anos",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00849",
+            "descricao": "Pessoas alfabetizadas, Sexo feminino, 65 a 69 anos",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00850",
+            "descricao": "Pessoas alfabetizadas, Sexo feminino, 70 a 79 anos",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00851",
+            "descricao": "Pessoas alfabetizadas, Sexo feminino, 80 anos ou mais",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01029",
+            "descricao": "Sexo feminino, 60 a 69 anos",
+            "tema": "Demografia",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "demografia",
+                "label": "Demografia",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01030",
+            "descricao": "Sexo feminino, 70 anos ou mais",
+            "tema": "Demografia",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "demografia",
+                "label": "Demografia",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop06_alf4_tot_2",
+      "variable_id": "cn22_pop06_alf4_sex_m_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Alfabetização",
+      "indicator_label": "Pessoas de 60 ou mais anos de idade",
+      "variant_label": "Homens",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade superior a 60 anos",
+      "variant_path": "Sexo dos residentes",
+      "description": "Sexo masculino, 60 ou mais anos",
+      "doc": {
+        "variable_id": "cn22_pop06_alf4_sex_m_2",
+        "formula": "\\dfrac{\\scriptstyle \\begin{matrix}\\mathrm{V00835}+\\mathrm{V00836}+\\mathrm{V00837}+\\\\ \\mathrm{V00838}\\end{matrix}}{\\scriptstyle \\begin{matrix}\\mathrm{V01018}+\\mathrm{V01019}\\end{matrix}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas do sexo masculino alfabetizadas, com idade superior a 60 anos, em relação ao número total de pessoas do sexo masculino com idade superior a 60 anos em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Blumenau (SC), no setor censitário 420240405000629, 57% das pessoas do sexo masculino com idade superior a 60 anos são alfabetizadas em 2022.",
+        "src": {
+          "id": "cn22_pop06",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop06.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L265",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V00835",
+            "descricao": "Pessoas alfabetizadas, Sexo masculino, 60 a 64 anos",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00836",
+            "descricao": "Pessoas alfabetizadas, Sexo masculino, 65 a 69 anos",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00837",
+            "descricao": "Pessoas alfabetizadas, Sexo masculino, 70 a 79 anos",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V00838",
+            "descricao": "Pessoas alfabetizadas, Sexo masculino, 80 anos ou mais",
+            "tema": "Alfabetização",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "alfabetizacao",
+                "label": "Alfabetização",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_alfabetizacao_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01018",
+            "descricao": "Sexo masculino, 60 a 69 anos",
+            "tema": "Demografia",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "demografia",
+                "label": "Demografia",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V01019",
+            "descricao": "Sexo masculino, 70 anos ou mais",
+            "tema": "Demografia",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "demografia",
+                "label": "Demografia",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_demografia_BR.zip"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "metodologicalDetails": "As variáveis relativas foram obtidas pela razão entre cada indicador e o total de pessoas da mesma faixa etária no setor censitário. Desse modo, os resultados expressam medidas proporcionais internas a cada grupo etário - por exemplo, o número de pessoas alfabetizadas de 15 a 19 anos em relação ao total de pessoas de 15 a 19 anos no setor. Quando houver recorte de cor ou raça, a abordagem é semelhante, sendo expressas medidas proporcionais internas ao grupo etário e de cor ou raça - por exemplo, o número de pessoas alfabetizadas de 15 a 19 anos e de cor ou raça negra em relação ao total de pessoas de 15 a 19 anos e de cor ou raça negra no setor.\n\nO Censo 2022 do IBGE divulga os resultados a partir de grupos de variáveis, os quais geram arquivos, como “Alfabetização”, “Demografia”, “Parentesco”, entre outros.\n\nAlgumas dessas variáveis apresentam a mesma descrição em mais de um arquivo. Por exemplo, a variável “V00645”, do Arquivo “Alfabetização”, e a variável “V01035”, do Arquivo “Demografia”, representam o número de moradores com idade de 20 a 24 anos. Entretanto, para diferentes arquivos, podem ocorrer diferentes agregações de grupos etários - por exemplo, no arquivo “Alfabetização”, a variável “V00647” representa o número de moradores com idade de 30 a 34 anos, porém no arquivo “Demografia”, a variável “V01037” representa o número de moradores com idade de 30 a 39 anos.\n\nDiante disso, neste script, quando houve possibilidade de escolha entre distintas variáveis para obter denominadores de indicadores relativos, optou-se por variáveis com dados de grupos etários mais agregados, portanto, mais abrangentes. Essa escolha visa reduzir os registros identificados pelo IBGE como “dado numérico omitido” (Categoria “X”), que a partir da metodologia adotada, são convertidos em “NA”."
+}

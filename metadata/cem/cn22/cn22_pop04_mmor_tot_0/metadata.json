@@ -1,0 +1,40 @@
+{
+  "indicator_id": "cn22_pop04_mmor_tot_0",
+  "variable_id": "cn22_pop04_mmor_tot_0",
+  "year": "2022",
+  "indicator_path": "População e domicílios / 2022 / Densidade",
+  "indicator_label": "Moradores por domicílio",
+  "variant_label": "Total de moradores",
+  "measure_unit": "Média de moradores por domicílio",
+  "variant_path": "Total",
+  "description": "Média de moradores em domicílios particulares permanentes ocupados",
+  "doc": {
+    "variable_id": "cn22_pop04_mmor_tot_0",
+    "formula": "\\mathrm{V0005}",
+    "descricao": "O indicador mostra a média de moradores residentes em Domicílios Particulares Ocupados (DPO) em cada setor censitário, a partir dos dados do Censo Demográfico de 2022 do IBGE. O valor é obtido pela razão entre o total de pessoas residentes em DPO e o número total de DPO no setor censitário.",
+    "leitura": "No município de Gravataí (RS), no setor censitário 430920905000244, foram registrados 785 moradores residindo em domicílios particulares e 292 domicílios particulares ocupados. Ao relacionar o total de moradores ao número de domicílios particulares ocupados, obtém-se uma média de 2,7 moradores por domicílio.",
+    "src": {
+      "id": "cn22_pop04",
+      "repoUrl": "https://georedus.github.io/cn22-pop/",
+      "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop04.html",
+      "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd"
+    },
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L140",
+    "sourceIbgeVariables": [
+      {
+        "variavel": "V0005",
+        "descricao": "Média de moradores em Domicílios Particulares Ocupados (Total pessoas em Domicílios Particulares Ocupados / DPPO + DPIO)",
+        "tema": "Básico",
+        "datasets": [
+          {
+            "id": "basico",
+            "label": "Básico",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip"
+          }
+        ]
+      }
+    ]
+  },
+  "variants": [],
+  "metodologicalDetails": "Atualmente, o conjunto de indicadores relativos ao grupo pop04 (Moradores por domicílio) é composto por um único indicador, correspondente à própria variável pop04. Esse indicador deriva diretamente da variável V0005 do Censo 2022, que representa o número médio de moradores residentes por domicílio. Dessa forma, não há necessidade de construção adicional de métricas relativas, uma vez que a variável já expressa, em sua forma original, a relação entre população residente e domicílios."
+}
