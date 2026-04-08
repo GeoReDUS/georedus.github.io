@@ -13,7 +13,7 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal)
+### 📊 Total de domicílios (principal)
 
 **ID da variável:** `cn22_inf01_silu_tot_dom_2`\
 **Script de processamento:** [cn22_inf.qmd#L209](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L209)\
@@ -27,7 +27,7 @@ O indicador mostra a porcentagem de domicílios particulares permanentes ocupado
 > No município de Coari (AM), no setor censitário 130120905000103, 11% dos domicílios particulares permanentes ocupados não possuem iluminação pública no entorno.
 
 
-### Total de moradores
+### 📊 Total de moradores
 
 **ID da variável:** `cn22_inf01_silu_tot_mor_2`\
 **Script de processamento:** [cn22_inf.qmd#L212](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L212)\
@@ -66,7 +66,7 @@ O indicador mostra a porcentagem de moradores residentes em domicílios particul
 
 ## Referências
 
-### Base Cartográfica
+### 🗺️ Base Cartográfica
 
 **Nome:** [Setor Censitário (Censo Demográfico) – 2022](https://metadadosgeo.ibge.gov.br/geonetwork_ibge/srv/por/catalog.search#/metadata/da590223-27dc-4254-8cf4-5d67f55bc64d)\
 **Responsável:** [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/)
@@ -95,7 +95,7 @@ Todo o território brasileiro
 
 ---
 
-### Referências Bibliográficas
+### 📚 Referências Bibliográficas
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 2022 - Malha de setores censitários_. Rio de Janeiro: IBGE, 2024. Disponível em: <https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138>. Acesso em: 20 out. 2025.
 
@@ -106,7 +106,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
 
-### Links
+### 🔗 Links
 **Scripts GeoReDUS**
 
 - [cn22_inf.qmd#L209](https://github.com/GeoReDUS/cn22-inf/blob/main/r/cn22_inf.qmd#L209)

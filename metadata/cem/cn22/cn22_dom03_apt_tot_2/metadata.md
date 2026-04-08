@@ -12,7 +12,7 @@
 | **[Homens: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é apartamento, Pessoas de sexo masculino no domicílio](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L224)** | Porcentagem em relação ao total de homens residentes | $\dfrac{\mathrm{V00504}}{\mathrm{V00011}}$ |
 | **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Tipo de espécie é apartamento, Quantidade de moradores](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L223)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00086}}{\mathrm{V00005}}$ |
 
-### Variáveis originais do CENSO 2022 - IBGE
+### 📊 Variáveis originais do CENSO 2022 - IBGE
 
 | Variável | Descrição | Conjunto de dados |
 |----------|-----------|-------------------|
@@ -29,7 +29,7 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal)
+### 📊 Total de domicílios (principal)
 
 **ID da variável:** `cn22_dom03_apt_tot_2`\
 **Script de processamento:** [cn22_dom.qmd#L222](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L222)\
@@ -43,7 +43,7 @@ O indicador mostra a porcentagem de domicílios tipo apartamento em relação ao
 > No município de Natal (RN), no setor censitário 240810205080070, 87% dos domicílios particulares permanentes ocupados são do tipo apartamento.
 
 
-### Mulheres
+### 📊 Mulheres
 
 **ID da variável:** `cn22_dom03_apt_sex_f_2`\
 **Script de processamento:** [cn22_dom.qmd#L225](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L225)\
@@ -57,7 +57,7 @@ O indicador mostra a porcentagem de moradores do sexo feminino residentes em dom
 > No município de Pelotas (RS), no setor censitário 431440705130103, 78% dos moradores do sexo feminino residentes em domicílios particulares permanentes ocupados residem em apartamentos.
 
 
-### Homens
+### 📊 Homens
 
 **ID da variável:** `cn22_dom03_apt_sex_m_2`\
 **Script de processamento:** [cn22_dom.qmd#L224](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L224)\
@@ -71,7 +71,7 @@ O indicador mostra a porcentagem de moradores do sexo masculino residentes em do
 > No município de Osasco (SP), no setor censitário 353440105001159, 88% dos moradores do sexo masculino residentes em domicílios particulares permanentes ocupados residem em apartamentos.
 
 
-### Total de moradores
+### 📊 Total de moradores
 
 **ID da variável:** `cn22_dom03_apt_tot_mor_2`\
 **Script de processamento:** [cn22_dom.qmd#L223](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L223)\
@@ -106,7 +106,7 @@ O indicador mostra a porcentagem de moradores residentes em domicílios tipo apa
 
 ## Referências
 
-### Base Cartográfica
+### 🗺️ Base Cartográfica
 
 **Nome:** [Setor Censitário (Censo Demográfico) – 2022](https://metadadosgeo.ibge.gov.br/geonetwork_ibge/srv/por/catalog.search#/metadata/da590223-27dc-4254-8cf4-5d67f55bc64d)\
 **Responsável:** [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/)
@@ -135,7 +135,7 @@ Todo o território brasileiro
 
 ---
 
-### Referências Bibliográficas
+### 📚 Referências Bibliográficas
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 2022 - Malha de setores censitários_. Rio de Janeiro: IBGE, 2024. Disponível em: <https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138>. Acesso em: 20 out. 2025.
 
@@ -146,7 +146,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
 
-### Links
+### 🔗 Links
 **Scripts GeoReDUS**
 
 - [cn22_dom.qmd#L222](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L222)

@@ -15,7 +15,7 @@
 | **[Mulheres: Sexo feminino, 15 a 19 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L267)** | Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00839}}{\scriptstyle \mathrm{V01023}}$ |
 | **[Homens: Sexo masculino, 15 a 19 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L263)** | Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade de 15 a 19 anos | $\dfrac{\scriptstyle \mathrm{V00826}}{\scriptstyle \mathrm{V01012}}$ |
 
-### Variáveis originais do CENSO 2022 - IBGE
+### 📊 Variáveis originais do CENSO 2022 - IBGE
 
 | Variável | Descrição | Conjunto de dados |
 |----------|-----------|-------------------|
@@ -40,7 +40,7 @@
 
 ## Detalhamento das variáveis
 
-### Total de pessoas alfabetizadas (principal)
+### 📊 Total de pessoas alfabetizadas (principal)
 
 **ID da variável:** `cn22_pop06_alf2_tot_2`\
 **Script de processamento:** [cn22_pop06.qmd#L258](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L258)\
@@ -54,7 +54,7 @@ O indicador mostra a porcentagem de pessoas alfabetizadas, com idade de 15 a 19 
 > No município de Monte das Gameleiras (RN), no setor censitário 240790605000002, 94% das pessoas com idade de 15 a 19 anos são alfabetizadas em 2022.
 
 
-### Pessoas amarelas
+### 📊 Pessoas amarelas
 
 **ID da variável:** `cn22_pop06_alf2_cor_ama_2`\
 **Script de processamento:** [cn22_pop06.qmd#L274](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L274)\
@@ -68,7 +68,7 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça amarel
 > No município de São Paulo (SP), no setor censitário 355031000000000, 75% das pessoas com idade de 15 a 19 anos e de cor ou raça amarela são alfabetizadas em 2022.
 
 
-### Pessoas brancas
+### 📊 Pessoas brancas
 
 **ID da variável:** `cn22_pop06_alf2_cor_bra_2`\
 **Script de processamento:** [cn22_pop06.qmd#L272](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L272)\
@@ -82,7 +82,7 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça branca
 > No município de Foz do Iguaçu (PR), no setor censitário 410830405000421, 93% das pessoas com idade de 15 a 19 anos e de cor ou raça branca são alfabetizadas em 2022.
 
 
-### Pessoas indígenas
+### 📊 Pessoas indígenas
 
 **ID da variável:** `cn22_pop06_alf2_cor_ind_2`\
 **Script de processamento:** [cn22_pop06.qmd#L275](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L275)\
@@ -96,7 +96,7 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça indíg
 > No município de São Gabriel da Cachoeira (AM), no setor censitário 130381000000000, 36% das pessoas com idade de 15 a 19 anos e de cor ou raça indígena são alfabetizadas em 2022.
 
 
-### Pessoas negras
+### 📊 Pessoas negras
 
 **ID da variável:** `cn22_pop06_alf2_cor_neg_2`\
 **Script de processamento:** [cn22_pop06.qmd#L273](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L273)\
@@ -110,7 +110,7 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça negra 
 > No município de Mogi das Cruzes (SP), no setor censitário 353061000000000, 89% das pessoas com idade de 15 a 19 anos e de cor ou raça negra são alfabetizadas em 2022.
 
 
-### Mulheres
+### 📊 Mulheres
 
 **ID da variável:** `cn22_pop06_alf2_sex_f_2`\
 **Script de processamento:** [cn22_pop06.qmd#L267](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L267)\
@@ -124,7 +124,7 @@ O indicador mostra a porcentagem de pessoas do sexo feminino alfabetizadas, com 
 > No município de Piracicaba (SP), no setor censitário 353870905000490, 86% das pessoas do sexo feminino com idade de 15 a 19 anos são alfabetizadas em 2022.
 
 
-### Homens
+### 📊 Homens
 
 **ID da variável:** `cn22_pop06_alf2_sex_m_2`\
 **Script de processamento:** [cn22_pop06.qmd#L263](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L263)\
@@ -154,7 +154,7 @@ Diante disso, neste script, quando houve possibilidade de escolha entre distinta
 
 ## Referências
 
-### Base Cartográfica
+### 🗺️ Base Cartográfica
 
 **Nome:** [Setor Censitário (Censo Demográfico) – 2022](https://metadadosgeo.ibge.gov.br/geonetwork_ibge/srv/por/catalog.search#/metadata/da590223-27dc-4254-8cf4-5d67f55bc64d)\
 **Responsável:** [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/)
@@ -183,7 +183,7 @@ Todo o território brasileiro
 
 ---
 
-### Referências Bibliográficas
+### 📚 Referências Bibliográficas
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 2022 - Malha de setores censitários_. Rio de Janeiro: IBGE, 2024. Disponível em: <https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138>. Acesso em: 20 out. 2025.
 
@@ -194,7 +194,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
 
-### Links
+### 🔗 Links
 **Scripts GeoReDUS**
 
 - [cn22_pop06.qmd#L258](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L258)

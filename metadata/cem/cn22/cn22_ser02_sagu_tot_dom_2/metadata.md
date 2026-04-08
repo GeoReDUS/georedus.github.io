@@ -12,7 +12,7 @@
 | **[Homens: Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição, Pessoas de sexo masculino no domicílio](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L248)** | Porcentagem em relação ao total de homens nos domicílios | $\dfrac{\mathrm{V00011} - \mathrm{V00524}}{\mathrm{V00011}}$ |
 | **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição, Quantidade de moradores](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L244)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00005} - \mathrm{V00508}}{\mathrm{V00005}}$ |
 
-### Variáveis originais do CENSO 2022 - IBGE
+### 📊 Variáveis originais do CENSO 2022 - IBGE
 
 | Variável | Descrição | Conjunto de dados |
 |----------|-----------|-------------------|
@@ -29,7 +29,7 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal)
+### 📊 Total de domicílios (principal)
 
 **ID da variável:** `cn22_ser02_sagu_tot_dom_2`\
 **Script de processamento:** [cn22_ser.qmd#L241](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L241)\
@@ -43,7 +43,7 @@ O indicador mostra a porcentagem de domicílios particulares permanentes ocupado
 > No município de Cascavel (PR), no setor censitário 410480815000014, 78% dos domicílios particulares permanentes ocupados não possuem abastecimento de água por rede de distribuição geral.
 
 
-### Mulheres
+### 📊 Mulheres
 
 **ID da variável:** `cn22_ser02_sagu_sex_f_2`\
 **Script de processamento:** [cn22_ser.qmd#L251](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L251)\
@@ -57,7 +57,7 @@ O indicador mostra a porcentagem de moradores do sexo feminino residentes em dom
 > No município de Castanhal (PA), no setor censitário 150240005000250, 43% dos moradores do sexo feminino residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem abastecimento de água por rede de distribuição geral.
 
 
-### Homens
+### 📊 Homens
 
 **ID da variável:** `cn22_ser02_sagu_sex_m_2`\
 **Script de processamento:** [cn22_ser.qmd#L248](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L248)\
@@ -71,7 +71,7 @@ O indicador mostra a porcentagem de moradores do sexo masculino residentes em do
 > No município de Aracaju (SE), no setor censitário 280030805001455, 54% dos moradores do sexo masculino residentes em domicílios particulares permanentes ocupados residem em domicílios que não possuem abastecimento de água por rede de distribuição geral.
 
 
-### Total de moradores
+### 📊 Total de moradores
 
 **ID da variável:** `cn22_ser02_sagu_tot_mor_2`\
 **Script de processamento:** [cn22_ser.qmd#L244](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L244)\
@@ -112,7 +112,7 @@ O indicador mostra a porcentagem de moradores residentes em domicílios particul
 
 ## Referências
 
-### Base Cartográfica
+### 🗺️ Base Cartográfica
 
 **Nome:** [Setor Censitário (Censo Demográfico) – 2022](https://metadadosgeo.ibge.gov.br/geonetwork_ibge/srv/por/catalog.search#/metadata/da590223-27dc-4254-8cf4-5d67f55bc64d)\
 **Responsável:** [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/)
@@ -141,7 +141,7 @@ Todo o território brasileiro
 
 ---
 
-### Referências Bibliográficas
+### 📚 Referências Bibliográficas
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 2022 - Malha de setores censitários_. Rio de Janeiro: IBGE, 2024. Disponível em: <https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138>. Acesso em: 20 out. 2025.
 
@@ -152,7 +152,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
 
-### Links
+### 🔗 Links
 **Scripts GeoReDUS**
 
 - [cn22_ser.qmd#L241](https://github.com/GeoReDUS/cn22-ser/blob/main/r/cn22_ser.qmd#L241)

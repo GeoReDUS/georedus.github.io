@@ -15,7 +15,7 @@
 | **[Mulheres: Sexo feminino, 20 a 59 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L268)** | Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00840}+\mathrm{V00841}+\mathrm{V00842}+\\ \mathrm{V00843}+\mathrm{V00844}+\mathrm{V00845}+\\ \mathrm{V00846}+\mathrm{V00847}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01024}+\mathrm{V01025}+\mathrm{V01026}+\\ \mathrm{V01027}+\mathrm{V01028}\end{matrix}}$ |
 | **[Homens: Sexo masculino, 20 a 59 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L264)** | Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade de 20 a 59 anos | $\dfrac{\scriptstyle \begin{matrix}\mathrm{V00827}+\mathrm{V00828}+\mathrm{V00829}+\\ \mathrm{V00830}+\mathrm{V00831}+\mathrm{V00832}+\\ \mathrm{V00833}+\mathrm{V00834}\end{matrix}}{\scriptstyle \begin{matrix}\mathrm{V01013}+\mathrm{V01014}+\mathrm{V01015}+\\ \mathrm{V01016}+\mathrm{V01017}\end{matrix}}$ |
 
-### Variáveis originais do CENSO 2022 - IBGE
+### 📊 Variáveis originais do CENSO 2022 - IBGE
 
 | Variável | Descrição | Conjunto de dados |
 |----------|-----------|-------------------|
@@ -143,7 +143,7 @@
 
 ## Detalhamento das variáveis
 
-### Total de pessoas alfabetizadas (principal)
+### 📊 Total de pessoas alfabetizadas (principal)
 
 **ID da variável:** `cn22_pop06_alf3_tot_2`\
 **Script de processamento:** [cn22_pop06.qmd#L259](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L259)\
@@ -157,7 +157,7 @@ O indicador mostra a porcentagem de pessoas alfabetizadas, com idade de 20 a 59 
 > No município de Juquitiba (SP), no setor censitário 352620905000032, 88% das pessoas com idade de 20 a 59 anos são alfabetizadas em 2022.
 
 
-### Pessoas amarelas
+### 📊 Pessoas amarelas
 
 **ID da variável:** `cn22_pop06_alf3_cor_ama_2`\
 **Script de processamento:** [cn22_pop06.qmd#L279](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L279)\
@@ -171,7 +171,7 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça amarel
 > No município de Osasco (SP), no setor censitário 353440000000000, 57% das pessoas com idade de 20 a 59 anos e de cor ou raça amarela são alfabetizadas em 2022.
 
 
-### Pessoas brancas
+### 📊 Pessoas brancas
 
 **ID da variável:** `cn22_pop06_alf3_cor_bra_2`\
 **Script de processamento:** [cn22_pop06.qmd#L277](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L277)\
@@ -185,7 +185,7 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça branca
 > No município de Xapuri (AC), no setor censitário 120071000000000, 58% das pessoas com idade de 20 a 59 anos e de cor ou raça branca são alfabetizadas em 2022.
 
 
-### Pessoas indígenas
+### 📊 Pessoas indígenas
 
 **ID da variável:** `cn22_pop06_alf3_cor_ind_2`\
 **Script de processamento:** [cn22_pop06.qmd#L280](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L280)\
@@ -199,7 +199,7 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça indíg
 > No município de Normandia (RR), no setor censitário 140041000000000, 30% das pessoas com idade de 20 a 59 anos e de cor ou raça indígena são alfabetizadas em 2022.
 
 
-### Pessoas negras
+### 📊 Pessoas negras
 
 **ID da variável:** `cn22_pop06_alf3_cor_neg_2`\
 **Script de processamento:** [cn22_pop06.qmd#L278](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L278)\
@@ -213,7 +213,7 @@ O indicador mostra a porcentagem de pessoas alfabetizadas de cor ou raça negra 
 > No município de Anapurus (MA), no setor censitário 210081000000000, 66% das pessoas com idade de 20 a 59 anos e de cor ou raça negra são alfabetizadas em 2022.
 
 
-### Mulheres
+### 📊 Mulheres
 
 **ID da variável:** `cn22_pop06_alf3_sex_f_2`\
 **Script de processamento:** [cn22_pop06.qmd#L268](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L268)\
@@ -227,7 +227,7 @@ O indicador mostra a porcentagem de pessoas do sexo feminino alfabetizadas, com 
 > No município de Niterói (RJ), no setor censitário 330330205000638, 75% das pessoas do sexo feminino com idade de 20 a 59 anos são alfabetizadas em 2022.
 
 
-### Homens
+### 📊 Homens
 
 **ID da variável:** `cn22_pop06_alf3_sex_m_2`\
 **Script de processamento:** [cn22_pop06.qmd#L264](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L264)\
@@ -257,7 +257,7 @@ Diante disso, neste script, quando houve possibilidade de escolha entre distinta
 
 ## Referências
 
-### Base Cartográfica
+### 🗺️ Base Cartográfica
 
 **Nome:** [Setor Censitário (Censo Demográfico) – 2022](https://metadadosgeo.ibge.gov.br/geonetwork_ibge/srv/por/catalog.search#/metadata/da590223-27dc-4254-8cf4-5d67f55bc64d)\
 **Responsável:** [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/)
@@ -286,7 +286,7 @@ Todo o território brasileiro
 
 ---
 
-### Referências Bibliográficas
+### 📚 Referências Bibliográficas
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 2022 - Malha de setores censitários_. Rio de Janeiro: IBGE, 2024. Disponível em: <https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138>. Acesso em: 20 out. 2025.
 
@@ -297,7 +297,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
 
-### Links
+### 🔗 Links
 **Scripts GeoReDUS**
 
 - [cn22_pop06.qmd#L259](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop06.qmd#L259)

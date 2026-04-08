@@ -15,7 +15,7 @@
 | **[Mulheres: Sexo feminino, 20 a 59 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V01024} + \mathrm{V01025} + \mathrm{V01026} \\ + \mathrm{V01027} + \mathrm{V01028}\end{aligned}}{\mathrm{V0001}}$ |
 | **[Homens: Sexo masculino, 20 a 59 anos](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\begin{aligned}\mathrm{V01013} + \mathrm{V01014} + \mathrm{V01015} \\ + \mathrm{V01016} + \mathrm{V01017}\end{aligned}}{\mathrm{V0001}}$ |
 
-### Variáveis originais do CENSO 2022 - IBGE
+### 📊 Variáveis originais do CENSO 2022 - IBGE
 
 | Variável | Descrição | Conjunto de dados |
 |----------|-----------|-------------------|
@@ -80,7 +80,7 @@
 
 ## Detalhamento das variáveis
 
-### Total de residentes (principal)
+### 📊 Total de residentes (principal)
 
 **ID da variável:** `cn22_pop03_20a59_tot_2`\
 **Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
@@ -94,7 +94,7 @@ O indicador mostra a porcentagem de pessoas residentes com idade de 20 a 59 anos
 > No município de Três Lagoas (MS), no setor censitário 500830505000235, 63% das pessoas residentes tem idade de 20 a 59 anos em 2022.
 
 
-### Pessoas amarelas
+### 📊 Pessoas amarelas
 
 **ID da variável:** `cn22_pop03_20a59_cor_ama_2`\
 **Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
@@ -108,7 +108,7 @@ O indicador mostra a porcentagem de pessoas de cor ou raça amarela com idade de
 > No município de Aracaju (SE), no setor censitário 280030805000002, 16% das pessoas residentes são de cor ou raça amarela com idade de 20 a 59 anos em 2022.
 
 
-### Pessoas brancas
+### 📊 Pessoas brancas
 
 **ID da variável:** `cn22_pop03_20a59_cor_bra_2`\
 **Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
@@ -122,7 +122,7 @@ O indicador mostra a porcentagem de pessoas de cor ou raça branca com idade de 
 > No município de Rio de Janeiro (RJ), no setor censitário 330455705110151, 32% das pessoas residentes são de cor ou raça branca com idade de 20 a 59 anos em 2022.
 
 
-### Pessoas indígenas
+### 📊 Pessoas indígenas
 
 **ID da variável:** `cn22_pop03_20a59_cor_ind_2`\
 **Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
@@ -136,7 +136,7 @@ O indicador mostra a porcentagem de pessoas de cor ou raça indígena com idade 
 > No município de Caucaia (CE), no setor censitário 230370905000485, 64% das pessoas residentes são de cor ou raça indígena com idade de 20 a 59 anos em 2022.
 
 
-### Pessoas negras
+### 📊 Pessoas negras
 
 **ID da variável:** `cn22_pop03_20a59_cor_neg_2`\
 **Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
@@ -150,7 +150,7 @@ O indicador mostra a porcentagem de pessoas de cor ou raça negra (preta e parda
 > No município de Feira de Santana (BA), no setor censitário 291080005060185, 56% das pessoas residentes são de cor ou raça negra com idade de 20 a 59 anos em 2022.
 
 
-### Mulheres
+### 📊 Mulheres
 
 **ID da variável:** `cn22_pop03_20a59_sex_f_2`\
 **Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
@@ -164,7 +164,7 @@ O indicador mostra a porcentagem de pessoas do sexo feminino com idade de 20 a 5
 > No município de Itaituba (PA), no setor censitário 150360605000247, 31% das pessoas residentes são do sexo feminino com idade de 20 a 59 anos em 2022.
 
 
-### Homens
+### 📊 Homens
 
 **ID da variável:** `cn22_pop03_20a59_sex_m_2`\
 **Script de processamento:** [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)\
@@ -202,7 +202,7 @@ Por fim, destaca-se que os indicadores com recorte de cor/raça são disponibili
 
 ## Referências
 
-### Base Cartográfica
+### 🗺️ Base Cartográfica
 
 **Nome:** [Setor Censitário (Censo Demográfico) – 2022](https://metadadosgeo.ibge.gov.br/geonetwork_ibge/srv/por/catalog.search#/metadata/da590223-27dc-4254-8cf4-5d67f55bc64d)\
 **Responsável:** [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/)
@@ -231,7 +231,7 @@ Todo o território brasileiro
 
 ---
 
-### Referências Bibliográficas
+### 📚 Referências Bibliográficas
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 2022 - Malha de setores censitários_. Rio de Janeiro: IBGE, 2024. Disponível em: <https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138>. Acesso em: 20 out. 2025.
 
@@ -242,7 +242,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
 
-### Links
+### 🔗 Links
 **Scripts GeoReDUS**
 
 - [cn22_pop03.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop03.qmd)

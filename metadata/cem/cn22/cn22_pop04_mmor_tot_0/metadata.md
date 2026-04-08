@@ -9,7 +9,7 @@
 |----------|-------------------|---------|
 | **[Total de moradores: Média de moradores em domicílios particulares permanentes ocupados (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L140)** | Média de moradores por domicílio | $\mathrm{V0005}$ |
 
-### Variáveis originais do CENSO 2022 - IBGE
+### 📊 Variáveis originais do CENSO 2022 - IBGE
 
 | Variável | Descrição | Conjunto de dados |
 |----------|-----------|-------------------|
@@ -19,7 +19,7 @@
 
 ## Detalhamento das variáveis
 
-### Total de moradores (principal)
+### 📊 Total de moradores (principal)
 
 **ID da variável:** `cn22_pop04_mmor_tot_0`\
 **Script de processamento:** [cn22_pop04.qmd#L140](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L140)\
@@ -43,7 +43,7 @@ Atualmente, o conjunto de indicadores relativos ao grupo pop04 (Moradores por do
 
 ## Referências
 
-### Base Cartográfica
+### 🗺️ Base Cartográfica
 
 **Nome:** [Setor Censitário (Censo Demográfico) – 2022](https://metadadosgeo.ibge.gov.br/geonetwork_ibge/srv/por/catalog.search#/metadata/da590223-27dc-4254-8cf4-5d67f55bc64d)\
 **Responsável:** [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/)
@@ -72,7 +72,7 @@ Todo o território brasileiro
 
 ---
 
-### Referências Bibliográficas
+### 📚 Referências Bibliográficas
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 2022 - Malha de setores censitários_. Rio de Janeiro: IBGE, 2024. Disponível em: <https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138>. Acesso em: 20 out. 2025.
 
@@ -83,7 +83,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
 
-### Links
+### 🔗 Links
 **Scripts GeoReDUS**
 
 - [cn22_pop04.qmd#L140](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L140)

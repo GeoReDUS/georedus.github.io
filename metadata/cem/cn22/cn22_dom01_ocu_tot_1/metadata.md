@@ -10,7 +10,7 @@
 | **[Total de domicílios: Domicílios particulares ocupados e domicílios coletivos com morador (principal)](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L179)** | Número de domicílios | $\mathrm{V00001} + \mathrm{V00002} + \mathrm{V00003}$ |
 | **[Total de moradores: Domicílios particulares ocupados e domicílios coletivos com morador, Quantidade de moradores](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L181)** | Número de moradores | $\mathrm{V00005} + \mathrm{V00006} + \mathrm{V00007}$ |
 
-### Variáveis originais do CENSO 2022 - IBGE
+### 📊 Variáveis originais do CENSO 2022 - IBGE
 
 | Variável | Descrição | Conjunto de dados |
 |----------|-----------|-------------------|
@@ -25,7 +25,7 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal)
+### 📊 Total de domicílios (principal)
 
 **ID da variável:** `cn22_dom01_ocu_tot_1`\
 **Script de processamento:** [cn22_dom.qmd#L179](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L179)\
@@ -39,7 +39,7 @@ O indicador mostra o número absoluto de domicílios ocupados em cada setor cens
 > No município de Rondonópolis (MT), no setor censitário 510760205000330, há 222 domicílios ocupados.
 
 
-### Total de moradores
+### 📊 Total de moradores
 
 **ID da variável:** `cn22_dom01_ocu_tot_mor_1`\
 **Script de processamento:** [cn22_dom.qmd#L181](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L181)\
@@ -74,7 +74,7 @@ O indicador mostra o número absoluto de moradores em domicílios ocupados em ca
 
 ## Referências
 
-### Base Cartográfica
+### 🗺️ Base Cartográfica
 
 **Nome:** [Setor Censitário (Censo Demográfico) – 2022](https://metadadosgeo.ibge.gov.br/geonetwork_ibge/srv/por/catalog.search#/metadata/da590223-27dc-4254-8cf4-5d67f55bc64d)\
 **Responsável:** [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/)
@@ -103,7 +103,7 @@ Todo o território brasileiro
 
 ---
 
-### Referências Bibliográficas
+### 📚 Referências Bibliográficas
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 2022 - Malha de setores censitários_. Rio de Janeiro: IBGE, 2024. Disponível em: <https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138>. Acesso em: 20 out. 2025.
 
@@ -114,7 +114,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
 
-### Links
+### 🔗 Links
 **Scripts GeoReDUS**
 
 - [cn22_dom.qmd#L179](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L179)

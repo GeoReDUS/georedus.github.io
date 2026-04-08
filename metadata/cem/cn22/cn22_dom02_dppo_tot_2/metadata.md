@@ -12,7 +12,7 @@
 | **[Homens: Domicílios Particulares Permanentes Ocupados, Pessoas de sexo masculino no domicílio](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L212)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00011}}{\mathrm{V00005}}$ |
 | **[Total de moradores: Domicílios Particulares Permanentes Ocupados, Quantidade de moradores](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L210)** | Porcentagem em relação ao total de moradores | $\dfrac{\mathrm{V00005}}{\mathrm{V00005} + \mathrm{V00006} + \mathrm{V00007}}$ |
 
-### Variáveis originais do CENSO 2022 - IBGE
+### 📊 Variáveis originais do CENSO 2022 - IBGE
 
 | Variável | Descrição | Conjunto de dados |
 |----------|-----------|-------------------|
@@ -29,7 +29,7 @@
 
 ## Detalhamento das variáveis
 
-### Total de domicílios (principal)
+### 📊 Total de domicílios (principal)
 
 **ID da variável:** `cn22_dom02_dppo_tot_2`\
 **Script de processamento:** [cn22_dom.qmd#L209](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L209)\
@@ -43,7 +43,7 @@ O indicador mostra a porcentagem de domicílios particulares permanentes ocupado
 > No município de Boa Vista (RR), no setor censitário 140010005000504, 96% dos domicílios ocupados são particulares permanentes.
 
 
-### Mulheres
+### 📊 Mulheres
 
 **ID da variável:** `cn22_dom02_dppo_sex_f_2`\
 **Script de processamento:** [cn22_dom.qmd#L211](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L211)\
@@ -57,7 +57,7 @@ O indicador mostra a porcentagem de moradores do sexo feminino em domicílios pa
 > No município de Dourados (MS), no setor censitário 500370205000506, 57% dos moradores de domicílios particulares permanentes ocupados são do sexo feminino.
 
 
-### Homens
+### 📊 Homens
 
 **ID da variável:** `cn22_dom02_dppo_sex_m_2`\
 **Script de processamento:** [cn22_dom.qmd#L212](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L212)\
@@ -71,7 +71,7 @@ O indicador mostra a porcentagem de moradores do sexo masculino em domicílios p
 > No município de Blumenau (SC), no setor censitário 420240405000439, 49% dos moradores de domicílios particulares permanentes ocupados são do sexo masculino.
 
 
-### Total de moradores
+### 📊 Total de moradores
 
 **ID da variável:** `cn22_dom02_dppo_tot_mor_2`\
 **Script de processamento:** [cn22_dom.qmd#L210](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L210)\
@@ -106,7 +106,7 @@ O indicador mostra a porcentagem de moradores em domicílios particulares perman
 
 ## Referências
 
-### Base Cartográfica
+### 🗺️ Base Cartográfica
 
 **Nome:** [Setor Censitário (Censo Demográfico) – 2022](https://metadadosgeo.ibge.gov.br/geonetwork_ibge/srv/por/catalog.search#/metadata/da590223-27dc-4254-8cf4-5d67f55bc64d)\
 **Responsável:** [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/)
@@ -135,7 +135,7 @@ Todo o território brasileiro
 
 ---
 
-### Referências Bibliográficas
+### 📚 Referências Bibliográficas
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 2022 - Malha de setores censitários_. Rio de Janeiro: IBGE, 2024. Disponível em: <https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138>. Acesso em: 20 out. 2025.
 
@@ -146,7 +146,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
 
-### Links
+### 🔗 Links
 **Scripts GeoReDUS**
 
 - [cn22_dom.qmd#L209](https://github.com/GeoReDUS/cn22-dom/blob/main/r/cn22_dom.qmd#L209)

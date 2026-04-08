@@ -22,7 +22,7 @@
 | **[Homens indígenas: Sexo masculino, Cor ou raça é indígena](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01326}}{\mathrm{V0001}}$ |
 | **[Homens negros: Sexo masculino, Cor ou raça é preta ou parda](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01323}+\mathrm{V01325}}{\mathrm{V0001}}$ |
 
-### Variáveis originais do CENSO 2022 - IBGE
+### 📊 Variáveis originais do CENSO 2022 - IBGE
 
 | Variável | Descrição | Conjunto de dados |
 |----------|-----------|-------------------|
@@ -49,7 +49,7 @@
 
 ## Detalhamento das variáveis
 
-### Pessoas amarelas
+### 📊 Pessoas amarelas
 
 **ID da variável:** `cn22_pop01_res_cor_ama_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -63,7 +63,7 @@ O indicador mostra a porcentagem de pessoas residentes da cor ou raça amarela e
 > No município de Curitiba (PR), no setor censitário 410690205040407, 07% das pessoas residentes são da cor ou raça amarela em 2022.
 
 
-### Pessoas brancas
+### 📊 Pessoas brancas
 
 **ID da variável:** `cn22_pop01_res_cor_bra_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -77,7 +77,7 @@ O indicador mostra a porcentagem de pessoas residentes da cor ou raça branca em
 > No município de Manaus (AM), no setor censitário 130260305110231, 35% das pessoas residentes são da cor ou raça branca em 2022.
 
 
-### Pessoas indígenas
+### 📊 Pessoas indígenas
 
 **ID da variável:** `cn22_pop01_res_cor_ind_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -91,7 +91,7 @@ O indicador mostra a porcentagem de pessoas residentes da cor ou raça indígena
 > No município de Campo Grande (MS), no setor censitário 500270405000015, 88% das pessoas residentes são da cor ou raça indígena em 2022.
 
 
-### Pessoas negras
+### 📊 Pessoas negras
 
 **ID da variável:** `cn22_pop01_res_cor_neg_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -105,7 +105,7 @@ O indicador mostra a porcentagem de pessoas residentes da cor ou raça negra (pr
 > No município de São Paulo (SP), no setor censitário 355030878000036, 44% das pessoas residentes são da cor ou raça negra em 2022.
 
 
-### Mulheres
+### 📊 Mulheres
 
 **ID da variável:** `cn22_pop01_res_sex_f_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -119,7 +119,7 @@ O indicador mostra a porcentagem de pessoas do sexo feminino em relação ao nú
 > No município de Fortaleza (CE), no setor censitário 230440005170242, 56% das pessoas residentes são do sexo feminino em 2022.
 
 
-### Mulheres amarelas
+### 📊 Mulheres amarelas
 
 **ID da variável:** `cn22_pop01_res_corsex_ama_f_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -133,7 +133,7 @@ O indicador mostra a porcentagem de pessoas do sexo feminino da cor ou raça ama
 > No município de Porto Velho (RO), no setor censitário 110020505060023, 5% das pessoas residentes são do sexo feminino e da cor ou raça amarela em 2022.
 
 
-### Mulheres brancas
+### 📊 Mulheres brancas
 
 **ID da variável:** `cn22_pop01_res_corsex_bra_f_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -147,7 +147,7 @@ O indicador mostra a porcentagem de pessoas do sexo feminino da cor ou raça bra
 > No município de Cuiabá (MT), no setor censitário 510340310420036, 31% das pessoas residentes são do sexo feminino e da cor ou raça branca em 2022.
 
 
-### Mulheres indígenas
+### 📊 Mulheres indígenas
 
 **ID da variável:** `cn22_pop01_res_corsex_ind_f_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -161,7 +161,7 @@ O indicador mostra a porcentagem de pessoas do sexo feminino da cor ou raça ind
 > No município de Belo Horizonte (MG), no setor censitário 310620060680088, 6% das pessoas residentes são do sexo feminino e da cor ou raça indígena em 2022.
 
 
-### Mulheres negras
+### 📊 Mulheres negras
 
 **ID da variável:** `cn22_pop01_res_corsex_neg_f_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -175,7 +175,7 @@ O indicador mostra a porcentagem de pessoas do sexo feminino da cor ou raça neg
 > No município de Recife (PE), no setor censitário 261160605230483, 39% das pessoas residentes são do sexo feminino e da cor ou raça negra em 2022.
 
 
-### Homens
+### 📊 Homens
 
 **ID da variável:** `cn22_pop01_res_sex_m_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -189,7 +189,7 @@ O indicador mostra a porcentagem de pessoas do sexo masculino em relação ao n�
 > No município de Goiânia (GO), no setor censitário 520870705220007, 46% das pessoas residentes são do sexo masculino em 2022.
 
 
-### Homens amarelos
+### 📊 Homens amarelos
 
 **ID da variável:** `cn22_pop01_res_corsex_ama_m_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -203,7 +203,7 @@ O indicador mostra a porcentagem de pessoas do sexo masculino da cor ou raça am
 > No município do Rio de Janeiro (RJ), no setor censitário 330455705240784, 03% das pessoas residentes são pessoas do sexo masculino e da cor ou raça amarela em 2022.
 
 
-### Homens brancos
+### 📊 Homens brancos
 
 **ID da variável:** `cn22_pop01_res_corsex_bra_m_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -217,7 +217,7 @@ O indicador mostra a porcentagem de pessoas do sexo masculino da cor ou raça br
 > No município de Salvador (BA), no setor censitário 292740805060420, 31% das pessoas residentes são do sexo masculino e da cor ou raça branca em 2022.
 
 
-### Homens indígenas
+### 📊 Homens indígenas
 
 **ID da variável:** `cn22_pop01_res_corsex_ind_m_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -231,7 +231,7 @@ O indicador mostra a porcentagem de pessoas do sexo masculino da cor ou raça in
 > No município de Porto Alegre (RS), no setor censitário 431490205002966, 63% das pessoas residentes são pessoas do sexo masculino e da cor ou raça indígena em 2022.
 
 
-### Homens negros
+### 📊 Homens negros
 
 **ID da variável:** `cn22_pop01_res_corsex_neg_m_2`\
 **Script de processamento:** [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)\
@@ -249,7 +249,7 @@ O indicador mostra a porcentagem de pessoas do sexo masculino da cor ou raça ne
 
 ## Referências
 
-### Base Cartográfica
+### 🗺️ Base Cartográfica
 
 **Nome:** [Setor Censitário (Censo Demográfico) – 2022](https://metadadosgeo.ibge.gov.br/geonetwork_ibge/srv/por/catalog.search#/metadata/da590223-27dc-4254-8cf4-5d67f55bc64d)\
 **Responsável:** [Instituto Brasileiro de Geografia e Estatística (IBGE)](https://www.ibge.gov.br/)
@@ -278,7 +278,7 @@ Todo o território brasileiro
 
 ---
 
-### Referências Bibliográficas
+### 📚 Referências Bibliográficas
 
 INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 2022 - Malha de setores censitários_. Rio de Janeiro: IBGE, 2024. Disponível em: <https://biblioteca.ibge.gov.br/index.php/biblioteca-catalogo?view=detalhes&id=2102138>. Acesso em: 20 out. 2025.
 
@@ -289,7 +289,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
 
-### Links
+### 🔗 Links
 **Scripts GeoReDUS**
 
 - [cn22_pop01.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)
