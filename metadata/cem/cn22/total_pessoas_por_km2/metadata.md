@@ -6,7 +6,7 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **Total de residentes: Quantidade de moradores (principal)** | Pessoas residentes por hectare (ha) | — |
+| **Total de residentes: Quantidade de moradores (principal)** | Pessoas residentes por km² | — |
 | **[Pessoas amarelas: Cor ou raça é amarela](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01319}}{\mathrm{V0001}}$ |
 | **[Pessoas brancas: Cor ou raça é branca](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01317}}{\mathrm{V0001}}$ |
 | **[Pessoas indígenas: Cor ou raça é indígena](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd)** | Porcentagem em relação ao total de pessoas residentes | $\dfrac{\mathrm{V01321}}{\mathrm{V0001}}$ |

@@ -1,16 +1,16 @@
 {
-  "indicator_id": "total_pessoas_por_hectare",
-  "variable_id": "total_pessoas_por_hectare",
+  "indicator_id": "total_pessoas_por_km2",
+  "variable_id": "total_pessoas_por_km2",
   "year": "2022",
   "indicator_path": "População e domicílios / 2022 / População e responsáveis",
   "indicator_label": "Pessoas residentes",
   "variant_label": "Total de residentes",
-  "measure_unit": "Pessoas residentes por hectare (ha)",
+  "measure_unit": "Pessoas residentes por km²",
   "variant_path": "Total",
   "description": "Quantidade de moradores",
   "variants": [
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_cor_ama_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -61,7 +61,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_cor_bra_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -112,7 +112,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_cor_ind_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -163,7 +163,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_cor_neg_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -227,7 +227,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_sex_f_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -278,7 +278,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_corsex_ama_f_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -329,7 +329,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_corsex_bra_f_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -380,7 +380,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_corsex_ind_f_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -431,7 +431,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_corsex_neg_f_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -495,7 +495,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_sex_m_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -546,7 +546,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_corsex_ama_m_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -597,7 +597,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_corsex_bra_m_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -648,7 +648,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_corsex_ind_m_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
@@ -699,7 +699,7 @@
       }
     },
     {
-      "indicator_id": "total_pessoas_por_hectare",
+      "indicator_id": "total_pessoas_por_km2",
       "variable_id": "cn22_pop01_res_corsex_neg_m_2",
       "year": "2022",
       "indicator_path": "População e domicílios / 2022 / População e responsáveis",
