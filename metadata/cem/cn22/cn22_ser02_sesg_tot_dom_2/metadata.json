@@ -71,7 +71,7 @@
       "indicator_label": "Domicílios sem destinação do esgoto por rede geral ou pluvial",
       "variant_label": "Mulheres",
       "measure_unit": "Porcentagem em relação ao total de mulheres nos domicílios",
-      "variant_path": "Sexo dos moradores",
+      "variant_path": "Sexo",
       "description": "Domicílios Particulares Permanentes Ocupados, Destinação do esgoto do banheiro ou sanitário ou buraco para dejeções é rede geral ou pluvial, Pessoas de sexo feminino no domicílio",
       "doc": {
         "variable_id": "cn22_ser02_sesg_sex_f_2",
@@ -201,7 +201,7 @@
       "indicator_label": "Domicílios sem destinação do esgoto por rede geral ou pluvial",
       "variant_label": "Homens",
       "measure_unit": "Porcentagem em relação ao total de homens nos domicílios",
-      "variant_path": "Sexo dos moradores",
+      "variant_path": "Sexo",
       "description": "Domicílios Particulares Permanentes Ocupados, Destinação do esgoto inexistente, pois não tinham banheiro nem sanitário, Pessoas de sexo masculino no domicílio OU Domicílios Particulares Permanentes Ocupados, Destinação do esgoto do banheiro ou sanitário ou buraco para dejeções é rede geral ou pluvial, Pessoas de sexo masculino no domicílio",
       "doc": {
         "variable_id": "cn22_ser02_sesg_sex_m_2",

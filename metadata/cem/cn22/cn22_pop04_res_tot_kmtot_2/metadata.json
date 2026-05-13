@@ -1,0 +1,13 @@
+{
+  "indicator_id": "cn22_pop04_res_tot_kmtot_2",
+  "variable_id": "cn22_pop04_res_tot_kmtot_2",
+  "year": "2022",
+  "indicator_path": "População e domicílios / 2022 / Pessoas Residentes",
+  "indicator_label": "Pessoas residentes",
+  "variant_label": "Total de residentes",
+  "measure_unit": "Pessoas residentes por km²",
+  "variant_path": "Total",
+  "description": "Quantidade de moradores",
+  "variants": [],
+  "metodologicalDetails": null
+}

@@ -1,11 +1,11 @@
-# Moradores por domicílio
+# Pessoas residentes
 
 **Fonte:** [CENSO Demográfico 2022 - IBGE](https://censo2022.ibge.gov.br/panorama/)\
 **Ano:** 2022\
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **Total de moradores: Média de moradores em domicílios particulares permanentes ocupados (principal)** | Média de moradores por domicílio | — |
+| **Total de residentes: Quantidade de moradores (principal)** | Pessoas residentes por km² | — |
 
 ---
 

@@ -1,0 +1,156 @@
+{
+  "indicator_id": "cn22_pop01_res_cor_bra_2",
+  "variable_id": "cn22_pop01_res_cor_bra_2",
+  "year": "2022",
+  "indicator_path": "População e domicílios / 2022 / Pessoas Residentes / Por Cor ou Raça",
+  "indicator_label": "Pessoas brancas",
+  "variant_label": "Pessoas brancas",
+  "measure_unit": "Porcentagem em relação ao total de pessoas residentes",
+  "variant_path": "Cor (ou raça)",
+  "description": "Cor ou raça é branca",
+  "doc": {
+    "variable_id": "cn22_pop01_res_cor_bra_2",
+    "formula": "\\dfrac{\\mathrm{V01317}}{\\mathrm{V0001}}",
+    "descricao": "O indicador mostra a porcentagem de pessoas residentes da cor ou raça branca em relação ao número total de pessoas residentes em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+    "leitura": "No município de Manaus (AM), no setor censitário 130260305110231, 35% das pessoas residentes são da cor ou raça branca em 2022.",
+    "src": {
+      "id": "cn22_pop01",
+      "repoUrl": "https://georedus.github.io/cn22-pop/",
+      "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop01.html",
+      "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd"
+    },
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd",
+    "sourceIbgeVariables": [
+      {
+        "variavel": "V01317",
+        "descricao": "Cor ou raça é branca",
+        "tema": "Cor ou Raça",
+        "tipo": "Pessoas",
+        "datasets": [
+          {
+            "id": "cor_ou_raca",
+            "label": "Cor/Raça",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_cor_ou_raca_BR.zip"
+          }
+        ]
+      },
+      {
+        "variavel": "V0001",
+        "descricao": "Total de pessoas",
+        "tema": "Básico",
+        "datasets": [
+          {
+            "id": "basico",
+            "label": "Básico",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip"
+          }
+        ]
+      }
+    ]
+  },
+  "variants": [
+    {
+      "indicator_id": "cn22_pop01_res_cor_bra_2",
+      "variable_id": "cn22_pop01_res_corsex_bra_f_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Pessoas Residentes / Por Cor ou Raça",
+      "indicator_label": "Mulheres",
+      "variant_label": "Mulheres brancas",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes",
+      "variant_path": "Cor e Sexo",
+      "description": "Sexo feminino, Cor ou raça é branca",
+      "doc": {
+        "variable_id": "cn22_pop01_res_corsex_bra_f_2",
+        "formula": "\\dfrac{\\mathrm{V01327}}{\\mathrm{V0001}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas do sexo feminino da cor ou raça branca em relação ao número total de pessoas residentes em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Cuiabá (MT), no setor censitário 510340310420036, 31% das pessoas residentes são do sexo feminino e da cor ou raça branca em 2022.",
+        "src": {
+          "id": "cn22_pop01",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop01.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V01327",
+            "descricao": "Sexo feminino, Cor ou raça é branca",
+            "tema": "Cor ou Raça",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "cor_ou_raca",
+                "label": "Cor/Raça",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_cor_ou_raca_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V0001",
+            "descricao": "Total de pessoas",
+            "tema": "Básico",
+            "datasets": [
+              {
+                "id": "basico",
+                "label": "Básico",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "indicator_id": "cn22_pop01_res_cor_bra_2",
+      "variable_id": "cn22_pop01_res_corsex_bra_m_2",
+      "year": "2022",
+      "indicator_path": "População e domicílios / 2022 / Pessoas Residentes / Por Cor ou Raça",
+      "indicator_label": "Homens",
+      "variant_label": "Homens brancos",
+      "measure_unit": "Porcentagem em relação ao total de pessoas residentes",
+      "variant_path": "Cor e Sexo",
+      "description": "Sexo masculino, Cor ou raça é branca",
+      "doc": {
+        "variable_id": "cn22_pop01_res_corsex_bra_m_2",
+        "formula": "\\dfrac{\\mathrm{V01322}}{\\mathrm{V0001}}",
+        "descricao": "O indicador mostra a porcentagem de pessoas do sexo masculino da cor ou raça branca em relação ao número total de pessoas residentes em cada setor censitário, segundo o Censo Demográfico de 2022 do IBGE.",
+        "leitura": "No município de Salvador (BA), no setor censitário 292740805060420, 31% das pessoas residentes são do sexo masculino e da cor ou raça branca em 2022.",
+        "src": {
+          "id": "cn22_pop01",
+          "repoUrl": "https://georedus.github.io/cn22-pop/",
+          "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop01.html",
+          "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd"
+        },
+        "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop01.qmd",
+        "sourceIbgeVariables": [
+          {
+            "variavel": "V01322",
+            "descricao": "Sexo masculino, Cor ou raça é branca",
+            "tema": "Cor ou Raça",
+            "tipo": "Pessoas",
+            "datasets": [
+              {
+                "id": "cor_ou_raca",
+                "label": "Cor/Raça",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_cor_ou_raca_BR.zip"
+              }
+            ]
+          },
+          {
+            "variavel": "V0001",
+            "descricao": "Total de pessoas",
+            "tema": "Básico",
+            "datasets": [
+              {
+                "id": "basico",
+                "label": "Básico",
+                "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "metodologicalDetails": "As variáveis relativas foram obtidas pela divisão de cada indicador pela população total do setor censitário (V0001), denominada neste trabalho `cn22_pop01_res_tot_0`, resultando em medidas proporcionais ao total populacional do setor.\n\nO Censo 2022 do IBGE divulga os resultados a partir de grupos de variáveis, os quais geram arquivos, como “Alfabetização”, “Demografia”, “Parentesco”, entre outros.\n\nAlgumas dessas variáveis apresentam a mesma descrição em mais de um arquivo. Por exemplo, a variável “V0001”, do Arquivo “Básico” representa o “Total de pessoas”, e a variável “V01006”, do Arquivo “Demografia”, representa a “Quantidade de moradores”. Portanto, ambas representam a população total do setor censitário.\n\nEntretanto, para diferentes arquivos, podem ocorrer diferentes tratamentos de dados quanto ao Sigilo e Confidencialidade, os registros identificados pelo IBGE como “dado numérico omitido” (Categoria “X”).\n\nEm relação ao Arquivo “Básico”, que apresenta informações fundamentais para o cálculo populacional do país, o IBGE opta por divulgar o número real de pessoas do setor censitário, mesmo que este tenha menos de 5 domicílios ocupados. Já para os demais arquivos, o sigilo é aplicado nessas situações. Dessa maneira, o Arquivo “Básico” não sofre omissão de dados por sigilo enquanto o Arquivo “Demografia” sofre.\n\nPara a maioria dos casos, ao se comparar os valores da variável “V01006” com os valores de “V0001”, a diferença não existe. Porém, nos poucos casos em que o tratamento de sigilo causou divergências nessa comparação, há setores com diferenças bastantes significativos, como o setor censitário 530010805400050, que apresenta “V0001” = 10163 moradores, enquanto o “V01006” = “X”.\n\nDiante disso, neste script, optou-se pela variável “V0001”, por se demonstrar mais consistente, como denominador dos indicadores gerados, em detrimento da variável “V01006”. Essa escolha visa eliminar os “dados numéricos omitidos” (Categoria “X”), que a partir da metodologia adotada, são convertidos em “NA”."
+}

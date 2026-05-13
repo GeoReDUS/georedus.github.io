@@ -1,4 +1,4 @@
-# Domicílios improvisados
+# Domicílios Improvisados
 
 **Fonte:** [CENSO Demográfico 2022 - IBGE](https://censo2022.ibge.gov.br/panorama/)\
 **Ano:** 2022\

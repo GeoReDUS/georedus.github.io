@@ -84,7 +84,7 @@
       "indicator_label": "Domicílios sem coleta de lixo",
       "variant_label": "Mulheres",
       "measure_unit": "Porcentagem em relação ao total de mulheres nos domicílios",
-      "variant_path": "Sexo dos moradores",
+      "variant_path": "Sexo",
       "description": "Domicílios Particulares Permanentes Ocupados, Lixo coletado no domicílio por serviço de limpeza, Pessoas de sexo feminino no domicílio E Domicílios Particulares Permanentes Ocupados, Lixo depositado em caçamba de serviço de limpeza, Pessoas de sexo feminino no domicílio",
       "doc": {
         "variable_id": "cn22_ser01_slix_sex_f_2",
@@ -162,7 +162,7 @@
       "indicator_label": "Domicílios sem coleta de lixo",
       "variant_label": "Homens",
       "measure_unit": "Porcentagem em relação ao total de homens nos domicílios",
-      "variant_path": "Sexo dos moradores",
+      "variant_path": "Sexo",
       "description": "Domicílios Particulares Permanentes Ocupados, Lixo coletado no domicílio por serviço de limpeza, Pessoas de sexo masculino no domicílio E Domicílios Particulares Permanentes Ocupados, Lixo depositado em caçamba de serviço de limpeza, Pessoas de sexo masculino no domicílio",
       "doc": {
         "variable_id": "cn22_ser01_slix_sex_m_2",

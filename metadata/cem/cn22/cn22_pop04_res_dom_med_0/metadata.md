@@ -2,14 +2,44 @@
 
 **Fonte:** [CENSO Demográfico 2022 - IBGE](https://censo2022.ibge.gov.br/panorama/)\
 **Ano:** 2022\
+**Repositório de tratamento e processamento de dados:** https://georedus.github.io/cn22-pop/ \
+**Bases de dados:** [Básico](https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip)
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **Total de moradores: Média de moradores em domicílios particulares permanentes ocupados (principal)** | Média de moradores por domicílio | — |
+| **[Total de moradores: Média de moradores em domicílios particulares permanentes ocupados (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L151)** | Média de moradores por domicílio | $\mathrm{V0005}$ |
+
+### 📊 Variáveis originais do CENSO 2022 - IBGE
+
+| Variável | Descrição | Conjunto de dados |
+|----------|-----------|-------------------|
+| `V0005` | Média de moradores em Domicílios Particulares Ocupados (Total pessoas em Domicílios Particulares Ocupados / DPPO + DPIO) | [Básico](https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip) |
 
 ---
 
 ## Detalhamento das variáveis
+
+### 📊 Total de moradores (principal)
+
+**ID da variável:** `cn22_pop04_res_dom_med_0`\
+**Script de processamento:** [cn22_pop04.qmd#L151](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L151)\
+**Unidade de medida:** Média de moradores por domicílio
+
+**Cálculo:** $\mathrm{V0005}$
+
+O indicador mostra a média de moradores residentes em Domicílios Particulares Ocupados (DPO) em cada setor censitário, a partir dos dados do Censo Demográfico de 2022 do IBGE. O valor é obtido pela razão entre o total de pessoas residentes em DPO e o número total de DPO no setor censitário.
+
+**Exemplo**:
+> No município de Gravataí (RS), no setor censitário 430920905000244, foram registrados 785 moradores residindo em domicílios particulares e 292 domicílios particulares ocupados. Ao relacionar o total de moradores ao número de domicílios particulares ocupados, obtém-se uma média de 2,7 moradores por domicílio.
+
+
+---
+
+## Detalhamento metodológico
+
+Atualmente, o grupo pop04 (Densidade) possui dois indicadores. Um deles deriva diretamente da variável V0005 do Censo 2022, que representa o número médio de moradores residentes por domicílio.
+
+Porém, o outro não deriva diretamente de variável construída pelo IBGE. Por isso, há necessidade de construção adicional de métricas relativas, as quais foram obtidas pela divisão do indicador absoluto pela área domiciliada do setor censitário (area\_domiciliada\_km2), denominada neste trabalho `cn22_ter01_area_dom_0`, resultando em medidas proporcionais por km² de área domiciliada.
 
 ---
 
@@ -54,4 +84,13 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
+
+### 🔗 Links
+**Scripts GeoReDUS**
+
+- [cn22_pop04.qmd#L151](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L151)
+
+**Download de dados do IBGE**
+
+- [Agregados_por_setores_basico_BR_20250417.zip](https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip)
 

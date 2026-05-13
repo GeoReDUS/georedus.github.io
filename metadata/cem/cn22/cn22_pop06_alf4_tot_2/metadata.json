@@ -110,7 +110,7 @@
       "indicator_label": "Pessoas de 60 ou mais anos de idade",
       "variant_label": "Pessoas amarelas",
       "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça amarela com idade superior a 60 anos",
-      "variant_path": "Cor dos residentes",
+      "variant_path": "Cor (ou raça)",
       "description": "60 anos ou mais, Cor ou raça é amarela",
       "doc": {
         "variable_id": "cn22_pop06_alf4_cor_ama_2",
@@ -201,7 +201,7 @@
       "indicator_label": "Pessoas de 60 ou mais anos de idade",
       "variant_label": "Pessoas brancas",
       "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça branca com idade superior a 60 anos",
-      "variant_path": "Cor dos residentes",
+      "variant_path": "Cor (ou raça)",
       "description": "60 anos ou mais, Cor ou raça é branca",
       "doc": {
         "variable_id": "cn22_pop06_alf4_cor_bra_2",
@@ -292,7 +292,7 @@
       "indicator_label": "Pessoas de 60 ou mais anos de idade",
       "variant_label": "Pessoas indígenas",
       "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça indígena com idade superior a 60 anos",
-      "variant_path": "Cor dos residentes",
+      "variant_path": "Cor (ou raça)",
       "description": "60 anos ou mais, Cor ou raça é indígena",
       "doc": {
         "variable_id": "cn22_pop06_alf4_cor_ind_2",
@@ -383,7 +383,7 @@
       "indicator_label": "Pessoas de 60 ou mais anos de idade",
       "variant_label": "Pessoas negras",
       "measure_unit": "Porcentagem em relação ao total de pessoas residentes de cor ou raça negra com idade superior a 60 anos",
-      "variant_path": "Cor dos residentes",
+      "variant_path": "Cor (ou raça)",
       "description": "60 anos ou mais, Cor ou raça é preta ou parda",
       "doc": {
         "variable_id": "cn22_pop06_alf4_cor_neg_2",
@@ -539,7 +539,7 @@
       "indicator_label": "Pessoas de 60 ou mais anos de idade",
       "variant_label": "Mulheres",
       "measure_unit": "Porcentagem em relação ao total de pessoas residentes do sexo feminino com idade superior a 60 anos",
-      "variant_path": "Sexo dos residentes",
+      "variant_path": "Sexo",
       "description": "Sexo feminino, 60 ou mais anos",
       "doc": {
         "variable_id": "cn22_pop06_alf4_sex_f_2",
@@ -643,7 +643,7 @@
       "indicator_label": "Pessoas de 60 ou mais anos de idade",
       "variant_label": "Homens",
       "measure_unit": "Porcentagem em relação ao total de pessoas residentes do sexo masculino com idade superior a 60 anos",
-      "variant_path": "Sexo dos residentes",
+      "variant_path": "Sexo",
       "description": "Sexo masculino, 60 ou mais anos",
       "doc": {
         "variable_id": "cn22_pop06_alf4_sex_m_2",

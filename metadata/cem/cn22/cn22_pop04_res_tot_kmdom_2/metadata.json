@@ -1,0 +1,40 @@
+{
+  "indicator_id": "cn22_pop04_res_tot_kmdom_2",
+  "variable_id": "cn22_pop04_res_tot_kmdom_2",
+  "year": "2022",
+  "indicator_path": "População e domicílios / 2022 / Densidade",
+  "indicator_label": "Densidade Demográfica (Área Domiciliada)",
+  "variant_label": "Total de residentes",
+  "measure_unit": "Pessoas residentes pela área domiciliada (km²)",
+  "variant_path": "Total",
+  "description": "Total de pessoas por km² de área domiciliada",
+  "doc": {
+    "variable_id": "cn22_pop04_res_tot_kmdom_2",
+    "formula": "\\dfrac{\\mathrm{V0001}}{\\mathrm{area\\_domiciliada\\_km2}}",
+    "descricao": "O indicador mostra a densidade demográfica de moradores residentes em Domicílios Particulares Ocupados (DPO) por área domiciliada em cada setor censitário, a partir dos dados do Censo Demográfico de 2022 do IBGE. O valor é obtido pela razão entre o total de pessoas residentes em DPO e a área domiciliada em km² no setor censitário..",
+    "leitura": "No município de Teresina (PI), no setor censitário 221100105000010, foram registrados 542 moradores residindo em domicílios particulares e 0,38632 quilometros quadrados de área domiciliada. Ao relacionar o total de moradores à área domiciliada, obtém-se 1402,98 moradores por quilometro quadrado.",
+    "src": {
+      "id": "cn22_pop04",
+      "repoUrl": "https://georedus.github.io/cn22-pop/",
+      "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop04.html",
+      "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd"
+    },
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L162",
+    "sourceIbgeVariables": [
+      {
+        "variavel": "V0001",
+        "descricao": "Total de pessoas",
+        "tema": "Básico",
+        "datasets": [
+          {
+            "id": "basico",
+            "label": "Básico",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip"
+          }
+        ]
+      }
+    ]
+  },
+  "variants": [],
+  "metodologicalDetails": "Atualmente, o grupo pop04 (Densidade) possui dois indicadores. Um deles deriva diretamente da variável V0005 do Censo 2022, que representa o número médio de moradores residentes por domicílio.\n\nPorém, o outro não deriva diretamente de variável construída pelo IBGE. Por isso, há necessidade de construção adicional de métricas relativas, as quais foram obtidas pela divisão do indicador absoluto pela área domiciliada do setor censitário (area\\_domiciliada\\_km2), denominada neste trabalho `cn22_ter01_area_dom_0`, resultando em medidas proporcionais por km² de área domiciliada."
+}

@@ -71,7 +71,7 @@
       "indicator_label": "Domicílios sem abastecimento de água da rede geral",
       "variant_label": "Mulheres",
       "measure_unit": "Porcentagem em relação ao total de mulheres nos domicílios",
-      "variant_path": "Sexo dos moradores",
+      "variant_path": "Sexo",
       "description": "Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição, Pessoas de sexo feminino no domicílio",
       "doc": {
         "variable_id": "cn22_ser02_sagu_sex_f_2",
@@ -136,7 +136,7 @@
       "indicator_label": "Domicílios sem abastecimento de água da rede geral",
       "variant_label": "Homens",
       "measure_unit": "Porcentagem em relação ao total de homens nos domicílios",
-      "variant_path": "Sexo dos moradores",
+      "variant_path": "Sexo",
       "description": "Domicílios Particulares Permanentes Ocupados, Utiliza rede geral de distribuição, Pessoas de sexo masculino no domicílio",
       "doc": {
         "variable_id": "cn22_ser02_sagu_sex_m_2",
