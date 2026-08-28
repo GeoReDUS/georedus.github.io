@@ -1,4 +1,4 @@
-# Pessoas de 60 ou mais anos de idade
+# Pessoas alfabetizadas de 60 ou mais anos de idade
 
 **Fonte:** [CENSO Demográfico 2022 - IBGE](https://censo2022.ibge.gov.br/panorama/)\
 **Ano:** 2022\

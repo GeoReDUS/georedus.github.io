@@ -7,7 +7,7 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de moradores: Média de moradores em domicílios particulares permanentes ocupados (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L151)** | Média de moradores por domicílio | $\mathrm{V0005}$ |
+| **[Total de moradores: Média de moradores em domicílios particulares permanentes ocupados (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L152)** | Média de moradores por domicílio | $\mathrm{V0005}$ |
 
 ### 📊 Variáveis originais do CENSO 2022 - IBGE
 
@@ -22,7 +22,7 @@
 ### 📊 Total de moradores (principal)
 
 **ID da variável:** `cn22_pop04_res_dom_med_0`\
-**Script de processamento:** [cn22_pop04.qmd#L151](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L151)\
+**Script de processamento:** [cn22_pop04.qmd#L152](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L152)\
 **Unidade de medida:** Média de moradores por domicílio
 
 **Cálculo:** $\mathrm{V0005}$
@@ -39,7 +39,7 @@ O indicador mostra a média de moradores residentes em Domicílios Particulares 
 
 Atualmente, o grupo pop04 (Densidade) possui dois indicadores. Um deles deriva diretamente da variável V0005 do Censo 2022, que representa o número médio de moradores residentes por domicílio.
 
-Porém, o outro não deriva diretamente de variável construída pelo IBGE. Por isso, há necessidade de construção adicional de métricas relativas, as quais foram obtidas pela divisão do indicador absoluto pela área domiciliada do setor censitário (area\_domiciliada\_km2), denominada neste trabalho `cn22_ter01_area_dom_0`, resultando em medidas proporcionais por km² de área domiciliada.
+Porém, os demais não derivam diretamente de variáveis construídas pelo IBGE. Por isso, há necessidade de construção adicional de métricas relativas, as quais foram obtidas pela divisão do indicador absoluto por duas medidas de área do setor censitário: a área domiciliada (area\_domiciliada\_km2), denominada neste trabalho `cn22_ter01_area_dom_0`, e a área total do setor (area\_km2), denominada `cn22_ter02_area_setor_0`, resultando em medidas proporcionais por km² de área domiciliada e por km² de área total do setor, respectivamente.
 
 ---
 
@@ -88,7 +88,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 ### 🔗 Links
 **Scripts GeoReDUS**
 
-- [cn22_pop04.qmd#L151](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L151)
+- [cn22_pop04.qmd#L152](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L152)
 
 **Download de dados do IBGE**
 

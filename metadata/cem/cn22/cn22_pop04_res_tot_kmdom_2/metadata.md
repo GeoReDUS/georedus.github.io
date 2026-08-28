@@ -7,7 +7,7 @@
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **[Total de residentes: Total de pessoas por km² de área domiciliada (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L162)** | Pessoas residentes pela área domiciliada (km²) | $\dfrac{\mathrm{V0001}}{\mathrm{area\_domiciliada\_km2}}$ |
+| **[Total de residentes: Total de pessoas por km² de área domiciliada (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd)** | Pessoas residentes pela área domiciliada (km²) | $\dfrac{\mathrm{V0001}}{\mathrm{area\_domiciliada\_km2}}$ |
 
 ### 📊 Variáveis originais do CENSO 2022 - IBGE
 
@@ -22,7 +22,7 @@
 ### 📊 Total de residentes (principal)
 
 **ID da variável:** `cn22_pop04_res_tot_kmdom_2`\
-**Script de processamento:** [cn22_pop04.qmd#L162](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L162)\
+**Script de processamento:** [cn22_pop04.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd)\
 **Unidade de medida:** Pessoas residentes pela área domiciliada (km²)
 
 **Cálculo:** $\dfrac{\mathrm{V0001}}{\mathrm{area\_domiciliada\_km2}}$
@@ -39,7 +39,7 @@ O indicador mostra a densidade demográfica de moradores residentes em Domicíli
 
 Atualmente, o grupo pop04 (Densidade) possui dois indicadores. Um deles deriva diretamente da variável V0005 do Censo 2022, que representa o número médio de moradores residentes por domicílio.
 
-Porém, o outro não deriva diretamente de variável construída pelo IBGE. Por isso, há necessidade de construção adicional de métricas relativas, as quais foram obtidas pela divisão do indicador absoluto pela área domiciliada do setor censitário (area\_domiciliada\_km2), denominada neste trabalho `cn22_ter01_area_dom_0`, resultando em medidas proporcionais por km² de área domiciliada.
+Porém, os demais não derivam diretamente de variáveis construídas pelo IBGE. Por isso, há necessidade de construção adicional de métricas relativas, as quais foram obtidas pela divisão do indicador absoluto por duas medidas de área do setor censitário: a área domiciliada (area\_domiciliada\_km2), denominada neste trabalho `cn22_ter01_area_dom_0`, e a área total do setor (area\_km2), denominada `cn22_ter02_area_setor_0`, resultando em medidas proporcionais por km² de área domiciliada e por km² de área total do setor, respectivamente.
 
 ---
 
@@ -88,7 +88,7 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 ### 🔗 Links
 **Scripts GeoReDUS**
 
-- [cn22_pop04.qmd#L162](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L162)
+- [cn22_pop04.qmd](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd)
 
 **Download de dados do IBGE**
 

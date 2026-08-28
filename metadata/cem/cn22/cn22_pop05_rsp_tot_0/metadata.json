@@ -8,6 +8,22 @@
   "measure_unit": "Renda média mensal das pessoas responsáveis",
   "variant_path": "Total",
   "description": "Valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por domicílios particulares permanentes ocupados",
+  "doc": {
+    "variable_id": "cn22_pop05_rsp_tot_0",
+    "formula": "\\mathrm{V06004}",
+    "descricao": "O indicador mostra o valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por Domicílios Particulares Permanentes Ocupados em cada setor censitário, a partir dos dados do Censo Demográfico de 2022 do IBGE.",
+    "leitura": "No município de Pindamonhangaba (SP), no setor censitário 353800605000365, a renda média mensal das pessoas responsáveis com rendimento é de R$ 4394.96 em 2022.",
+    "src": {
+      "id": "cn22_pop05",
+      "repoUrl": "https://georedus.github.io/cn22-pop/",
+      "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop05.html",
+      "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop05.qmd"
+    },
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop05.qmd#L140",
+    "sourceIbgeVariables": [
+      null
+    ]
+  },
   "variants": [],
-  "metodologicalDetails": null
+  "metodologicalDetails": "Atualmente, o conjunto de indicadores relativos ao grupo pop05 (Rendimento) é composto por um único indicador, correspondente à própria variável pop05. Esse indicador deriva diretamente da variável V06004 do Censo 2022, que representa o valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por domicílios particulares permanentes ocupados. Dessa forma, não há necessidade de construção adicional de métricas relativas."
 }

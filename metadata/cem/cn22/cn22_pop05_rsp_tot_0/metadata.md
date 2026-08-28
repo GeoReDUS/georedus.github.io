@@ -2,14 +2,35 @@
 
 **Fonte:** [CENSO Demográfico 2022 - IBGE](https://censo2022.ibge.gov.br/panorama/)\
 **Ano:** 2022\
+**Repositório de tratamento e processamento de dados:** https://georedus.github.io/cn22-pop/ \
 
 | Variável | Unidade de medida | Cálculo |
 |----------|-------------------|---------|
-| **Renda das pessoas responsáveis: Valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por domicílios particulares permanentes ocupados (principal)** | Renda média mensal das pessoas responsáveis | — |
+| **[Renda das pessoas responsáveis: Valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por domicílios particulares permanentes ocupados (principal)](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop05.qmd#L140)** | Renda média mensal das pessoas responsáveis | $\mathrm{V06004}$ |
 
 ---
 
 ## Detalhamento das variáveis
+
+### 📊 Renda das pessoas responsáveis (principal)
+
+**ID da variável:** `cn22_pop05_rsp_tot_0`\
+**Script de processamento:** [cn22_pop05.qmd#L140](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop05.qmd#L140)\
+**Unidade de medida:** Renda média mensal das pessoas responsáveis
+
+**Cálculo:** $\mathrm{V06004}$
+
+O indicador mostra o valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por Domicílios Particulares Permanentes Ocupados em cada setor censitário, a partir dos dados do Censo Demográfico de 2022 do IBGE.
+
+**Exemplo**:
+> No município de Pindamonhangaba (SP), no setor censitário 353800605000365, a renda média mensal das pessoas responsáveis com rendimento é de R$ 4394.96 em 2022.
+
+
+---
+
+## Detalhamento metodológico
+
+Atualmente, o conjunto de indicadores relativos ao grupo pop05 (Rendimento) é composto por um único indicador, correspondente à própria variável pop05. Esse indicador deriva diretamente da variável V06004 do Censo 2022, que representa o valor do rendimento nominal médio mensal das pessoas responsáveis com rendimentos por domicílios particulares permanentes ocupados. Dessa forma, não há necessidade de construção adicional de métricas relativas.
 
 ---
 
@@ -54,4 +75,9 @@ INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). _Censo Demográfico 202
 
 **\_\_**. _Unidades de coleta e divulgação de pesquisa: Setor Censitário_. Rio de Janeiro: IBGE, 2022. Disponível em: <https://www.ibge.gov.br/apps/quadrogeografico/pdf/qg_2022_600_setcensitario.pdf>. Acesso em: 01 abr. 2026.
 
+
+### 🔗 Links
+**Scripts GeoReDUS**
+
+- [cn22_pop05.qmd#L140](https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop05.qmd#L140)
 

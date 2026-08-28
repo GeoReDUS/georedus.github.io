@@ -19,7 +19,7 @@
       "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop04.html",
       "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd"
     },
-    "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd#L162",
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd",
     "sourceIbgeVariables": [
       {
         "variavel": "V0001",
@@ -36,5 +36,5 @@
     ]
   },
   "variants": [],
-  "metodologicalDetails": "Atualmente, o grupo pop04 (Densidade) possui dois indicadores. Um deles deriva diretamente da variável V0005 do Censo 2022, que representa o número médio de moradores residentes por domicílio.\n\nPorém, o outro não deriva diretamente de variável construída pelo IBGE. Por isso, há necessidade de construção adicional de métricas relativas, as quais foram obtidas pela divisão do indicador absoluto pela área domiciliada do setor censitário (area\\_domiciliada\\_km2), denominada neste trabalho `cn22_ter01_area_dom_0`, resultando em medidas proporcionais por km² de área domiciliada."
+  "metodologicalDetails": "Atualmente, o grupo pop04 (Densidade) possui dois indicadores. Um deles deriva diretamente da variável V0005 do Censo 2022, que representa o número médio de moradores residentes por domicílio.\n\nPorém, os demais não derivam diretamente de variáveis construídas pelo IBGE. Por isso, há necessidade de construção adicional de métricas relativas, as quais foram obtidas pela divisão do indicador absoluto por duas medidas de área do setor censitário: a área domiciliada (area\\_domiciliada\\_km2), denominada neste trabalho `cn22_ter01_area_dom_0`, e a área total do setor (area\\_km2), denominada `cn22_ter02_area_setor_0`, resultando em medidas proporcionais por km² de área domiciliada e por km² de área total do setor, respectivamente."
 }

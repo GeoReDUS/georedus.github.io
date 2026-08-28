@@ -8,6 +8,33 @@
   "measure_unit": "Pessoas residentes por km²",
   "variant_path": "Total",
   "description": "Quantidade de moradores",
+  "doc": {
+    "variable_id": "cn22_pop04_res_tot_kmtot_2",
+    "formula": "\\dfrac{\\mathrm{V0001}}{\\mathrm{area\\_km2}}",
+    "descricao": "O indicador mostra a densidade demográfica de pessoas residentes por área total do setor censitário, a partir dos dados do Censo Demográfico de 2022 do IBGE. Diferentemente do cn22_pop04_res_tot_kmdom_2, que usa apenas a área domiciliada, este indicador utiliza a área total do setor censitário (incluindo áreas não domiciliadas, como praças, ruas e áreas verdes) como denominador. O valor é obtido pela razão entre o total de pessoas residentes e a área total em km² do setor censitário.",
+    "leitura": "No município de Teresina (PI), no setor censitário 221100105000010, foram registrados 542 moradores residentes e a área total do setor é de 0,49778 quilometros quadrados. Ao relacionar o total de moradores à área total do setor, obtém-se aproximadamente 1088,83 moradores por quilometro quadrado.",
+    "src": {
+      "id": "cn22_pop04",
+      "repoUrl": "https://georedus.github.io/cn22-pop/",
+      "htmlUrl": "https://github.com/GeoReDUS/cn22-pop/blob/refs/heads/main/docs/r/cn22_pop04.html",
+      "scriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd"
+    },
+    "varScriptUrl": "https://github.com/GeoReDUS/cn22-pop/blob/main/r/cn22_pop04.qmd",
+    "sourceIbgeVariables": [
+      {
+        "variavel": "V0001",
+        "descricao": "Total de pessoas",
+        "tema": "Básico",
+        "datasets": [
+          {
+            "id": "basico",
+            "label": "Básico",
+            "url": "https://ftp.ibge.gov.br/Censos/Censo_Demografico_2022/Agregados_por_Setores_Censitarios/Agregados_por_Setor_csv/Agregados_por_setores_basico_BR_20250417.zip"
+          }
+        ]
+      }
+    ]
+  },
   "variants": [],
-  "metodologicalDetails": null
+  "metodologicalDetails": "Atualmente, o grupo pop04 (Densidade) possui dois indicadores. Um deles deriva diretamente da variável V0005 do Censo 2022, que representa o número médio de moradores residentes por domicílio.\n\nPorém, os demais não derivam diretamente de variáveis construídas pelo IBGE. Por isso, há necessidade de construção adicional de métricas relativas, as quais foram obtidas pela divisão do indicador absoluto por duas medidas de área do setor censitário: a área domiciliada (area\\_domiciliada\\_km2), denominada neste trabalho `cn22_ter01_area_dom_0`, e a área total do setor (area\\_km2), denominada `cn22_ter02_area_setor_0`, resultando em medidas proporcionais por km² de área domiciliada e por km² de área total do setor, respectivamente."
 }
