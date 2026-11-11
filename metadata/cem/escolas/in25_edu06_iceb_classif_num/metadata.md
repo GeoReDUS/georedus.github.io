@@ -66,8 +66,6 @@ Com relação à comunicação do índice, para apresentar os resultados de form
 
 Expostos os comentários sobre a composição do índice, é importante salientar que, de todo o universo das escolas, serão avaliadas apenas as **escolas ativas**. Ou seja, aquelas que são assim discriminadas pelo [censo escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar) (variável “tp\_situacao\_funcionamento”) e que possuem ao menos uma matrícula.
 
-Por fim, a seguir apresenta-se a lógica da nomenclatura do índice. Apenas para fins ilustrativos, adotou-se o ano de 2025 como referência (mais atual no momento de geração do código).
-
 ## Fonte dos dados
 
 -   [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar): realizado anualmente, o censo é o principal instrumento de coleta de informações sobre todas as etapas e modalidades da educação básica e profissional; abarca todas as escolas públicas e privadas do país e é coordenado pelo [Inep](https://www.gov.br/inep/pt-br) e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação.

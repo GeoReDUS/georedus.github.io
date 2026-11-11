@@ -23,13 +23,13 @@ Para mais detalhes, acesse o documento sobre as [TRTA](https://www.gov.br/inep/p
 
 ## Detalhamento metodológico
 
-Deve-se salientar, desde já, que o procedimento proposto gerará dados apenas para as _escolas consideradas ativas_, que são as assim identificadas na base disponibilizada pelo [INEP](https://www.gov.br/inep/pt-br) e que possuem ao menos uma matrícula ativa. As escolas que não apresentaram um código único de identificação também não comporão os resultados finais aqui gerados. Por fim, a seguir apresenta-se o dicionário dos indicadores que serão produzidos. Apenas para fins ilustrativos, adotou-se o ano de 2025 como referência (mais atual no momento de geração do código).
+Deve-se salientar, desde já, que o procedimento proposto gerará dados apenas para as _escolas consideradas ativas_, que são as assim identificadas na base disponibilizada pelo [INEP](https://www.gov.br/inep/pt-br) e que possuem ao menos uma matrícula ativa. As escolas que não apresentaram um código único de identificação também não comporão os resultados finais aqui gerados.
 
 ## Fonte dos dados
 
 -   [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar): realizado anualmente, o censo é o principal instrumento de coleta de informações sobre todas as etapas e modalidades da educação básica e profissional; abarca todas as escolas públicas e privadas do país e é coordenado pelo Inep e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação.
 
 
-**Ano:** 2021
+**Ano:** 2022
 
 **Repositório de tratamento e processamento de dados:** https://georedus.github.io/inep-trta/

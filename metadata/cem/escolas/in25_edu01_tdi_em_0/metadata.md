@@ -21,7 +21,7 @@ Os dados podem ser obtidos por escolas, municípios, estados, regiões e federa�
 
 ## Detalhamento metodológico
 
-Deve-se salientar, desde já, que o procedimento proposto gerará dados apenas para as _escolas consideradas ativas_, que são as assim identificadas na base disponibilizada pelo [INEP](https://www.gov.br/inep/pt-br) e que possuem ao menos uma matrícula ativa. As escolas que não apresentaram um código único de identificação também não comporão os resultados finais aqui gerados. Por fim, a seguir apresenta-se o dicionário dos indicadores que serão produzidos.
+Deve-se salientar, desde já, que o procedimento proposto gerará dados apenas para as _escolas consideradas ativas_, que são as assim identificadas na base disponibilizada pelo [INEP](https://www.gov.br/inep/pt-br) e que possuem ao menos uma matrícula ativa. As escolas que não apresentaram um código único de identificação também não comporão os resultados finais aqui gerados.
 
 ## Fonte dos dados
 
