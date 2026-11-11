@@ -1,0 +1,206 @@
+{
+  "id": "cem_gtfs_estacoes_departures_per_hour",
+  "label": "Partidas por hora",
+  "group": "Estações",
+  "path": "Mobilidade / _ / Estações",
+  "skip": "['$not', ['$in', ['3106200', '3550308', '3304557', '4106902', '4314902', '3509502', '2304400', '2918407', '3136702', '2704302', '2111300', '3552205', '3170206', '3516408', '3524402', '2611101', '3525904', '4314407', '2905701', '2927408', '3170206'], ['$get', 'municipioId']]]\n",
+  "enabledMunicipios": [
+    "3106200",
+    "3550308",
+    "3304557",
+    "4106902",
+    "4314902",
+    "3509502",
+    "2304400",
+    "2918407",
+    "3136702",
+    "2704302",
+    "2111300",
+    "3552205",
+    "3170206",
+    "3516408",
+    "3524402",
+    "2611101",
+    "3525904",
+    "4314407",
+    "2905701",
+    "2927408"
+  ],
+  "doc": {
+    "id": "cem_gtfs_estacoes_departures_per_hour",
+    "formula": "$\\bar{p}_s = \\frac{1}{n_H} \\sum_{h \\in H} p_{s,h}$",
+    "descricao": "Paradas de transporte público dimensionadas pelo número médio de partidas por hora no período selecionado, somando todas as linhas que passam pela parada.",
+    "leitura": "Uma parada com valor 60 recebe, em média, um veículo por minuto no período selecionado, considerando todas as linhas juntas.",
+    "sectionId": "estacoes"
+  },
+  "section": {
+    "id": "estacoes",
+    "title": "Estações",
+    "details": "Cada ponto é uma parada do GTFS com ao menos uma partida entre 06:00 e 09:00 do dia útil de referência. A lista de paradas vem desse recorte, mas os valores por hora cobrem o dia inteiro. Uma parada atendida apenas às 14h não aparece.\n\nPara cada parada e faixa horária $h$, contam-se as **partidas** $p_{s,h}$ (passagens de veículo com embarque, somando todas as linhas) e as **linhas distintas** $\\ell_{s,h}$ com partida na faixa. Como a faixa dura uma hora, a contagem de partidas já é a taxa horária. No mapa, o controle de horário define o conjunto $H$ de faixas consideradas, com $n_H$ faixas.\n\nAs informações exibidas ao passar o cursor são:\n\n-   **Linhas atendidas**: linhas distintas com partida na parada ao longo do dia.\n-   **Headway mínimo**: $60 / \\max_h p_{s,h}$, o intervalo médio entre veículos na hora de maior oferta da parada. Supõe partidas regulares dentro da hora e mistura todas as linhas da parada. Deve ser lido como um teto de oferta do ponto, e não como o intervalo de uma linha; para o intervalo de cada linha, use a camada **Linhas**."
+  },
+  "cities": [
+    {
+      "Cidade": "Belo Horizonte (MG)",
+      "Código IBGE": "3106200",
+      "Fonte do GTFS": "SUMOB (PBH)",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "02/01/2024 (terça)",
+      "Tempo de viagem": "02/01/2024 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Campinas (SP)",
+      "Código IBGE": "3509502",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "21/07/2026 (terça)",
+      "Tempo de viagem": "21/07/2026 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Curitiba (PR)",
+      "Código IBGE": "4106902",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "02/01/2024 (terça)",
+      "Tempo de viagem": "02/01/2024 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Fortaleza (CE)",
+      "Código IBGE": "2304400",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, metrô",
+      "Dia útil de referência": "01/01/2026 (quinta)",
+      "Tempo de viagem": "01/01/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Franco da Rocha (SP)",
+      "Código IBGE": "3516408",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "29/10/2026 (quinta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "São Paulo (RM)"
+    },
+    {
+      "Cidade": "Jacareí (SP)",
+      "Código IBGE": "3524402",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "03/11/2026 (terça)",
+      "Tempo de viagem": "03/11/2026 (terça)",
+      "Rede de roteamento": "Vale do Paraíba (RM)"
+    },
+    {
+      "Cidade": "Juazeiro (BA)",
+      "Código IBGE": "2918407",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "07/09/2026 (segunda)",
+      "Tempo de viagem": "07/09/2026 (segunda)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Juiz de Fora (MG)",
+      "Código IBGE": "3136702",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "04/08/2026 (terça)",
+      "Tempo de viagem": "04/08/2026 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Jundiaí (SP)",
+      "Código IBGE": "3525904",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "14/10/2026 (quarta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "São Paulo (RM)"
+    },
+    {
+      "Cidade": "Maceió (AL)",
+      "Código IBGE": "2704302",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, bonde/VLT",
+      "Dia útil de referência": "23/07/2026 (quinta)",
+      "Tempo de viagem": "23/07/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Pelotas (RS)",
+      "Código IBGE": "4314407",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "20/08/2026 (quinta)",
+      "Tempo de viagem": "20/08/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Porto Alegre (RS)",
+      "Código IBGE": "4314902",
+      "Fonte do GTFS": "EPTC",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "16/09/2025 (terça)",
+      "Tempo de viagem": "16/09/2025 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Rio de Janeiro (RJ)",
+      "Código IBGE": "3304557",
+      "Fonte do GTFS": "SMTR (Prefeitura do Rio)",
+      "Modos no feed": "ônibus, BRT",
+      "Dia útil de referência": "04/11/2026 (quarta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "Rio de Janeiro (RM)"
+    },
+    {
+      "Cidade": "Salvador (BA)",
+      "Código IBGE": "2927408",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, metrô, balsa",
+      "Dia útil de referência": "20/08/2026 (quinta)",
+      "Tempo de viagem": "20/08/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "São Luís (MA)",
+      "Código IBGE": "2111300",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, balsa",
+      "Dia útil de referência": "20/05/2025 (terça)",
+      "Tempo de viagem": "20/05/2025 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "São Paulo (SP)",
+      "Código IBGE": "3550308",
+      "Fonte do GTFS": "SPTrans e ARTESP",
+      "Modos no feed": "ônibus, metrô, trem",
+      "Dia útil de referência": "04/11/2026 (quarta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "São Paulo (RM)"
+    },
+    {
+      "Cidade": "Sorocaba (SP)",
+      "Código IBGE": "3552205",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "21/07/2026 (terça)",
+      "Tempo de viagem": "21/07/2026 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Uberlândia (MG)",
+      "Código IBGE": "3170206",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "19/08/2026 (quarta)",
+      "Tempo de viagem": "19/08/2026 (quarta)",
+      "Rede de roteamento": "Própria"
+    }
+  ],
+  "metodologiaUrl": "https://gilandrade.github.io/process_gtfs/#estacoes"
+}

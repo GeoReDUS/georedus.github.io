@@ -1,0 +1,206 @@
+{
+  "id": "cem_gtfs_metricas",
+  "label": "Partidas por hora",
+  "group": "Indicadores",
+  "path": "Mobilidade / _ / Indicadores",
+  "skip": "['$not', ['$in', ['3106200', '3550308', '3304557', '4106902', '4314902', '3509502', '2304400', '2918407', '3136702', '2704302', '2111300', '3552205','3170206','3516408','3524402','2611101','3525904','4314407','2905701','2927408','3170206'], ['$get', 'municipioId']]]\n",
+  "enabledMunicipios": [
+    "3106200",
+    "3550308",
+    "3304557",
+    "4106902",
+    "4314902",
+    "3509502",
+    "2304400",
+    "2918407",
+    "3136702",
+    "2704302",
+    "2111300",
+    "3552205",
+    "3170206",
+    "3516408",
+    "3524402",
+    "2611101",
+    "3525904",
+    "4314407",
+    "2905701",
+    "2927408"
+  ],
+  "doc": {
+    "id": "cem_gtfs_metricas",
+    "formula": "$M2_h = \\sum_{(r,d) \\in R_h} \\max_{s \\in S_h} f_{s,r,d}$",
+    "descricao": "Oferta de transporte público alcançável em até 10 minutos a pé (800 m pela rede de caminhada) do centro de cada hexágono, em partidas por hora entre 06:00 e 09:00.",
+    "leitura": "Um hexágono com valor 40 tem ao alcance de uma caminhada de 10 minutos o equivalente a 40 partidas por hora, contando cada linha e sentido uma única vez.",
+    "sectionId": "oferta-hexagono"
+  },
+  "section": {
+    "id": "oferta-hexagono",
+    "title": "Oferta acessível por hexágono",
+    "details": "Mede quanta oferta de transporte público está ao alcance de uma caminhada de 10 minutos, a 4,8 km/h (800 m), a partir do centro de cada hexágono:\n\n$$M2_h = \\sum_{(r,d) \\in R_h} \\max_{s \\in S_h} f_{s,r,d}$$\n\n-   $S_h$ é o conjunto das paradas a até 800 m do centro do hexágono, medidos pela rede de caminhada do OpenStreetMap, e não em linha reta.\n-   $R_h$ é o conjunto dos pares (linha, sentido) que atendem alguma parada de $S_h$.\n-   $f_{s,r,d}$ é o número de partidas por hora do par na parada, em média entre 06:00 e 09:00 do dia útil de referência.\n\nCada par (linha, sentido) entra uma única vez, pela sua melhor parada acessível. Somar por parada contaria a mesma corrida uma vez por ponto da linha dentro do raio, o que tornaria o indicador dependente do espaçamento entre pontos e impediria a comparação entre cidades. Linhas paralelas somam integralmente, sem desconto de redundância. Um hexágono sem parada a até 800 m tem valor 0. O valor não muda com o controle de horário, porque o indicador usa sempre a janela de 06:00 a 09:00.\n\nAo passar o cursor, aparece também a **distância à parada mais próxima**: a distância pela rede de caminhada, do centro do hexágono à parada com serviço mais próxima, sem limite de distância."
+  },
+  "cities": [
+    {
+      "Cidade": "Belo Horizonte (MG)",
+      "Código IBGE": "3106200",
+      "Fonte do GTFS": "SUMOB (PBH)",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "02/01/2024 (terça)",
+      "Tempo de viagem": "02/01/2024 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Campinas (SP)",
+      "Código IBGE": "3509502",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "21/07/2026 (terça)",
+      "Tempo de viagem": "21/07/2026 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Curitiba (PR)",
+      "Código IBGE": "4106902",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "02/01/2024 (terça)",
+      "Tempo de viagem": "02/01/2024 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Fortaleza (CE)",
+      "Código IBGE": "2304400",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, metrô",
+      "Dia útil de referência": "01/01/2026 (quinta)",
+      "Tempo de viagem": "01/01/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Franco da Rocha (SP)",
+      "Código IBGE": "3516408",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "29/10/2026 (quinta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "São Paulo (RM)"
+    },
+    {
+      "Cidade": "Jacareí (SP)",
+      "Código IBGE": "3524402",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "03/11/2026 (terça)",
+      "Tempo de viagem": "03/11/2026 (terça)",
+      "Rede de roteamento": "Vale do Paraíba (RM)"
+    },
+    {
+      "Cidade": "Juazeiro (BA)",
+      "Código IBGE": "2918407",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "07/09/2026 (segunda)",
+      "Tempo de viagem": "07/09/2026 (segunda)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Juiz de Fora (MG)",
+      "Código IBGE": "3136702",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "04/08/2026 (terça)",
+      "Tempo de viagem": "04/08/2026 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Jundiaí (SP)",
+      "Código IBGE": "3525904",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "14/10/2026 (quarta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "São Paulo (RM)"
+    },
+    {
+      "Cidade": "Maceió (AL)",
+      "Código IBGE": "2704302",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, bonde/VLT",
+      "Dia útil de referência": "23/07/2026 (quinta)",
+      "Tempo de viagem": "23/07/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Pelotas (RS)",
+      "Código IBGE": "4314407",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "20/08/2026 (quinta)",
+      "Tempo de viagem": "20/08/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Porto Alegre (RS)",
+      "Código IBGE": "4314902",
+      "Fonte do GTFS": "EPTC",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "16/09/2025 (terça)",
+      "Tempo de viagem": "16/09/2025 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Rio de Janeiro (RJ)",
+      "Código IBGE": "3304557",
+      "Fonte do GTFS": "SMTR (Prefeitura do Rio)",
+      "Modos no feed": "ônibus, BRT",
+      "Dia útil de referência": "04/11/2026 (quarta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "Rio de Janeiro (RM)"
+    },
+    {
+      "Cidade": "Salvador (BA)",
+      "Código IBGE": "2927408",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, metrô, balsa",
+      "Dia útil de referência": "20/08/2026 (quinta)",
+      "Tempo de viagem": "20/08/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "São Luís (MA)",
+      "Código IBGE": "2111300",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, balsa",
+      "Dia útil de referência": "20/05/2025 (terça)",
+      "Tempo de viagem": "20/05/2025 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "São Paulo (SP)",
+      "Código IBGE": "3550308",
+      "Fonte do GTFS": "SPTrans e ARTESP",
+      "Modos no feed": "ônibus, metrô, trem",
+      "Dia útil de referência": "04/11/2026 (quarta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "São Paulo (RM)"
+    },
+    {
+      "Cidade": "Sorocaba (SP)",
+      "Código IBGE": "3552205",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "21/07/2026 (terça)",
+      "Tempo de viagem": "21/07/2026 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Uberlândia (MG)",
+      "Código IBGE": "3170206",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "19/08/2026 (quarta)",
+      "Tempo de viagem": "19/08/2026 (quarta)",
+      "Rede de roteamento": "Própria"
+    }
+  ],
+  "metodologiaUrl": "https://gilandrade.github.io/process_gtfs/#oferta-hexagono"
+}

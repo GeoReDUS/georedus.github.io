@@ -1,0 +1,185 @@
+{
+  "id": "cem_gtfs_travel_time",
+  "label": "Tempos de Viagem",
+  "group": "Indicadores",
+  "path": "Mobilidade / _ / Indicadores",
+  "skip": "",
+  "enabledMunicipios": null,
+  "doc": {
+    "id": "cem_gtfs_travel_time",
+    "formula": "$t_{o,d} = \\operatorname{mediana}_{\\tau} \\, T(o, d, \\tau)$, com $\\tau$ entre 07:00 e 08:00",
+    "descricao": "Tempo de viagem porta a porta, em transporte público e a pé, do hexágono clicado até cada hexágono alcançável em até 120 minutos.",
+    "leitura": "Um hexágono na faixa de 30–60 min é alcançado em 30 a 60 minutos (mediana), saindo do hexágono clicado entre 7h e 8h.",
+    "sectionId": "tempo-de-viagem"
+  },
+  "section": {
+    "id": "tempo-de-viagem",
+    "title": "Tempo de viagem",
+    "details": "Matriz de tempo de viagem porta a porta entre todos os pares de hexágonos da área de estudo, calculada com o [R5](https://github.com/conveyal/r5) (via [r5py](https://r5py.readthedocs.io/)) a partir do GTFS e da rede viária do OpenStreetMap. Ao clicar em um hexágono, o mapa colore os demais pelo tempo até eles, em faixas de 0–15, 15–30, 30–60, 60–90 e 90–120 minutos. A camada aparece a partir do zoom 9.\n\n-   **Trajeto**: do centro do hexágono de origem ao centro do de destino, combinando caminhada e transporte público. O tempo inclui caminhada, espera, tempo a bordo e transferências.\n-   **Horário de partida**: janela de 60 minutos a partir das 07:00 do dia de referência, percorrida minuto a minuto. O valor publicado é a **mediana** dos tempos ao longo da janela, o que amortece a sorte de chegar ao ponto logo antes ou logo depois de um veículo.\n-   **Caminhada**: a 4,8 km/h, com no máximo 15 minutos por trecho de acesso ou de chegada ao transporte público. O limite vale também para uma viagem feita inteiramente a pé, então destinos próximos que exigiriam mais de 15 minutos de caminhada só aparecem se houver transporte público que os alcance.\n-   **Corte**: só aparecem os destinos alcançáveis em até 120 minutos.\n-   **Assimetria**: o tempo de A até B pode diferir do de B até A, por causa de horários e sentidos das linhas.\n\n**Redes metropolitanas.** Onde linhas de cidades vizinhas se cruzam, as cidades são roteadas em uma rede única, com o GTFS de todas: São Paulo, Franco da Rocha e Jundiaí; Rio de Janeiro e Niterói; São José dos Campos e Jacareí. As redes de São Paulo e do Vale do Paraíba incluem também o GTFS da ARTESP e ampliam a grade com hexágonos em torno das paradas das linhas intermunicipais da região. Como os feeds não têm um dia em comum, cada rede usa a data de referência da sua cidade principal (São Paulo, Rio de Janeiro e São José dos Campos), e o serviço do dia de referência de cada feed é aplicado a essa data."
+  },
+  "cities": [
+    {
+      "Cidade": "Belo Horizonte (MG)",
+      "Código IBGE": "3106200",
+      "Fonte do GTFS": "SUMOB (PBH)",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "02/01/2024 (terça)",
+      "Tempo de viagem": "02/01/2024 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Campinas (SP)",
+      "Código IBGE": "3509502",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "21/07/2026 (terça)",
+      "Tempo de viagem": "21/07/2026 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Curitiba (PR)",
+      "Código IBGE": "4106902",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "02/01/2024 (terça)",
+      "Tempo de viagem": "02/01/2024 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Fortaleza (CE)",
+      "Código IBGE": "2304400",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, metrô",
+      "Dia útil de referência": "01/01/2026 (quinta)",
+      "Tempo de viagem": "01/01/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Franco da Rocha (SP)",
+      "Código IBGE": "3516408",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "29/10/2026 (quinta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "São Paulo (RM)"
+    },
+    {
+      "Cidade": "Jacareí (SP)",
+      "Código IBGE": "3524402",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "03/11/2026 (terça)",
+      "Tempo de viagem": "03/11/2026 (terça)",
+      "Rede de roteamento": "Vale do Paraíba (RM)"
+    },
+    {
+      "Cidade": "Juazeiro (BA)",
+      "Código IBGE": "2918407",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "07/09/2026 (segunda)",
+      "Tempo de viagem": "07/09/2026 (segunda)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Juiz de Fora (MG)",
+      "Código IBGE": "3136702",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "04/08/2026 (terça)",
+      "Tempo de viagem": "04/08/2026 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Jundiaí (SP)",
+      "Código IBGE": "3525904",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "14/10/2026 (quarta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "São Paulo (RM)"
+    },
+    {
+      "Cidade": "Maceió (AL)",
+      "Código IBGE": "2704302",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, bonde/VLT",
+      "Dia útil de referência": "23/07/2026 (quinta)",
+      "Tempo de viagem": "23/07/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Pelotas (RS)",
+      "Código IBGE": "4314407",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "20/08/2026 (quinta)",
+      "Tempo de viagem": "20/08/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Porto Alegre (RS)",
+      "Código IBGE": "4314902",
+      "Fonte do GTFS": "EPTC",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "16/09/2025 (terça)",
+      "Tempo de viagem": "16/09/2025 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Rio de Janeiro (RJ)",
+      "Código IBGE": "3304557",
+      "Fonte do GTFS": "SMTR (Prefeitura do Rio)",
+      "Modos no feed": "ônibus, BRT",
+      "Dia útil de referência": "04/11/2026 (quarta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "Rio de Janeiro (RM)"
+    },
+    {
+      "Cidade": "Salvador (BA)",
+      "Código IBGE": "2927408",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, metrô, balsa",
+      "Dia útil de referência": "20/08/2026 (quinta)",
+      "Tempo de viagem": "20/08/2026 (quinta)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "São Luís (MA)",
+      "Código IBGE": "2111300",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus, balsa",
+      "Dia útil de referência": "20/05/2025 (terça)",
+      "Tempo de viagem": "20/05/2025 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "São Paulo (SP)",
+      "Código IBGE": "3550308",
+      "Fonte do GTFS": "SPTrans e ARTESP",
+      "Modos no feed": "ônibus, metrô, trem",
+      "Dia útil de referência": "04/11/2026 (quarta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "São Paulo (RM)"
+    },
+    {
+      "Cidade": "Sorocaba (SP)",
+      "Código IBGE": "3552205",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "21/07/2026 (terça)",
+      "Tempo de viagem": "21/07/2026 (terça)",
+      "Rede de roteamento": "Própria"
+    },
+    {
+      "Cidade": "Uberlândia (MG)",
+      "Código IBGE": "3170206",
+      "Fonte do GTFS": "Cittamobi",
+      "Modos no feed": "ônibus",
+      "Dia útil de referência": "19/08/2026 (quarta)",
+      "Tempo de viagem": "19/08/2026 (quarta)",
+      "Rede de roteamento": "Própria"
+    }
+  ],
+  "metodologiaUrl": "https://gilandrade.github.io/process_gtfs/#tempo-de-viagem"
+}

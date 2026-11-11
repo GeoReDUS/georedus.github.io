@@ -1,0 +1,36 @@
+{
+  "id": "cem_gtfs_linhas_trem",
+  "label": "Trem",
+  "group": "Linhas",
+  "path": "Mobilidade / _ / Linhas",
+  "skip": "['$not', ['$in', ['3550308', '3516408', '3525904'], ['$get', 'municipioId']]]\n",
+  "enabledMunicipios": [
+    "3550308",
+    "3516408",
+    "3525904"
+  ],
+  "doc": {
+    "id": "cem_gtfs_linhas_trem",
+    "formula": "$f_r = \\frac{1}{n_H} \\sum_{h \\in H} \\max_d n_{r,d,h}$, só linhas com `route_type` 2",
+    "descricao": "Linhas de trem, com espessura proporcional à frequência média (partidas por hora) no período selecionado.",
+    "leitura": "Uma linha de trem com frequência 6 parte, em média, a cada 10 minutos no seu sentido mais frequente durante o período selecionado.",
+    "sectionId": "linhas"
+  },
+  "section": {
+    "id": "linhas",
+    "title": "Linhas",
+    "details": "Cada feição é o traçado de uma linha (rota do GTFS) dentro de um município. Linhas intermunicipais são recortadas em um trecho por município, para que o trecho comum não seja desenhado duas vezes quando vários municípios estão visíveis. O traçado é o da primeira viagem da linha no feed, então uma rota de ida e volta aparece com o traçado de um só sentido.\n\n**Frequência.** Para a linha $r$ e a faixa horária $h$, conta-se o número de corridas $n_{r,d,h}$ que **iniciam** na faixa em cada sentido $d$. Uma corrida que apenas atravessa a faixa não representa nova oportunidade de embarque. Toma-se o sentido mais frequente: somar ida e volta faria o intervalo parecer metade do que o passageiro de fato espera em um ponto. O headway da faixa é $60 / \\max_d n_{r,d,h}$ minutos, e feeds sem indicação de sentido tratam a linha como de sentido único. O cálculo supõe corridas regulares dentro da hora.\n\nNo mapa, a espessura da linha é a frequência média, em partidas por hora, nas faixas do período selecionado ($H$, com $n_H$ faixas). Faixas em que nenhuma corrida da linha se inicia contam como zero. A escala de espessuras é fixa, calculada sobre o dia inteiro de todas as linhas do município: mover o controle de horário muda a espessura de cada linha, mas não a legenda.\n\nAs informações exibidas ao passar o cursor são:\n\n-   **Tipo da linha**: o código `route_type` do GTFS (0 bonde/VLT, 1 metrô, 2 trem, 3 ônibus, 4 balsa, 702 BRT; 200 e 700 são tipos estendidos de ônibus usados no Rio de Janeiro).\n-   **Paradas**: paradas distintas que a linha atende no feed, sem recorte de dia ou de horário.\n-   **Headway mínimo**: o menor headway da linha entre as 24 faixas do dia.\n\nAs camadas por modo filtram as linhas pelo `route_type` declarado no feed. A classificação segue o que o feed declara: um sistema de BRT cadastrado como ônibus comum aparece na camada Ônibus. Cada camada por modo só fica disponível nos municípios em que o feed traz aquele modo."
+  },
+  "cities": [
+    {
+      "Cidade": "São Paulo (SP)",
+      "Código IBGE": "3550308",
+      "Fonte do GTFS": "SPTrans e ARTESP",
+      "Modos no feed": "ônibus, metrô, trem",
+      "Dia útil de referência": "04/11/2026 (quarta)",
+      "Tempo de viagem": "04/11/2026 (quarta)",
+      "Rede de roteamento": "São Paulo (RM)"
+    }
+  ],
+  "metodologiaUrl": "https://gilandrade.github.io/process_gtfs/#linhas"
+}

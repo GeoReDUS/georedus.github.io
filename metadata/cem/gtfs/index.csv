@@ -1,0 +1,11 @@
+variable_id,metodology
+cem_gtfs_estacoes_departures_per_hour,https://georedus.github.io/metadata/cem/gtfs/cem_gtfs_estacoes_departures_per_hour/metadata.md
+cem_gtfs_estacoes_n_linhas,https://georedus.github.io/metadata/cem/gtfs/cem_gtfs_estacoes_n_linhas/metadata.md
+cem_gtfs_linhas,https://georedus.github.io/metadata/cem/gtfs/cem_gtfs_linhas/metadata.md
+cem_gtfs_linhas_onibus,https://georedus.github.io/metadata/cem/gtfs/cem_gtfs_linhas_onibus/metadata.md
+cem_gtfs_linhas_brt,https://georedus.github.io/metadata/cem/gtfs/cem_gtfs_linhas_brt/metadata.md
+cem_gtfs_linhas_bonde_vlt,https://georedus.github.io/metadata/cem/gtfs/cem_gtfs_linhas_bonde_vlt/metadata.md
+cem_gtfs_linhas_metro,https://georedus.github.io/metadata/cem/gtfs/cem_gtfs_linhas_metro/metadata.md
+cem_gtfs_linhas_trem,https://georedus.github.io/metadata/cem/gtfs/cem_gtfs_linhas_trem/metadata.md
+cem_gtfs_metricas,https://georedus.github.io/metadata/cem/gtfs/cem_gtfs_metricas/metadata.md
+cem_gtfs_travel_time,https://georedus.github.io/metadata/cem/gtfs/cem_gtfs_travel_time/metadata.md
