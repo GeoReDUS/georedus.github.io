@@ -1,45 +1,25 @@
-# Índice de Infraestrutura: Iceb (edu06)
+# Índice de Condições Mínimas
 
-**ID da variável:** `in23_edu06_iceb_classif_num`\
-**Ano:** 2023\
-**Repositório de tratamento e processamento de dados:** https://georedus.github.io/inep-micro-censo-esc/r/iceb.html
 
-## Descrição
+## Descrição do indicador
 
 O indicador (numérico) aponta a classificação da escola, em termos numéricos, segundo sua adequação ao atendimento da infraestrutura mínima exigida por lei.
 
-**Cálculo:**
+| Indicador | Cálculo | Como ler |
+|-----------|-----------|-----------|
+| **[Índice de Condições Mínimas](https://georedus.github.io/inep-micro-censo-esc/r/iceb.html)** | $\begin{cases} 1, & \text{se } 0 \leq \mathrm{edu06\_iceb} \leq 6 \\ 2, & \text{se } 7 \leq \mathrm{edu06\_iceb} \leq 8 \\ 3, & \text{se } 9 \leq \mathrm{edu06\_iceb} \leq 10 \\ 4, & \text{se } 11 \leq \mathrm{edu06\_iceb} \leq 13 \end{cases}$ | A escola possui nível 3 de adequação (média-alta) em termos de conformidade com a lei 15.360/2026 (valor 3). |
 
-$$
-\begin{cases} 1, & \text{se } 0 \leq \mathrm{edu06\_iceb} \leq 6 \\ 2, & \text{se } 7 \leq \mathrm{edu06\_iceb} \leq 8 \\ 3, & \text{se } 9 \leq \mathrm{edu06\_iceb} \leq 10 \\ 4, & \text{se } 11 \leq \mathrm{edu06\_iceb} \leq 13 \end{cases}
-$$
 
-**Como ler:**
-> *A escola possui nível 3 de adequação (média-alta) em termos de conformidade com a lei 15.360/2026 (valor 3).*
-
----
-
-## Visão geral
-
-O presente documento apresenta a proposta de um **índice sintético para avaliar as condições mínimas de infraestrutura das escolas públicas brasileiras**. Baseado na [Lei Nº 15.360](https://www2.camara.leg.br/legin/fed/lei/2026/lei-15360-25-marco-2026-798852-publicacaooriginal-178602-pl.html), de 25 março 2026 - que define e inclui as condições mínimas que as escolas públicas brasileiras devem garantir na [Lei de Diretrizes e Bases da Educação](https://www.planalto.gov.br/ccivil_03/leis/l9394.htm) (art. 25-A) -, propomos um índice das condições mínimas de infraestrutura das escolas da Educação Básica brasileira, que busca fornecer subsídios para a caracterização e o monitoramento das escolas, sobretudo públicas, de forma rápida e intuitiva.
+## Visão Geral
 
 Ao promover maior transparência sobre as condições das escolas e permitir a identificação de áreas que necessitam de melhorias, acredita-se que o índice pode atuar como uma importante ferramenta para gestores, educadores e a sociedade em geral, visando garantir um padrão adequado de qualidade.
 
 Registre-se, ainda, que dada a frequência dos dados originais que serão utilizados - microdados do [**Censo da Educação Básica do Brasil (Censo Escolar)**](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar) -, o cômputo do índice pode ser realizado _anualmente_.
 
----
 
-## Fonte dos dados
+## Detalhamento metodológico
 
-Os dados utilizados no presente documento são provenientes do:
-
--   [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar): realizado anualmente, o censo é o principal instrumento de coleta de informações sobre todas as etapas e modalidades da educação básica e profissional; abarca todas as escolas públicas e privadas do país e é coordenado pelo [Inep](https://www.gov.br/inep/pt-br) e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação.
-
----
-
-## Definições metodológicas
-
-NoteNota
+Nota
 
 A construção dos indicadores utilizados na GeoReDUS é resultado de um processo contínuo de diálogo com pesquisadores especialistas e com a comunidade de usuários. Sugestões, comentários e críticas são sempre bem-vindos. Convidamos você a registrar suas contribuições [neste formulário](https://www.redus.org.br/georedus-rede-de-dados-urbanos/formularios/cbf766bb-9a74-4bc5-897a-70b9151afbdb), que serão analisadas e consideradas nas próximas revisões dos indicadores.
 
@@ -77,37 +57,22 @@ Passando ao desenho do índice, destaque-se que todas as variáveis terão o mes
 
 Com relação à comunicação do índice, para apresentar os resultados de forma mais intuitiva e menos complexa, serão criadas quatro classes de adequação. Inicialmente será computado o número de itens presentes em cada uma das escolas. Realizada a soma e obtidos os valores específicos para cada caso, passar-se-á, então, à etapa de classificação, realizada com base em análises da distribuição dos indicadores entre as escolas, tal qual proposto a seguir:
 
-Grau de adequação
-
-Soma de itens
-
-Adequação baixa (1)
-
-0 a 6
-
-Adequação média-baixa (2)
-
-7 a 8
-
-Adequação média-alta (3)
-
-9 a 10
-
-Adequação alta (4)
-
-11 a 13
+| Grau de adequação | Soma de itens |
+| --- | --- |
+| Adequação baixa (1) | 0 a 6 |
+| Adequação média-baixa (2) | 7 a 8 |
+| Adequação média-alta (3) | 9 a 10 |
+| Adequação alta (4) | 11 a 13 |
 
 Expostos os comentários sobre a composição do índice, é importante salientar que, de todo o universo das escolas, serão avaliadas apenas as **escolas ativas**. Ou seja, aquelas que são assim discriminadas pelo [censo escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar) (variável “tp\_situacao\_funcionamento”) e que possuem ao menos uma matrícula.
 
 Por fim, a seguir apresenta-se a lógica da nomenclatura do índice. Apenas para fins ilustrativos, adotou-se o ano de 2025 como referência (mais atual no momento de geração do código).
 
-A seguir, os itens que compõem o índice, bem como as variáveis selecionadas para computá-los são apresentados em maior detalhe. Expõe-se a descrição de seu cálculo, o que ele representa e como se espera que ele seja interpretado.
+## Fonte dos dados
 
-Note, ainda, que as definições fornecidas para os itens foram extraídas do [**Caderno de Conceitos e Orientações do Censo Escolar 2025: 1ª Etapa da Coleta**](https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/estatisticas-e-indicadores-educacionais/caderno-de-conceitos-e-orientacoes-do-censo-escolar-2025-1a-etapa-da-coleta). Esse material é disponibilizado pelo [Inep](https://www.gov.br/inep/pt-br) e tem como objetivo orientar os responsáveis pela declaração e pelo acompanhamento da coleta do Censo Escolar.
+-   [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar): realizado anualmente, o censo é o principal instrumento de coleta de informações sobre todas as etapas e modalidades da educação básica e profissional; abarca todas as escolas públicas e privadas do país e é coordenado pelo [Inep](https://www.gov.br/inep/pt-br) e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação.
 
----
 
-### 🔗 Links
+**Ano:** 2023
 
-- Documentação completa do processamento: [Índice de Infraestrutura](https://georedus.github.io/inep-micro-censo-esc/r/iceb.html)
-- Dicionário de indicadores (`edu06_iceb_classif_num`): [Índice de Infraestrutura](https://georedus.github.io/inep-micro-censo-esc/r/iceb.html#dicionário-de-indicadores-que-serão-produzidos)
+**Repositório de tratamento e processamento de dados:** https://georedus.github.io/inep-micro-censo-esc/r/iceb.html

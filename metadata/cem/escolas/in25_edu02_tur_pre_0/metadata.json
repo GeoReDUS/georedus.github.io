@@ -1,32 +1,29 @@
 {
-  "variable_id": "in25_edu02_tur_pre_0",
-  "year": "2025",
-  "match": "prefix",
-  "entry": {
-    "dict_id": "edu02_tur_pre_0",
-    "calculo": {
-      "type": "code",
-      "value": "qt_tur_inf_pre"
-    },
+  "variable_id": "edu02_tur_pre_0",
+  "indicator_id": "edu02_etp_pre_0_in25_edu02_tur_pre_0_todas",
+  "m_year": "2025",
+  "indicator_path": "Educação / 2025 / Pré-Escola / Dimensão da escola",
+  "indicator_label": "Quantidade de Turmas",
+  "variant_label": "Todas",
+  "measure_unit": "Número por unidade - Pré-Escola",
+  "variant_path": "",
+  "m_description": "Quantidade de turmas na etapa \"pré-escola\" da educação infantil.",
+  "sheet_variable_id": "in25_edu02_tur_pre_0",
+  "collection_year": "2025",
+  "doc": {
+    "variable_id": "edu02_tur_pre_0",
+    "formula": "qt_tur_inf_pre",
+    "isLaTeX": false,
     "descricao": "O indicador mostra o número de turmas formadas na Pré-escola.",
     "leitura": "A escola possui 5 turmas de Pré-escola.",
-    "bloco": "Dimensão da Escola (edu02)"
-  },
-  "doc": {
     "src": {
-      "id": "micro_censo_esc",
-      "repo": "inep-micro-censo-esc",
-      "htmlPath": "docs/index.html",
-      "pagesUrl": "https://georedus.github.io/inep-micro-censo-esc/",
-      "dictAnchor": "dicionário-de-indicadores-que-serão-produzidos",
-      "methodAnchors": [
-        "definições-metodológicas-gerais"
-      ]
-    },
-    "title": "Microdados do Censo Escolar",
-    "subtitle": "Características das escolas (dimensão, serviços, infraestrutura e profissionais)",
-    "visaoGeral": "O presente documento apresenta uma proposta para a obtenção, o tratamento e a disponibilização dos microdados do [**Censo da Educação Básica do Brasil (Censo Escolar)**](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar).\n\nCriado pelo [Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep)](https://www.gov.br/inep/pt-br), o [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar) é o principal instrumento de coleta de informações da educação básica e a mais importante pesquisa estatística educacional brasileira. Por meio de seus microdados, ele permite compreender a situação educacional do país, para além de funcionar como a fonte original de diversos indicadores produzidos pelo INEP (Ideb, TDI, TRTA, etc.).\n\nOs dados podem ser obtidos por escolas, municípios, estados, regiões e federação. Sublinhe-se, ainda, que o levantamento é realizado **anualmente** e é **obrigatório para todas as escolas** do país (públicas e privadas).\n\nPara mais detalhes, acesse a página do [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar)",
-    "fonteDados": "Os dados utilizados no presente documento são provenientes do:\n\n-   [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar): realizado anualmente, o censo é o principal instrumento de coleta de informações sobre todas as etapas e modalidades da educação básica e profissional; abarca todas as escolas públicas e privadas do país e é coordenado pelo Inep e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação.",
-    "definicoesMetodologicas": "A seguir, cada um dos indicadores é apresentado em maior detalhe. Expõe-se a descrição de seu cálculo com o nome das variáveis em formato padronizado (por meio do [janitor::clean\\_names()](https://sfirke.github.io/janitor/articles/janitor.html)), sua descrição e como se espera que ele seja interpretado. Para facilitar a leitura, eles estão organizados por blocos temáticos, a saber: **Dimensão da Escola (edu02)**, **Serviços Públicos (edu03)**, **Infraestrutura (edu04)** e **Profissionais (edu05)**.\n\nNote, ainda, que as definições fornecidas para os itens foram extraídas do [**Caderno de Conceitos e Orientações do Censo Escolar 2025: 1ª Etapa da Coleta**](https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/estatisticas-e-indicadores-educacionais/caderno-de-conceitos-e-orientacoes-do-censo-escolar-2025-1a-etapa-da-coleta). Esse material é disponibilizado pelo [Inep](https://www.gov.br/inep/pt-br) e tem como objetivo orientar os responsáveis pela declaração e pelo acompanhamento da coleta do Censo Escolar."
-  }
+      "id": "inep-micro-censo-esc",
+      "repoUrl": "https://georedus.github.io/inep-micro-censo-esc/",
+      "htmlUrl": "https://github.com/GeoReDUS/inep-micro-censo-esc/blob/main/docs/index.html",
+      "scriptUrl": "https://github.com/GeoReDUS/inep-micro-censo-esc/blob/main/index.qmd"
+    }
+  },
+  "metodologicalDetails": "",
+  "overview": "Criado pelo [Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep)](https://www.gov.br/inep/pt-br), o [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar) é o principal instrumento de coleta de informações da educação básica e a mais importante pesquisa estatística educacional brasileira. Por meio de seus microdados, ele permite compreender a situação educacional do país, para além de funcionar como a fonte original de diversos indicadores produzidos pelo INEP (Ideb, TDI, TRTA, etc.).\n\nOs dados podem ser obtidos por escolas, municípios, estados, regiões e federação. Sublinhe-se, ainda, que o levantamento é realizado **anualmente** e é **obrigatório para todas as escolas** do país (públicas e privadas).\n\nPara mais detalhes, acesse a página do [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar)",
+  "sourceDetails": "-   [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar): realizado anualmente, o censo é o principal instrumento de coleta de informações sobre todas as etapas e modalidades da educação básica e profissional; abarca todas as escolas públicas e privadas do país e é coordenado pelo Inep e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação."
 }

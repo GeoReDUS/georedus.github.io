@@ -1,47 +1,27 @@
-# Microdados do Censo Escolar: Infraestrutura (edu04)
+# Acessibilidade completa
 
-**ID da variável:** `in25_edu04_acess_0`\
-**Ano:** 2025\
-**Repositório de tratamento e processamento de dados:** https://georedus.github.io/inep-micro-censo-esc/
 
-## Descrição
+## Descrição do indicador
 
 O indicador (binário) aponta se a escola possui recursos de acessibilidade para pessoas com deficiência ou mobilidade reduzida. Compreendendo a totalidade de salas utilizadas como acessíveis; Banheiro acessível; Corrimão e guarda-corpos; Pisos táteis; Portas com vão livre de no mínimo 80 cm; Rampas; Sinalização/alarme luminoso; Sinalização sonora; Sinalização tátil; e Sinalização visual (piso/paredes).
+Definições:
 
-**Definições:**
+Banheiro acessível: Banheiro com concepção de espaços, artefatos e produtos que contemplem o desenho universal, com o objetivo de atender simultaneamente a todas as pessoas com diferentes características antropométricas e sensoriais, de forma autônoma, independente, segura e confortável, garantindo elementos e soluções que compõem a acessibilidade. Deve conter as características estabelecidas pela norma técnica de acessibilidade elaborada pela Associação Brasileira de Normas e Técnicas (ABNT) - NBR 9050.
+Corrimão e guarda-corpos: Corrimão é uma barra, cano ou peça similar, com superfície lisa, arredondada e contínua, localizada junto às paredes ou guardas de escadas, rampas ou passagens para as pessoas nela se apoiarem ao subir, descer ou se deslocar. Os corrimãos podem ser acoplados aos guardacorpos. Guarda-corpos são barreiras protetoras verticais, maciças ou não, que delimitam as faces laterais abertas de escadas, rampas, patamares, terraços, balcões, galerias e assemelhados, servindo como proteção contra eventuais quedas de um nível para outro.
+Pisos táteis: Piso caracterizado por textura e cor contrastantes em relação ao piso adjacente, destinado a constituir alerta ou linha-guia, servindo de orientação, principalmente, às pessoas cegas ou com baixa visão. Existem dois tipos de piso tátil: o piso tátil de alerta e o piso tátil direcional. O piso tátil de alerta é conhecido como “piso de bolinha” e sua função é alertar. Esse tipo de piso é instalado em início e término de escadas e rampas, em frente à porta de elevadores, em rampas de acesso às calçadas ou mesmo para alertar quanto a um obstáculo que o deficiente visual não consiga rastrear com a bengala. O outro tipo de piso é o direcional, e sua função é justamente direcionar e orientar sobre o trajeto. Em locais onde não há ponto de referência que possa ser detectado com o uso da bengala, o piso tátil direcional serve como guia.
+Portas com vão livre de no mínimo 80 cm: As portas, para serem acessíveis, quando abertas, devem ter um vão livre de, no mínimo 0,80 m de largura.
+Rampas: Inclinação da superfície de piso, longitudinal ao sentido de caminhamento, com declividade definida pela NBR9050.
+Sinalização/alarme luminoso: É um equipamento composto por um conjunto de luzes que é acionado no momento que soa o alarme sonoro/sinal, permitindo a percepção visual por pessoas surdas. A sinalização/alarme luminoso deve ser utilizada para alertas e avisos de forma luminosa, possibilitando as pessoas surdas perceberem quando toca o sinal para troca de professores, hora do intervalo, hora da saída, emergências, entre outros. Essa sinalização fica instalada fixamente na parede por uma lâmpada na sala de aula na posição da frente da turma que vai acender o led no momento que tocar o sinal. Se for fora da sala de aula, fixa-se nas paredes principais possibilitando a visualização.
+Sinalização sonora: É composta por conjuntos de sons que permitem a compreensão pela audição. A sinalização direcional, na forma sonora, utiliza recursos de áudio para explanação de direcionamentos e segurança, como em alarmes e rotas de fuga.
+Sinalização tátil: É composta por informações em relevo, como textos, figuras, símbolos e Braille. A sinalização tátil deve ser utilizada para a identificação de portas, paredes, corrimãos de escadas e rampas, portas corta-fogo, elevadores, plataformas elevatórias, pavimentos, dentre outros.
+Sinalização visual (piso/paredes): É composta por mensagens de textos, contrastes de cores, símbolos, figuras, dentre outras formas de sinalização. Assim sendo, portas e paredes envidraçadas, localizadas nas áreas de circulação, devem ser claramente identificadas com sinalização visual de forma contínua, para permitir a fácil identificação visual da barreira física. Para isto também devem ser consideradas as diferentes condições de iluminação de ambos os lados das paredes ou portas de vidro. Cabe destacar que as informações em Braille não dispensam a sinalização visual e tátil, com caracteres ou símbolos em relevo.
 
--   **Banheiro acessível**: Banheiro com concepção de espaços, artefatos e produtos que contemplem o desenho universal, com o objetivo de atender simultaneamente a todas as pessoas com diferentes características antropométricas e sensoriais, de forma autônoma, independente, segura e confortável, garantindo elementos e soluções que compõem a acessibilidade. Deve conter as características estabelecidas pela norma técnica de acessibilidade elaborada pela Associação Brasileira de Normas e Técnicas (ABNT) - NBR 9050.
-    
--   **Corrimão e guarda-corpos**: Corrimão é uma barra, cano ou peça similar, com superfície lisa, arredondada e contínua, localizada junto às paredes ou guardas de escadas, rampas ou passagens para as pessoas nela se apoiarem ao subir, descer ou se deslocar. Os corrimãos podem ser acoplados aos guardacorpos. Guarda-corpos são barreiras protetoras verticais, maciças ou não, que delimitam as faces laterais abertas de escadas, rampas, patamares, terraços, balcões, galerias e assemelhados, servindo como proteção contra eventuais quedas de um nível para outro.
-    
--   **Pisos táteis**: Piso caracterizado por textura e cor contrastantes em relação ao piso adjacente, destinado a constituir alerta ou linha-guia, servindo de orientação, principalmente, às pessoas cegas ou com baixa visão. Existem dois tipos de piso tátil: o piso tátil de alerta e o piso tátil direcional. O piso tátil de alerta é conhecido como “piso de bolinha” e sua função é alertar. Esse tipo de piso é instalado em início e término de escadas e rampas, em frente à porta de elevadores, em rampas de acesso às calçadas ou mesmo para alertar quanto a um obstáculo que o deficiente visual não consiga rastrear com a bengala. O outro tipo de piso é o direcional, e sua função é justamente direcionar e orientar sobre o trajeto. Em locais onde não há ponto de referência que possa ser detectado com o uso da bengala, o piso tátil direcional serve como guia.
-    
--   **Portas com vão livre de no mínimo 80 cm**: As portas, para serem acessíveis, quando abertas, devem ter um vão livre de, no mínimo 0,80 m de largura.
-    
--   **Rampas**: Inclinação da superfície de piso, longitudinal ao sentido de caminhamento, com declividade definida pela NBR9050.
-    
--   **Sinalização/alarme luminoso**: É um equipamento composto por um conjunto de luzes que é acionado no momento que soa o alarme sonoro/sinal, permitindo a percepção visual por pessoas surdas. A sinalização/alarme luminoso deve ser utilizada para alertas e avisos de forma luminosa, possibilitando as pessoas surdas perceberem quando toca o sinal para troca de professores, hora do intervalo, hora da saída, emergências, entre outros. Essa sinalização fica instalada fixamente na parede por uma lâmpada na sala de aula na posição da frente da turma que vai acender o led no momento que tocar o sinal. Se for fora da sala de aula, fixa-se nas paredes principais possibilitando a visualização.
-    
--   **Sinalização sonora**: É composta por conjuntos de sons que permitem a compreensão pela audição. A sinalização direcional, na forma sonora, utiliza recursos de áudio para explanação de direcionamentos e segurança, como em alarmes e rotas de fuga.
-    
--   **Sinalização tátil**: É composta por informações em relevo, como textos, figuras, símbolos e Braille. A sinalização tátil deve ser utilizada para a identificação de portas, paredes, corrimãos de escadas e rampas, portas corta-fogo, elevadores, plataformas elevatórias, pavimentos, dentre outros.
-    
--   **Sinalização visual** (piso/paredes): É composta por mensagens de textos, contrastes de cores, símbolos, figuras, dentre outras formas de sinalização. Assim sendo, portas e paredes envidraçadas, localizadas nas áreas de circulação, devem ser claramente identificadas com sinalização visual de forma contínua, para permitir a fácil identificação visual da barreira física. Para isto também devem ser consideradas as diferentes condições de iluminação de ambos os lados das paredes ou portas de vidro. Cabe destacar que as informações em Braille não dispensam a sinalização visual e tátil, com caracteres ou símbolos em relevo.
+| Indicador | Cálculo | Como ler |
+|-----------|-----------|-----------|
+| **[Acessibilidade completa](https://georedus.github.io/inep-micro-censo-esc/)** | $\begin{gathered}\begin{cases}   1, & \text{se } \begin{aligned}[t]     & S = S_a \\     & B_{pne} = 1,\\    & A_c = 1, \\     & A_{pt} = 1,\\    & A_{vl} = 1, \\     & A_r = 1,\\    & A_{ss} = 1, \\     & A_{st} = 1,\\    & A_{sv} = 1, \\    & A_{sz} = 1   \end{aligned} \\   0, & \text{c.c.} \end{cases} \\\\\begin{aligned}&\text{Onde:} \\& S = \mathrm{qt\_salas\_utilizadas} \\& S_a = \mathrm{qt\_salas\_utilizadas\_acessiveis} \\& B_{pne} = \mathrm{in\_banheiro\_pne} \\& A_c = \mathrm{in\_acessibilidade\_corrimao} \\& A_{pt} = \mathrm{in\_acessibilidade\_pisos\_tateis} \\& A_{vl} = \mathrm{in\_acessibilidade\_vao\_livre} \\& A_r = \mathrm{in\_acessibilidade\_rampas} \\& A_{ss} = \mathrm{in\_acessibilidade\_sinal\_sonoro} \\& A_{st} = \mathrm{in\_acessibilidade\_sinal\_tatil} \\& A_{sv} = \mathrm{in\_acessibilidade\_sinal\_visual} \\& A_{sz} = \mathrm{in\_acessibilidade\_sinalizacao}\end{aligned}\end{gathered}$ | A escola possui instalações com adequadas condições de acessibilidade (valor 1). |
 
-**Cálculo:**
 
-$$
-\begin{gathered}\begin{cases}   1, & \text{se } \begin{aligned}[t]     & S = S_a \\     & B_{pne} = 1,\\    & A_c = 1, \\     & A_{pt} = 1,\\    & A_{vl} = 1, \\     & A_r = 1,\\    & A_{ss} = 1, \\     & A_{st} = 1,\\    & A_{sv} = 1, \\    & A_{sz} = 1   \end{aligned} \\   0, & \text{c.c.} \end{cases} \\\\\begin{aligned}&\text{Onde:} \\& S = \mathrm{qt\_salas\_utilizadas} \\& S_a = \mathrm{qt\_salas\_utilizadas\_acessiveis} \\& B_{pne} = \mathrm{in\_banheiro\_pne} \\& A_c = \mathrm{in\_acessibilidade\_corrimao} \\& A_{pt} = \mathrm{in\_acessibilidade\_pisos\_tateis} \\& A_{vl} = \mathrm{in\_acessibilidade\_vao\_livre} \\& A_r = \mathrm{in\_acessibilidade\_rampas} \\& A_{ss} = \mathrm{in\_acessibilidade\_sinal\_sonoro} \\& A_{st} = \mathrm{in\_acessibilidade\_sinal\_tatil} \\& A_{sv} = \mathrm{in\_acessibilidade\_sinal\_visual} \\& A_{sz} = \mathrm{in\_acessibilidade\_sinalizacao}\end{aligned}\end{gathered}
-$$
-
-**Como ler:**
-> *A escola possui instalações com adequadas condições de acessibilidade (valor 1).*
-
----
-
-## Visão geral
-
-O presente documento apresenta uma proposta para a obtenção, o tratamento e a disponibilização dos microdados do [**Censo da Educação Básica do Brasil (Censo Escolar)**](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/indicadores-educacionais/taxas-de-rendimento-escolar).
+## Visão Geral
 
 Criado pelo [Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep)](https://www.gov.br/inep/pt-br), o [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar) é o principal instrumento de coleta de informações da educação básica e a mais importante pesquisa estatística educacional brasileira. Por meio de seus microdados, ele permite compreender a situação educacional do país, para além de funcionar como a fonte original de diversos indicadores produzidos pelo INEP (Ideb, TDI, TRTA, etc.).
 
@@ -49,25 +29,11 @@ Os dados podem ser obtidos por escolas, municípios, estados, regiões e federa�
 
 Para mais detalhes, acesse a página do [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar)
 
----
-
 ## Fonte dos dados
-
-Os dados utilizados no presente documento são provenientes do:
 
 -   [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar): realizado anualmente, o censo é o principal instrumento de coleta de informações sobre todas as etapas e modalidades da educação básica e profissional; abarca todas as escolas públicas e privadas do país e é coordenado pelo Inep e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação.
 
----
 
-## Definições metodológicas
+**Ano:** 2025
 
-A seguir, cada um dos indicadores é apresentado em maior detalhe. Expõe-se a descrição de seu cálculo com o nome das variáveis em formato padronizado (por meio do [janitor::clean\_names()](https://sfirke.github.io/janitor/articles/janitor.html)), sua descrição e como se espera que ele seja interpretado. Para facilitar a leitura, eles estão organizados por blocos temáticos, a saber: **Dimensão da Escola (edu02)**, **Serviços Públicos (edu03)**, **Infraestrutura (edu04)** e **Profissionais (edu05)**.
-
-Note, ainda, que as definições fornecidas para os itens foram extraídas do [**Caderno de Conceitos e Orientações do Censo Escolar 2025: 1ª Etapa da Coleta**](https://www.gov.br/inep/pt-br/centrais-de-conteudo/acervo-linha-editorial/publicacoes-institucionais/estatisticas-e-indicadores-educacionais/caderno-de-conceitos-e-orientacoes-do-censo-escolar-2025-1a-etapa-da-coleta). Esse material é disponibilizado pelo [Inep](https://www.gov.br/inep/pt-br) e tem como objetivo orientar os responsáveis pela declaração e pelo acompanhamento da coleta do Censo Escolar.
-
----
-
-### 🔗 Links
-
-- Documentação completa do processamento: [Microdados do Censo Escolar](https://georedus.github.io/inep-micro-censo-esc/)
-- Dicionário de indicadores (`edu04_acess_0`): [Microdados do Censo Escolar](https://georedus.github.io/inep-micro-censo-esc/#dicionário-de-indicadores-que-serão-produzidos)
+**Repositório de tratamento e processamento de dados:** https://georedus.github.io/inep-micro-censo-esc/

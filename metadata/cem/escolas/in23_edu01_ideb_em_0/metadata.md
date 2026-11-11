@@ -1,23 +1,16 @@
-# Ideb: Índice de Desenvolvimento da Educação Básica
+# Ideb - Ensino Médio
 
-**ID da variável:** `in23_edu01_ideb_em_0`\
-**Ano:** 2023\
-**Repositório de tratamento e processamento de dados:** https://georedus.github.io/inep-ideb/
 
-## Descrição
+## Descrição do indicador
 
-O indicador mostra a nota do Índice de Desenvolvimento da Educação Básica (IDEB) observada no ano de 2025 para o **ensino médio** de cada escola.
+O indicador mostra a nota do Índice de Desenvolvimento da Educação Básica (IDEB) observada no ano de 2023 para o ensino médio de cada escola.
 
-**Cálculo ou variável de origem:** `vl_observado_ANO`
+| Indicador | Cálculo | Como ler |
+|-----------|-----------|-----------|
+| **[Ideb - Ensino Médio](https://georedus.github.io/inep-ideb/)** | `vl_observado_ANO` | No município de Ribeirão Preto (SP), a escola de código 35222333 obteve a nota 4,9 no IDEB para o ensino médio. |
 
-**Como ler:**
-> *No município de Ribeirão Preto (SP), a escola de código 35222333 obteve a nota 4,9 no IDEB para o ensino médio.*
 
----
-
-## Visão geral
-
-O presente documento apresenta uma proposta para a obtenção, o tratamento e a disponibilização dos dados do [**Índice de Desenvolvimento da Educação Básica (Ideb)**](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb), um dos mais importantes indicadores educacionais brasileiros.
+## Visão Geral
 
 Criado pelo [Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira, o INEP](https://www.gov.br/inep/pt-br), o [Ideb](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb) é um indicador sintético, formulado em 2007, para avaliar diferentes etapas da educação básica (ensinos fundamental e médio). Graças a ele, é possível _monitorar a qualidade do aprendizado nacional e estabelecer metas de melhoria do ensino no Brasil_.
 
@@ -30,7 +23,7 @@ Ao integrar esses dois componentes/dimensões, o índice busca reduzir distorç�
 
 Note-se, ainda, que: i) o índice adota uma escala de **0 a 10**, com 0 representando o pior cenário e 10 o melhor, ii) os dados podem ser obtidos por escolas, municípios, estados e federação. Por fim, merece ser destacado que o [Ideb](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb) é produzido **bienalmente**, acompanhando o ciclo de aplicação do Saeb.
 
-NoteNota sobre o Ideb 2021
+Nota sobre o Ideb 2021
 
 -   Para uma avaliação temporal/histórica, é importante destacar que:
     
@@ -39,24 +32,17 @@ NoteNota sobre o Ideb 2021
 
 Para mais detalhes, acesse: [Nota Informativa do Ideb 2021](https://download.inep.gov.br/educacao_basica/portal_ideb/planilhas_para_download/2021/nota_informativa_ideb_2021.pdf).
 
----
+
+## Detalhamento metodológico
+
+Deve-se salientar, desde já, que o procedimento proposto gerará dados apenas para as _escolas consideradas ativas_, que são as assim identificadas na base disponibilizada pelo [INEP](https://www.gov.br/inep/pt-br) e que possuem ao menos uma matrícula ativa. As escolas que não apresentaram um código único de identificação também não comporão os resultados finais aqui gerados. Por fim, a seguir apresenta-se o dicionário dos indicadores que serão produzidos. Apenas para fins ilustrativos, adotou-se o ano de 2025 como referência (mais atual no momento de geração do código).
 
 ## Fonte dos dados
-
-Os dados utilizados são provenientes de duas fontes secundárias:
 
 -   [Censo Escolar](https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar): realizado anualmente, o censo é o principal instrumento de coleta de informações sobre todas as etapas e modalidades da educação básica e profissional; abarca todas as escolas públicas e privadas do país, e, é coordenado pelo Inep e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação.
 -   [Sistema de Avaliação da Educação Básica (Saeb)](https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb): realizado a cada dois anos na rede pública e em uma amostra da rede privada, o SAEB é um conjunto de avaliações externas que busca captar os níveis de aprendizagem dos estudantes avaliados. Dessa forma, ele oferece um indicativo da qualidade do ensino brasileiro, gerando subsídios para a elaboração, o monitoramento e o aprimoramento de políticas educacionais com base em evidências.
 
----
 
-## Definições metodológicas
+**Ano:** 2023
 
-Deve-se salientar, desde já, que o procedimento proposto gerará dados apenas para as _escolas consideradas ativas_, que são as assim identificadas na base disponibilizada pelo [INEP](https://www.gov.br/inep/pt-br) e que possuem ao menos uma matrícula ativa. As escolas que não apresentaram um código único de identificação também não comporão os resultados finais aqui gerados. Por fim, a seguir apresenta-se o dicionário dos indicadores que serão produzidos. Apenas para fins ilustrativos, adotou-se o ano de 2025 como referência (mais atual no momento de geração do código).
-
----
-
-### 🔗 Links
-
-- Documentação completa do processamento: [Ideb](https://georedus.github.io/inep-ideb/)
-- Dicionário de indicadores (`edu01_ideb_em_0`): [Ideb](https://georedus.github.io/inep-ideb/#dicionário-de-indicadores-da-plataforma-georedus)
+**Repositório de tratamento e processamento de dados:** https://georedus.github.io/inep-ideb/
